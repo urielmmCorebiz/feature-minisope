@@ -1,0 +1,83 @@
+{
+    "modal-trigger#popup-miniso": {
+        "children": [
+            "rich-text#popup-miniso",
+            "modal-layout#popup-miniso"
+        ],
+        "props":{
+            "blockClass": "trigger-popup-miniso"
+        }
+    },
+    
+    "rich-text#popup-miniso":{
+        "props":{
+        "text":"Popup!",
+        "blockClass": "trigger-popup-miniso"
+        }
+    },
+    
+    "modal-layout#popup-miniso": {
+        "children": [
+            "rich-text#header-popup-miniso",
+            "flex-layout.row#row-popup-miniso"
+        ],
+        "props":{
+            "showCloseButton": true,
+            "blockClass": "modal-popup-miniso"
+        }
+    },
+
+    "modal-header#popup-miniso":{
+        "props":{
+            "showCloseButton": true
+        }
+    },
+
+    "rich-text#header-popup-miniso":{
+        "props":{
+            "text": "## Konnichiwa \n ¿Cómo prefieres tu envío?",
+            "blockClass": "txt-header-popup-miniso"
+        }
+    },
+
+    "flex-layout.row#row-popup-miniso":{
+        "children":[
+            "flex-layout.col#col-popup-miniso-01",
+            "flex-layout.col#col-popup-miniso-02"
+        ],
+        "props":{
+            "blockClass": "row-popup-miniso"
+        }
+    },
+
+    "flex-layout.col#col-popup-miniso-01":{
+        "children":["link#link-popup-miniso-01"],
+        "props":{
+            "blockClass": "col-popup-miniso-01"
+        }
+    },
+
+    "link#link-popup-miniso-01": {
+        "props": {
+            "href": "https://minisoqa.myvtex.com/me-urge-miniso",
+            "label": "Me urge Miniso: Catálogo Exclusivo con Entrega Express 90 min y Clic&Recoge",
+            "blockClass": "link-popup-miniso-01"
+        }
+    },
+
+    "flex-layout.col#col-popup-miniso-02":{
+        "children":["link#link-popup-miniso-02"],
+        "props":{
+            "blockClass": "col-popup-miniso-02"
+        }
+    },
+
+    "link#link-popup-miniso-02": {
+        "props": {
+            "href": "https://minisoqa.myvtex.com/catalogo-extendido",
+            "label": "Quiero ver todo lo que hay: Catálogo Extendido con Entrega de 2 a 5 días",
+            "blockClass": "link-popup-miniso-02"
+        }
+    }
+
+}

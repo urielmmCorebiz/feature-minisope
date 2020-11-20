@@ -1,0 +1,22 @@
+:global(.vtex-stack-layout-0-x-stackItem--product) {
+    .badgeContainer {
+        background-color: transparent;
+
+        .badgeText {
+            width: 65px;
+            height: 25px;
+            border-radius: 5px;
+            background-color: #8ae5db;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.54;
+            letter-spacing: normal;
+            color: black;
+        }
+    }
+}

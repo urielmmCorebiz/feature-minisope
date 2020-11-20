@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+/* add transitions */
+:global(.vtex-sticky-layout-0-x-container) .logoLink,
+:global(.vtex-sticky-layout-0-x-container) :global(.vtex-minicart-2-x-openIconContainer),
+:global(.vtex-sticky-layout-0-x-container) :global(.vtex-store-components-3-x-searchBarContainer) {
+  transition: all 0.3s ease;
+  display: block;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
+  :global(.vtex-sticky-layout-0-x-container) {
+    height: 55px;
+
+    :global(.vtex-store-components-3-x-searchBarContainer) {
+      display: flex;
+      align-items: center;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--main-header) {
+      height: inherit;
+
+      :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+        height: inherit;
+      }
+    }
+  }
+}
+
+/* desktop/mobile main header padding and background transitions */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  will-change: padding, background, box-shadow;
+}
+
+/* */
+:global(.vtex-minicart-2-x-cartIcon) {
+  width: 40px;
+  height: 35px;
+  color: #d22630;
+}
+
+:global(.vtex-minicart-2-x-openIconContainer) {
+  padding: 0;
+}
+
+:global(.vtex-minicart-2-x-minicartWrapperContainer) {
+  :global(.vtex-button) {
+    background-color: transparent;
+    outline: none;
+  }
+
+  :global(.vtex-button__label) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/* main header desktop has a bigger padding when not stuck */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+/* add a box-shadow to desktop/mobile header when stuck */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  /* box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);*/
+  box-shadow: none;
+}
+
+/*
+ * remove the extra padding when stuck from the desktop header
+ * we add a transition only when "stuck" for the "unstick" step seem faster
+ */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  transition: padding 0.3s ease;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* if supported add some translucency to the desktop/mobile header background */
+@supports (backdrop-filter: blur(5px)) {
+
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    backdrop-filter: blur(8px);
+  }
+
+  /* header background when stuck and not hovered */
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover) :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover) :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+}
+
+/* stick wrapper with the same color as the desktop/mobile header */
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+  margin-top: 15px;
+  background-color: #fff;
+}
+
+/* resize the logo for neat effect */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .logoLink {
+  transform: scale(0.6);
+  display: none;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
+  :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  :global(.vtex-input-prefix__group) {
+    height: 30px;
+    margin-bottom: 0;
+  }
+
+  :global(.vtex-store-components-3-x-logoImage) {
+    transition: all 0.1s ease-in-out;
+    width: 100px;
+  }
+}
+
+// SearchBar Header Mobile
+:global(.vtex-sticky-layout-0-x-wrapper--custom-sticky-header--mobile) {
+  :global(.vtex-flex-layout-0-x-flexRow--searchbar-mobile) {
+    padding-top: 10px;
+    background-color: #fff;
+
+    :global(.vtex-store-components-3-x-searchBarContainer) {
+      padding-left: 6px;
+    }
+  }
+
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+    margin: 0;
+
+    :global(.vtex-input-prefix__group) {
+      height: initial;
+    }
+
+    :global(.vtex-styleguide-9-x-input) {
+      padding-left: 15px;
+    }
+
+    :global(.vtex-store-components-3-x-searchBarIcon) {
+      transform: scale(0.8);
+    }
+  }
+}

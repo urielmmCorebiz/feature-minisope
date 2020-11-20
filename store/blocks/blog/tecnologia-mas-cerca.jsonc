@@ -1,0 +1,71 @@
+{
+    "store.custom#blog-9": {
+      "blocks": [
+        "list-context.image-list#blog-9",
+        "flex-layout.row#blog-9"
+      ]
+    },
+
+    "list-context.image-list#blog-9": {
+      "children": [
+        "slider-layout#demo-blog-9"
+      ],
+      "props": {
+        "height": "auto",
+        "images": [
+          {
+            "image": "https://minisomx.vteximg.com.br/arquivos/ids/159668/entrada8.jpg",
+            "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159668/entrada8.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#demo-blog-9": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "carousel",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth": true
+      }
+    },
+
+    "flex-layout.row#blog-9": {
+      "children": [
+        "flex-layout.col#text-blog-9"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "acerca-de"]
+      }
+    },
+
+    "flex-layout.col#text-blog-9": {
+      "children": [
+        "rich-text#title-blog-9",
+        "rich-text#blog-first-9"
+      ],
+      "props": {
+        "blockclass": "",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title-blog-9": {
+      "props": {
+        "text":
+        "## ¡Todo lo que siempre necesitaste en Tecnología, más cerca que nunca!",
+        "textPosition": "CENTER",
+        "blockClass": ""
+      }
+    },
+    "rich-text#blog-first-9": {
+      "props": {
+        "text": "Todos nuestros MinisoLovers nos cuentan que entrar a nuestros locales es una experiencia increíble. Desde peluches tiernos y abrazables hasta productos de tecnología que están creados de forma práctica y simple con colores padres. Eso es parte de lo que uno puede encontrarse en nuestras tiendas Miniso.<br/><br/>Algunas de las cosas que te podrás encontrar de Tecnología en Miniso son:<br/><br/>Fundas protectoras para Smartphones y iPhone de todos los modelos. Por más que seas cuidadoso los accidentes pasan, y para evitar que tengas que comprarte un nuevo celular te ofrecemos las fundas para Smartphones y iPhone, protégelo de golpes y rayones, y mantenlo intacto.<br/><br/>Quedarte sin batería en un lugar donde no hay mucha electricidad o no hay cables es una de las peores cosas que nos pasan a menudo. ¡Todos necesitamos un cargador para vivir! Sin embargo este ya no es más un problema gracias a nuestros Power Banks, con un diseño súper delgado muy fácil de transportar y permite que tu vida social no se detenga nunca.<br/><br/>También podrás escuchar tu música favorita en donde quieras con nuestros audífonos. Poseen un diseño que irá súper padre con tu outfit, son plegables para guardarlos fácilmente sin dañarlos y tienen botón de manos libres para contestar y terminar llamadas fácilmente.<br/><br/>Estás de viaje y debes adaptarte a un nuevo ambiente, nueva comida, nuevos lugares, ¡nuevos enchufes! Sabemos lo molesto que es viajar y tener que llevar un adaptador para cada región, pero esto ya se acabó con el adaptador mundial Miniso. Su diseño te permite utilizarlo en más de 250 países y puedes cargar dos dispositivos al mismo tiempo.<br/><br/>Las fotos grupales en la playa no serán las mismas con tu Mini Selfie Stick Miniso. Su diseño ergonómico junto al tamaño pequeño te permite sujetarlo con una mano y tomar una foto con el botón incluido en el soporte, no creerás lo fácil que es.<br/><br/>Y para los que aman los juegos, pero las consolas no son lo suyo. El Game Pad para celular es algo perfecto para ti. Su diseño hará que sea mucho más cómodo jugar el tiempo que quieras, es clásico y cómodo de sostener, compatible con casi todos los modelos de celular y posee agujeros para entrada de cables de carga o audífonos.<br/><br/>Por último, pero no menos importante, si eres de los que aman los deportes ahora podrás escuchar la música que te motiva a correr esos kilómetros que te faltan con la banda para brazo de Miniso Sports. Cuenta con un cierre con velcro que te permitirá ajustarla al tamaño de tu brazo y permanecerá horas agarrada para que no pares ni un minuto en tu entrenamiento. Transporta tu celular con comodidad y seguridad.<br/><br/>Descubre más en nuestras Tiendas Miniso o [Tienda en línea Miniso](/tecnologia/d).<br/><br/>Síguenos en <a href='https://www.facebook.com/minisoJPChile' target='_blank'>Facebook</a>, <a href='https://www.instagram.com/miniso.chile' target='_blank'>Instagram</a> y <a href='https://twitter.com/MinisoMexico' target='_blank'>Twitter</a> para que te enteres de todas nuestras promociones",
+        "blockClass": ""
+      }
+    }
+  }

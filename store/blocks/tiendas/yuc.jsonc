@@ -1,0 +1,89 @@
+{
+    "flex-layout.row#tiendas-row-yuc": {
+        "title": "Yucatán",
+        "children": [
+            "flex-layout.col#tiendas-col-yuc"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-yuc"
+        }
+    },
+    "flex-layout.col#tiendas-col-yuc": {
+        "children": [
+            "rich-text#subtitle-tiendas-yuc",
+            "flex-layout.row#tiendas-row1-yuc",
+            "flex-layout.row#tiendas-row2-yuc"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-yuc"
+        }
+    },
+    "rich-text#subtitle-tiendas-yuc": {
+        "props": {
+            "text": "#### Yucatán",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-yuc": {
+        "children": [
+            "rich-text#tiendas-tienda1-yuc",
+            "rich-text#tiendas-tienda2-yuc",
+            "rich-text#tiendas-tienda3-yuc"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-yuc": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Américas Mérida\n**Dirección:** CALLE 21 327 - MIGUEL HIDALGO - MÉRIDA\n**Código postal:** 97229",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-yuc": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Altabrisa\n**Dirección:** CALLE 7 452, ALTABRISA - PLAZA ALTABRISA - MÉRIDA\n**Código postal:** 97133",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-yuc": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Mérida City Center\n**Dirección:** AV. ANDRÉS GARCÍA LAVIN 185, SAN RAMÓN NORTE - MÉRIDA\n**Código postal:** 97117",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-yuc": {
+        "children": [
+            "rich-text#tiendas-tienda4-yuc",
+            "rich-text#tiendas-tienda5-yuc",
+            "rich-text#tiendas-tienda6-yuc"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-yuc": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Gran Plaza Mérida\n**Dirección:** CALLE 50 460 - GONZALO GUERRERO - MÉRIDA\n**Código postal:** 97118",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda5-yuc": {
+        "title": "tienda-5",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mérida Centro\n**Dirección:** CALLE 58 530, CENTRO - MÉRIDA\n**Código postal:** 97000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda6-yuc": {
+        "title": "tienda-6",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso The Harbor\n**Dirección:** CALLE 50 S/N - ZONA INDUSTRIAL - MERIDA\n**Código postal:** 97180",
+            "blockClass": "info-tienda"
+        }
+    }
+}

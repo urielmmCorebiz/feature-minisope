@@ -1,0 +1,212 @@
+// .container {
+//     :global(.vtex-button) {
+//         outline: none;
+//         &:hover{
+//             background-color: transparent;
+//         }
+//     }
+// }
+// .profileIcon {
+//     width: 38px;
+//     height: 28px;
+// }
+// .label {
+//     max-width: 80px;
+//     text-align: left;
+//     font-size: 12px;
+//     font-weight: 600;
+//     padding-left: 0;
+// }
+// .profile,
+// .label {
+//     text-transform: initial;
+// }
+// .button{
+//     padding-left: 0;
+//     text-align: left;
+//     position: relative;
+//     width: 100%;
+//     &:hover{
+//         &.button::before{
+//             background-position: 0 -24px;
+//         }
+//     }
+//     &::before{
+//         content: "";
+//         position: absolute;
+//         right: 0;
+//         bottom: 5px;
+//         width: 24px;
+//         height: 24px;
+//         background-image: url(/arquivos//customerIcons-sebfa9bea5f.png);
+//     }
+//     :global(.vtex-button__label){
+//         text-transform: initial;
+//     }
+// }
+// .accountOptions{
+//     :global(.mv4){
+//         margin: 0;
+//     }
+//     :global(.t-action--small){
+//         text-transform: initial;
+//     }
+//     :global(.vtex-button){
+//         width: 100%;
+//         &:hover{
+//             &:global(.vtex-button)::before{
+//                 background-position: 0 -312px;
+//             }
+//         }
+//         &::before{
+//             content: "";
+//             position: absolute;
+//             right: 0;
+//             bottom: 0;
+//             width: 24px;
+//             height: 24px;
+//             background-image: url(/arquivos//customerIcons-sebfa9bea5f.png);
+//             background-position: 0 -288px;
+//         }
+//         &:global(.hover-bg-action-secondary):focus,
+//         &:global(.hover-bg-action-secondary):hover {
+//             background-color: initial;
+//         }
+//     }
+//     :global(.vtex-button__label){
+//         justify-content: flex-start;
+//         padding: 0;
+//     }
+// }
+// .contentForm {
+//     min-width: 200px;
+// }
+// .formTitle{
+//     font-size: 14px;
+// }
+
+.container {
+    margin-right: 20px;
+
+    :global(.vtex-button) {
+        flex-direction: row-reverse;
+        display: flex;
+
+        &::before {
+            content: "";
+            background-image: url("/arquivos/profile-icon@2x.png");
+            background-size: cover;
+            display: block;
+            height: 30px;
+            width: 30px;
+            margin-left: 8px;
+        }
+
+        :global(.vtex-button__label) {
+            padding: 0;
+
+            :first-child {
+                .profileIcon {
+                    display: none;
+                }
+
+                .label {
+                    font-size: 0;
+
+                    &::before {
+                        content: "Minisolover";
+                        font-size: 14px;
+                        color: rgba(30, 30, 36, 0.75);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.formTitle {
+    font-size: 0;
+
+    &::before {
+        content: "¡Ingresa en tu cuenta Miniso!";
+        font-size: 18px;
+        font-weight: bold;
+        color: #000000;
+    }
+}
+
+.accessCodeOptionBtn {
+    :global(.vtex-button) {
+        background-color: #fff;
+        border: solid #f7c1bb;
+        border-radius: 6px;
+
+        :global(.vtex-button__label) {
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+}
+
+.emailPasswordOptionBtn {
+    :global(.vtex-button) {
+        background-color: #fff;
+        border: solid #f7c1bb;
+        border-radius: 6px;
+
+        :global(.vtex-button__label) {
+            padding: 0;
+
+            :first-child {
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                text-align: center;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.facebookOptionBtn,
+.googleOptionBtn {
+    :global(.vtex-button) {
+        background-color: #fff;
+        border: solid #000;
+        border-radius: 6px;
+
+        :global(.vtex-button__label) {
+            padding: 0;
+
+            .oauthLabel,
+            .oauthProvider {
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.contentInitialScreen {
+    display: flex;
+    flex-direction: column;
+
+    .termsAndConditions {
+        :first-child {
+            margin-top: 0;
+            font-size: 13px;
+        }
+    }
+}
+
+.button {
+    color: black !important
+}

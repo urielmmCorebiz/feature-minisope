@@ -1,0 +1,12 @@
+{
+  "store.custom#reclamaciones": {
+    "blocks": [
+      "flex-layout.row#form"
+    ]
+  },
+  "flex-layout.row#form": {
+    "children": [
+      "hello-world"
+    ]
+  }
+}

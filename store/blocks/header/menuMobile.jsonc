@@ -1,0 +1,322 @@
+
+{
+    "menu-item#menu-mobile-categorias": {
+        "props": {
+            "id": "menu-item-mobile-menu-categorias",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "categorias",
+                "href": "/",
+                "tagTitle": "Categorias",
+                "text": "Categorías"
+            },
+            "blockClass": "menu-mobile-categorias"
+        },
+        "blocks": [
+            "submenu.accordion#menu-categorias"
+        ]
+    },
+    "submenu.accordion#menu-categorias": {
+        "children": [
+            "flex-layout.row#submenu-mobile-categorias"
+        ]
+    },
+    "flex-layout.row#submenu-mobile-categorias": {
+        "children": [
+            "flex-layout.col#submenu-mobile-categorias"
+        ],
+        "props": {
+            "blockClass": "mobile-header"
+        }
+    },
+    "flex-layout.col#submenu-mobile-categorias": {
+        "children": [
+            "drawer#categorias-hogar",
+            "drawer#categorias-belleza",
+            "drawer#categorias-moda",
+            "drawer#categorias-jugueteria",
+            "drawer#categorias-deportes",
+            "drawer#categorias-cosmeticos",
+            "drawer#categorias-papeleria",
+            "drawer#categorias-tecnologia",
+            "drawer#categorias-viajes",
+            "drawer#categorias-bolsas"
+            //"menu-item#menu-item-snacks"
+            //"drawer#categorias-snacks"
+        ],
+        "props": {
+            "blockClass": "mobile-header"
+        }
+    },
+    "drawer-trigger#categorias-hogar": {
+        "children": [
+            "rich-text#open-categorias-hogar"
+        ]
+    },
+    "rich-text#open-categorias-hogar": {
+        "props": {
+            "text": "HOGAR",
+            "blockClass": "open-categorias"
+        }
+    },
+    "drawer#categorias-hogar": {
+        "children": [
+            "menu#menu-categorias-hogar"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-hogar"
+        ],
+        "props": {
+            "isFullWidth": true,
+            "blockClass": "categorias"
+        }
+    },
+    "drawer-trigger#categorias-belleza": {
+        "children": [
+            "rich-text#open-categorias-belleza"
+        ]
+    },
+    "rich-text#open-categorias-belleza": {
+        "props": {
+            "text": "BELLEZA",
+            "blockClass": "open-categorias"
+        }
+    },
+    "drawer#categorias-belleza": {
+        "children": [
+            "menu#menu-categorias-belleza"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-belleza"
+        ],
+        "props": {
+            "blockClass": "categorias"
+        }
+    },
+    "drawer-trigger#categorias-moda": {
+        "children": [
+            "rich-text#open-categorias-moda"
+        ]
+    },
+    "rich-text#open-categorias-moda": {
+        "props": {
+            "text": "MODA",
+            "blockClass": "open-categorias"
+        }
+    },
+    "drawer#categorias-moda": {
+        "children": [
+            "menu#menu-categorias-moda"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-moda"
+        ],
+        "props": {
+            "blockClass": "categorias"
+        }
+    },
+    "drawer-trigger#categorias-jugueteria": {
+        "children": [
+            "rich-text#open-categorias-jugueteria"
+        ]
+    },
+    "rich-text#open-categorias-jugueteria": {
+        "props": {
+            "text": "JUGUETERÍA",
+            "blockClass": "open-categorias"
+        }
+    },
+    "drawer#categorias-jugueteria": {
+        "children": [
+            "menu#menu-categorias-jugueteria"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-jugueteria"
+        ],
+        "props": {
+            "blockClass": "categorias"
+        }
+    },
+    "drawer#categorias-licencias": {
+        "children": [
+            "menu#menu-categorias-licencias"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-licencias"
+        ],
+        "props": {
+            "blockClass": ["categorias", "drawer-open-licencias"]
+        }
+    },
+    "drawer-trigger#categorias-licencias": {
+        "children": [
+            "rich-text#open-categorias-licencias"
+        ],
+        "props": {
+            "blockClass": "trigger-open-licencias"
+        }
+    },
+    "rich-text#open-categorias-licencias": {
+        "props": {
+            "text": "Licencias",
+            "blockClass": ["open-categorias", "open-licencias"]
+        }
+    },
+    "drawer-trigger#categorias-deportes": {
+        "children": [
+            "rich-text#open-categorias-deportes"
+        ]
+    },
+    "rich-text#open-categorias-deportes": {
+        "props": {
+            "text": "DEPORTES",
+            "blockClass": "open-categorias"
+        }
+    },
+    "drawer#categorias-deportes": {
+        "children": [
+            "menu#menu-categorias-deportes"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-deportes"
+        ],
+        "props": {
+            "blockClass": "categorias"
+        }
+    },
+    "drawer-trigger#categorias-cosmeticos": {
+        "children": [
+            "rich-text#open-categorias-cosmeticos"
+        ]
+    },
+    "rich-text#open-categorias-cosmeticos": {
+        "props": {
+            "text": "COSMÉTICOS",
+            "blockClass": "open-categorias"
+        }
+    },
+    "drawer#categorias-cosmeticos": {
+        "children": [
+            "menu#menu-categorias-cosmeticos"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-cosmeticos"
+        ],
+        "props": {
+            "blockClass": "categorias"
+        }
+    },
+    "drawer-trigger#categorias-papeleria": {
+        "children": [
+            "rich-text#open-categorias-papeleria"
+        ]
+    },
+    "rich-text#open-categorias-papeleria": {
+        "props": {
+            "text": "PAPELERÍA",
+            "blockClass": "open-categorias"
+        }
+    },
+    "drawer#categorias-papeleria": {
+        "children": [
+            "menu#menu-categorias-papeleria"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-papeleria"
+        ],
+        "props": {
+            "blockClass": "categorias"
+        }
+    },
+    "drawer-trigger#categorias-tecnologia": {
+        "children": [
+            "rich-text#open-categorias-tecnologia"
+        ]
+    },
+    "rich-text#open-categorias-tecnologia": {
+        "props": {
+            "text": "TECNOLOGÍA",
+            "blockClass": "open-categorias"
+        }
+    },
+    "drawer#categorias-tecnologia": {
+        "children": [
+            "menu#menu-categorias-tecnologia"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-tecnologia"
+        ],
+        "props": {
+            "blockClass": "categorias"
+        }
+    },
+    "drawer-trigger#categorias-viajes": {
+        "children": [
+            "rich-text#open-categorias-viajes"
+        ]
+    },
+    "rich-text#open-categorias-viajes": {
+        "props": {
+            "text": "VIAJES",
+            "blockClass": "open-categorias"
+        }
+    },
+    "drawer#categorias-viajes": {
+        "children": [
+            "menu#menu-categorias-viajes"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-viajes"
+        ],
+        "props": {
+            "blockClass": "categorias"
+        }
+    },
+    "drawer-trigger#categorias-bolsas": {
+        "children": [
+            "rich-text#open-categorias-bolsas"
+        ]
+    },
+    "drawer-trigger#categorias-snacks": {
+        "children": [
+            "rich-text#open-categorias-snacks"
+        ]
+    },
+    "rich-text#open-categorias-bolsas": {
+        "props": {
+            "text": "BOLSAS",
+            "blockClass": "open-categorias"
+        }
+    },
+    "rich-text#open-categorias-snacks": {
+        "props": {
+            "text": "SNACKS",
+            "blockClass": "open-categorias"
+        }
+    },
+    "drawer#categorias-bolsas": {
+        "children": [
+            "menu#menu-categorias-bolsas"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-bolsas"
+        ],
+        "props": {
+            "blockClass": "categorias"
+        }
+    },
+    "drawer#categorias-snacks": {
+        "children": [
+            "menu#menu-categorias-snacks"
+        ],
+        "blocks": [
+            "drawer-trigger#categorias-snacks"
+        ],
+        "props": {
+            "blockClass": ["categorias", "categorias-snacks"]
+        }
+    }
+
+}

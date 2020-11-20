@@ -1,0 +1,90 @@
+{
+    "store.custom#formas-pago": {
+        "blocks": [
+            "flex-layout.row#formas-pago"
+        ]
+    },
+    "flex-layout.row#formas-pago": {
+        "children": [
+            "flex-layout.col#text-formas-pago"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "formas-pago"
+            ]
+        }
+    },
+    "flex-layout.col#text-formas-pago": {
+        "children": [
+            "rich-text#title-formas-pago",
+            "rich-text#formas-pago-section-1",
+            "rich-text#formas-pago-section-2",
+            "rich-text#formas-pago-section-3",
+            "rich-text#formas-pago-section-4",
+            "rich-text#formas-pago-section-5",
+            "rich-text#formas-pago-section-6"
+        ],
+        "props": {
+            "blockclass": [
+                "page-institucionales",
+                "formas-pago"
+            ],
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#title-formas-pago": {
+        "props": {
+            "text": "# Formas de Pago",
+            "blockClass": ""
+        }
+    },
+    "rich-text#formas-pago-section-1": {
+        "props": {
+            "text": "##### ¿Los pagos son Seguros?\nR: Hemos Invertido en los sistemas de protección más avanzados para tu compra, es por ello que mantenemos las transacciones altamente protegidas de principio a fin. Utilizamos la plataforma de Mercado Pago, encriptamos los datos en forma segura (TLS) y así cumplimos con los más altos estándares de seguridad online.\n\nPCI-DSS monitorea y certifica lo que hacemos.",
+            "blockClass": [
+                "formas-pago-section-feature"
+            ]
+        }
+    },
+    "rich-text#formas-pago-section-2": {
+        "props": {
+            "text": "##### ¿Cuáles son los Métodos de Pago?\nR: Tarjeta de débito y crédito\n1. Al momento de pagar selecciona el tipo de tarjeta que vas a utilizar, sea de débito o crédito\n\n2. Ingresa los datos de tu tarjeta de débito o tu tarjeta crédito y listo.\n\n**En efectivo con transferencia o depósito bancario**\n\nAl momento de pagar te daremos todos los datos para que puedas transferir o depositar dinero en nuestras cuentas bancarias de Bancomer, Banamex o Santander.\n * Pagas y se acredita en ¡menos de 1 hora!\n\n * Si pagas durante el fin de semana o feriado, se acreditará al siguiente día hábil.\n * Sin costo adicional.",
+            "blockClass": [
+                "formas-pago-section-feature"
+            ]
+        }
+    },
+    "rich-text#formas-pago-section-3": {
+        "props": {
+            "text": "##### ¿Dónde puedes pagar?\nEn cualquier sucursal bancaria del país.\nY también puedes:\n * Pagar los depósitos Bancomer en tiendas de 7-Eleven.\n\n * Pagar los depósitos Banamex en tiendas de Telecomm-Telégrafos.\n\n**En efectivo con un ticket Oxxo**\n\nAl momento de pagar te daremos un ticket. Podrás imprimirlo y pagarlo en cualquier tienda Oxxo del país.\n * Pagas y se acredita de 1 a 2 días hábiles.\n\n * Sin costo adicional.",
+            "blockClass": [
+                "formas-pago-section-feature"
+            ]
+        }
+    },
+    "rich-text#formas-pago-section-4": {
+        "props": {
+            "text": "##### ¿Hay pago contra entrega?\nR: Por el momento no existe esa modalidad, sin embargo, puedes hacer tus pagos en cualquier tienda Oxxo seleccionando la forma de pago “Pago en efectivo”\n##### ¿En cuánto tiempo cae el dinero de mi devolución en mi cuenta?\nR: Dependiendo de tu banco, el dinero puede caer hasta en 15 días hábiles",
+            "blockClass": [
+                "formas-pago-section-feature"
+            ]
+        }
+    },
+    "rich-text#formas-pago-section-5": {
+        "props": {
+            "text": "##### ¿Si mi pago fue en efectivo cómo obtengo mi devolución?\nTu dinero llegó a una cuenta de Mercado Pago por lo cual debes seguir los siguientes pasos para recuperar tu dinero:\n1. Ingresa al portal www.mercadopago.com.mx\n\n2. Da clic en ingresa a tu cuenta\n3. Coloca el correo con el que hiciste tu compra dentro de nuestro portal y da clic en continuar\n4. Da clic en No sé mi clave\n5. Se te enviará un correo con tu contraseña para ingresar y ver tu dinero\n6. Agrega un No. De cuenta para que se te deposite el dinero.",
+            "blockClass": [
+                "formas-pago-section-feature"
+            ]
+        }
+    },
+    "rich-text#formas-pago-section-6": {
+        "props": {
+            "text": "##### ¿Por qué en algunos casos se me pide foto de mi identificación para proceder con el pago?\nR: Por cuestiones de seguridad en algunas ocasiones es necesario validar tu identidad, es por eso que Mercado Pago solicita una copia de tu identificación.\n##### ¿Por qué fue rechazado mi pago?\nR: Para tu seguridad nuestro sistema de pago realiza validaciones tanto con tu banco como con sus sistemas antifraude, por lo que si tu tarjeta fue rechazada te recomendamos llamar a tu banco para conocer el motivo y en su caso liberar los pagos online.",
+            "blockClass": [
+                "formas-pago-section-feature"
+            ]
+        }
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "flex-layout.row#tiendas-row-nl": {
+        "title": "Nuevo León",
+        "children": [
+            "flex-layout.col#tiendas-col-nl"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-nl"
+        }
+    },
+    "flex-layout.col#tiendas-col-nl": {
+        "children": [
+            "rich-text#subtitle-tiendas-nl",
+            "flex-layout.row#tiendas-row1-nl",
+            "flex-layout.row#tiendas-row2-nl",
+            "flex-layout.row#tiendas-row3-nl",
+            "flex-layout.row#tiendas-row4-nl",
+            "flex-layout.row#tiendas-row5-nl"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-nl"
+        }
+    },
+    "rich-text#subtitle-tiendas-nl": {
+        "props": {
+            "text": "#### Nuevo León",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-nl": {
+        "children": [
+            "rich-text#tiendas-tienda1-nl",
+            "rich-text#tiendas-tienda2-nl",
+            "rich-text#tiendas-tienda3-nl"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-nl": {
+        "title": "tienda-1",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Valle Oriente\n**Dirección:** AV LAZARO CARDENAS 1000 - VALLE DEL MIRADOR - MONTERREY\n**Código postal:** 64750",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-nl": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Lincoln\n**Dirección:** AV ABRAHAM LINCOLN 4001 - PUERTA DE HIERRO - MONTERREY\n**Código postal:** 64346",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-nl": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Paseo San Pedro\n**Dirección:** AV JOSE VASCONCELOS # 402 - ZONA LA ALIANZA - SAN PEDRO GARZA GARCIA\n**Código postal:** 66220",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-nl": {
+        "children": [
+            "rich-text#tiendas-tienda4-nl",
+            "rich-text#tiendas-tienda5-nl",
+            "rich-text#tiendas-tienda6-nl"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-nl": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Aeropuerto de Monterrey TC\n**Dirección:** CARR. MIGUEL ALEMÁN KM 24 - APODACA\n**Código postal:** 66600",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda5-nl": {
+        "title": "tienda-5",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Esfera Monterrey\n**Dirección:** CARRETERA NACIONAL KM 268 - LA RIOJA - MONTERREY\n**Código postal:** 64948",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda6-nl": {
+        "title": "tienda-6",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Plaza Fiesta Anáhuac\n**Dirección:** AV. MANUEL L. BARRAGAN 325 - ANÁHUAC - SAN NICOLÁS DE LOS GARZA\n**Código postal:** 66457",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row3-nl": {
+        "children": [
+            "rich-text#tiendas-tienda7-nl",
+            "rich-text#tiendas-tienda8-nl",
+            "rich-text#tiendas-tienda9-nl"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda7-nl": {
+        "title": "tienda-7",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Cumbres\n**Dirección:** AV. HACIENDA DE PEÑUELAS 6773, CUMBRES LAS PALMAS RESIDENCIAL - CUMBRES MTY NUEVO LEÓN - MONTERREY\n**Código postal:** 64340",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda8-nl": {
+        "title": "tienda-8",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Citadel La Fe\n**Dirección:** AV. ROMULO GARZA 410, LA FE - SAN NICOLÁS DE LOS GARZA\n**Código postal:** 66470",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda9-nl": {
+        "title": "tienda-9",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Centrika\n**Dirección:** Vicente guerrero 2500 - Col Del Prado, - Monterrey\n**Código postal:** 64550",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row4-nl": {
+        "children": [
+            "rich-text#tiendas-tienda10-nl",
+            "rich-text#tiendas-tienda11-nl",
+            "rich-text#tiendas-tienda12-nl"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda10-nl": {
+        "title": "tienda-10",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Citadel la Fe\n**Dirección:** RÓMULO GARZA 410, SAN NICOLÁS DE LOS GARZA - CITADEL LA FE - NUEVO LEÓN\n**Código postal:** 66477",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda11-nl": {
+        "title": "tienda-11",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza San Agustín\n**Dirección:** CUMBRES DE SAN AGUSTÍN, AV. REAL SAN AGUSTÍN 222 - SAN AGUSTÍN - MONTERREY\n**Código postal:** 66260",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda12-nl": {
+        "title": "tienda-12",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza San Agustín\n**Dirección:** AV DIEGO RIVERA 1000, RESIDENCIAL SAN AGUSTIN - PLAZA SAN AGUSTÍN - SAN PEDRO GARZA GARCIA\n**Código postal:** 66260",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row5-nl": {
+        "children": [
+            "rich-text#tiendas-tienda13-nl",
+            "rich-text#tiendas-tienda14-nl"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda13-nl": {
+        "title": "tienda-13",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Aeropuerto Monterrey TA\n**Dirección:** CARRETERA MIGUEL ALEMÁN KM 24 - AEROPUERTO INTERNACIONAL DE MONTERREY - APODACA\n**Código postal:** 66600",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda14-nl": {
+        "title": "tienda-14",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Monterrey Centro\n**Dirección:** JOSE MARIA MORELOS 235 - CENTRO - MONTERREY\n**Código postal:** 64000",
+            "blockClass": "info-tienda"
+        }
+    }
+}

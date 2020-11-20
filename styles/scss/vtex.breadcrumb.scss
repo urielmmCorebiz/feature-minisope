@@ -1,0 +1,33 @@
+.container {
+    max-width: 1250px;
+    padding-top: 15px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
+    .homeLink {
+        padding-left: 0px;
+        &::after {
+            content: "Home";
+            align-items: center;
+            display: flex;
+            color: #1e1e24;
+        }
+        .homeIcon {
+            display: none;
+        }
+    }
+    .arrow,
+    .link,
+    .termArrow {
+        text-transform: uppercase;
+        color: #1e1e24;
+    }
+    .term {
+        text-transform: uppercase;
+        color: #1e1e24;
+    }
+}

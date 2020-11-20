@@ -1,0 +1,71 @@
+{
+    "store.custom#blog4": {
+      "blocks": [
+        "list-context.image-list#blog4",
+        "flex-layout.row#blog4"
+      ]
+    },
+
+    "list-context.image-list#blog4": {
+      "children": [
+        "slider-layout#demo-blog4"
+      ],
+      "props": {
+        "height": "auto",
+        "images": [
+          {
+            "image": "https://minisomx.vteximg.com.br/arquivos/ids/159664/entrada4.jpg",
+            "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159664/entrada4.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#demo-blog4": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "carousel",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth": true
+      }
+    },
+
+    "flex-layout.row#blog4": {
+      "children": [
+        "flex-layout.col#text-blog4"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "acerca-de"]
+      }
+    },
+
+    "flex-layout.col#text-blog4": {
+      "children": [
+        "rich-text#title-blog4",
+        "rich-text#blog4-first"
+      ],
+      "props": {
+        "blockclass": "",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title-blog4": {
+      "props": {
+        "text":
+        "## MINISO es tu ayudante de cocina",
+        "textPosition": "CENTER",
+        "blockClass": ""
+      }
+    },
+    "rich-text#blog4-first": {
+      "props": {
+        "text": "Pasar algunos días en casa no tiene por qué ser aburrido y monótono. ¿Qué dices de poner las manos sobre la comida? ¡Es tiempo de llevar la creatividad a tu estómago!<br/><br/>Intentar distintas recetas, además de representar un reto para aquellos que no cocinan muy a menudo, puede hacer que el tiempo se pase más rápido. Imagina preparar divertidos y deliciosos platillos en compañía de tu música favorita. ¿Tienes algún platillo favorito que siempre quisiste intentar? Este es el momento y **MINISO** está ahí para ayudarte.<br/><br/>Encuentra en nuestra página un gran [catálogo](/) de productos y artículos de cocina, todos llegarán [De Miniso a tu casa](/hogar/d).<br/><br/>Síguenos en <a href='https://www.facebook.com/minisoJPChile' target='_blank'>Facebook</a>, <a href='https://www.instagram.com/miniso.chile' target='_blank'>Instagram</a> y <a href='https://twitter.com/MinisoMexico' target='_blank'>Twitter</a> para que te enteres de todas nuestras promociones",
+        "blockClass": ""
+      }
+    }
+  }

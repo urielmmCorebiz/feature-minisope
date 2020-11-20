@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#tiendas-row-slp": {
+        "title": "San Luis Potosí",
+        "children": [
+            "flex-layout.col#tiendas-col-slp"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-slp"
+        }
+    },
+    "flex-layout.col#tiendas-col-slp": {
+        "children": [
+            "rich-text#subtitle-tiendas-slp",
+            "flex-layout.row#tiendas-row1-slp"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-slp"
+        }
+    },
+    "rich-text#subtitle-tiendas-slp": {
+        "props": {
+            "text": "#### San Luis Potosí",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-slp": {
+        "children": [
+            "rich-text#tiendas-tienda1-slp",
+            "rich-text#tiendas-tienda2-slp"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-slp": {
+        "title": "tienda-1",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso El Dorado SLP\n**Dirección:** Avenida Nereo Rodríguez Barragán 450, DEL VALLE - EL DORADO - SAN LUIS POTOSÍ\n**Código postal:** 78200",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-slp": {
+        "title": "tienda-2",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Plaza San Luis\n**Dirección:** BLVD. ANTONIO ROCHA CORDERO 7000, CENTRO SAN LUIS - PLAZA SAN LUIS - SAN LUIS\n**Código postal:** 78215",
+            "blockClass": "info-tienda"
+        }
+    }
+}

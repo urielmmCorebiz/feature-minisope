@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#tiendas-row-chis": {
+        "title": "Chiapas",
+        "children": [
+            "flex-layout.col#tiendas-col-chis"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-chis"
+        }
+    },
+    "flex-layout.col#tiendas-col-chis": {
+        "children": [
+            "rich-text#subtitle-tiendas-chis",
+            "flex-layout.row#tiendas-row1-chis",
+            "flex-layout.row#tiendas-row2-chis"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-chis"
+        }
+    },
+    "rich-text#subtitle-tiendas-chis": {
+        "props": {
+            "text": "#### Chiapas",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-chis": {
+        "children": [
+            "rich-text#tiendas-tienda1-chis",
+            "rich-text#tiendas-tienda2-chis",
+            "rich-text#tiendas-tienda3-chis"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-chis": {
+        "title": "tienda-1",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Tapachula Centro\n**Dirección:** AV. 6a NORTE # 29 - LOS NARANJOS CENTRO - TAPACHULA\n**Código postal:** 30830",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-chis": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Ambar Tuxtla\n**Dirección:** TUXTLA GUTIERREZ-SAN PEDRO TAPANATEPEC 24 - PLAZA ÁMBAR - TUXTLA GUTIERREZ\n**Código postal:** 29040",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-chis": {
+        "title": "tienda-3",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Galerías Tapachula\n**Dirección:** CARRETERA PUERTO MADERO Km 2.5 - COL. LAS HORTENSIAS - TAPACHULA\n**Código postal:** 30797",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-chis": {
+        "children": [
+            "rich-text#tiendas-tienda4-chis"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-chis": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso\n**Dirección:** NORTE PONIENTE 5, EL MAGUEYITO - PLAZA LAS AMÉRICAS - Tuxtla Gutiérrez\n**Código postal:** 29030",
+            "blockClass": "info-tienda"
+        }
+    }
+}

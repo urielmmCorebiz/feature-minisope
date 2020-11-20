@@ -1,0 +1,153 @@
+{
+    "flex-layout.row#tiendas-row-gto": {
+        "title": "Guanajuato",
+        "children": [
+            "flex-layout.col#tiendas-col-gto"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-gto"
+        }
+    },
+    "flex-layout.col#tiendas-col-gto": {
+        "children": [
+            "rich-text#subtitle-tiendas-gto",
+            "flex-layout.row#tiendas-row1-gto",
+            "flex-layout.row#tiendas-row2-gto",
+            "flex-layout.row#tiendas-row3-gto",
+            "flex-layout.row#tiendas-row4-gto"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-gto"
+        }
+    },
+    "rich-text#subtitle-tiendas-gto": {
+        "props": {
+            "text": "#### Guanajuato",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-gto": {
+        "children": [
+            "rich-text#tiendas-tienda1-gto",
+            "rich-text#tiendas-tienda2-gto",
+            "rich-text#tiendas-tienda3-gto"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-gto": {
+        "title": "tienda-1",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** MINISO Via Alta Salamanca\n**Dirección:** Camino a Mancera Número 214 - Col. las Glorias - Salamanca\n**Código postal:** 36773",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-gto": {
+        "title": "tienda-2",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Altacia León\n**Dirección:** BLVD AEROPUERTO 104, CERRITO DE JEREZ NORTE - ALTACIA LEÓN - LEON\n**Código postal:** 37530",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-gto": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Vía Alta (Salamanca)\n**Dirección:** CALLE FELIX DE NOLA 160 - LAS GLORIAS, EJIDO DEL CENTRO - SALAMANCA\n**Código postal:** 36766",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-gto": {
+        "children": [
+            "rich-text#tiendas-tienda4-gto",
+            "rich-text#tiendas-tienda5-gto",
+            "rich-text#tiendas-tienda6-gto"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-gto": {
+        "title": "tienda-4",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Alaia Guanajuato\n**Dirección:** BLVD. EUQUERIO GUERRERO 139 - Yerbabuena - GUANAJUATO\n**Código postal:** 36250",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda5-gto": {
+        "title": "tienda-5",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso León Centro\n**Dirección:** PORTAL ALDAMA # 9 - CENTRO - LEON\n**Código postal:** 37000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda6-gto": {
+        "title": "tienda-6",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Plaza Mayor\n**Dirección:** BLVD JUAN ALONSO DE TORRES PONIENTE 2002, VALLE DEL CAMPESTRE - PLAZA MAYOR - LEÓN\n**Código postal:** 37150",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row3-gto": {
+        "children": [
+            "rich-text#tiendas-tienda7-gto",
+            "rich-text#tiendas-tienda8-gto",
+            "rich-text#tiendas-tienda9-gto"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda7-gto": {
+        "title": "tienda-7",
+        "props": {
+            "text": "<**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso La Luciernaga\n**Dirección:** JOSE MANUEL ZAVALA # 165 - PLAZA LA LUCIERNAGA - SAN MIGUEL DE ALLENDE\n**Código postal:** 37745",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda8-gto": {
+        "title": "tienda-8",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Parque Celaya\n**Dirección:** EJE NOR-PONIENTE MANUEL J. CLOUTHIER 801, LA PURISIMA - CELAYA\n**Código postal:** 38030",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda9-gto": {
+        "title": "tienda-9",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Galerías Celaya\n**Dirección:** EJE NOR-ORIENTE 200 - COL. LAS COMPUERTAS DEL CAMPESTRE, CELAYA, GUANAJUATO - México\n**Código postal:** 38080",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row4-gto": {
+        "children": [
+            "rich-text#tiendas-tienda10-gto",
+            "rich-text#tiendas-tienda11-gto",
+            "rich-text#tiendas-tienda12-gto"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda10-gto": {
+        "title": "tienda-10",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Parque Celaya\n**Dirección:** EJE. NOR PONIENTE 801 - 15 DE MAYO - CELAYA\n**Código postal:** 38016",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda11-gto": {
+        "title": "tienda-11",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Centro Max\n**Dirección:** BLVD ADOLFO LOPEZ MATEOS # 2518 - JARDINES DE JEREZ - LEON\n**Código postal:** 37530",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda12-gto": {
+        "title": "tienda-12",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Cibeles Irapuato\n**Dirección:** BLVD A VILLAS DE IRAPUATO # 1443 - EJIDO DE IRAPUATO - IRAPUATO\n**Código postal:** 36660",
+            "blockClass": "info-tienda"
+        }
+    }
+}

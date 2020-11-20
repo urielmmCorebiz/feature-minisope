@@ -1,0 +1,121 @@
+{
+    "flex-layout.row#tiendas-row-ver": {
+        "title": "Veracruz",
+        "children": [
+            "flex-layout.col#tiendas-col-ver"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-ver"
+        }
+    },
+    "flex-layout.col#tiendas-col-ver": {
+        "children": [
+            "rich-text#subtitle-tiendas-ver",
+            "flex-layout.row#tiendas-row1-ver",
+            "flex-layout.row#tiendas-row2-ver",
+            "flex-layout.row#tiendas-row3-ver"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-ver"
+        }
+    },
+    "rich-text#subtitle-tiendas-ver": {
+        "props": {
+            "text": "#### Veracruz",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-ver": {
+        "children": [
+            "rich-text#tiendas-tienda1-ver",
+            "rich-text#tiendas-tienda2-ver",
+            "rich-text#tiendas-tienda3-ver"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-ver": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Veracruz Centro\n**Dirección:** INDEPENDENCIA 1376, ESQ. CALLE ARISTA 729 - CENTRO - Veracruz\n**Código postal:** 91700",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-ver": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Américas Xalapa\n**Dirección:** CARRETERA FEDERAL XALAPA–VERACRUZ 680 - Pastoresa - XALAPA\n**Código postal:** 91193",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-ver": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Crystal\n**Dirección:** CALLE LÁZARO CÁRDENAS S/N, FRANCISCO VILLA, ENCINAL - PLAZA CRYSTAL - XALAPA-ENRÍQUEZ\n**Código postal:** 91150",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-ver": {
+        "children": [
+            "rich-text#tiendas-tienda4-ver",
+            "rich-text#tiendas-tienda5-ver",
+            "rich-text#tiendas-tienda6-ver"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-ver": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Poza Rica\n**Dirección:** CARR. POZA RICA CAZONES 4706, LA RUEDA - PATIO POZA RICA - POZA RICA\n**Código postal:** 93306",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda5-ver": {
+        "title": "tienda-5",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Poza Rica Centro\n**Dirección:** CALLE 4 NORTE 21 - Obrera - POZA RICA\n**Código postal:** 93260",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda6-ver": {
+        "title": "tienda-6",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Las Américas\n**Dirección:** AV LAS AMERICAS # 3495 - YLANG YLANG - BOCA DEL RíO\n**Código postal:** 94298",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row3-ver": {
+        "children": [
+            "rich-text#tiendas-tienda7-ver",
+            "rich-text#tiendas-tienda8-ver",
+            "rich-text#tiendas-tienda9-ver"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda7-ver": {
+        "title": "tienda-7",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Americas Veracruz\n**Dirección:** AV. LAS AMÉRICAS 3495, YLANG YLANG - PLAZA LAS AMERICAS - BOCA DEL RIO\n**Código postal:** 94298",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda8-ver": {
+        "title": "tienda-8",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso El Dorado Veracruz\n**Dirección:** CARR. FEDERAL PASO DEL TORO-BOCA DEL RIO-ANTON LIZARDO 4405, SAN JOSE - PLAZA EL DORADO - BOCA DEL RIO\n**Código postal:** 94290",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda9-ver": {
+        "title": "tienda-9",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Centro Xalapa\n**Dirección:** AV JUAN DE LA LUZ ENRIQUEZ # 18 - CENTRO - XALAPA\n**Código postal:** 91000",
+            "blockClass": "info-tienda"
+        }
+    }
+}

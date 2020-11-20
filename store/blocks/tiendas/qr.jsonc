@@ -1,0 +1,145 @@
+{
+    "flex-layout.row#tiendas-row-qr": {
+        "title": "Quintana Roo",
+        "children": [
+            "flex-layout.col#tiendas-col-qr"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-qr"
+        }
+    },
+    "flex-layout.col#tiendas-col-qr": {
+        "children": [
+            "rich-text#subtitle-tiendas-qr",
+            "flex-layout.row#tiendas-row1-qr",
+            "flex-layout.row#tiendas-row2-qr",
+            "flex-layout.row#tiendas-row3-qr",
+            "flex-layout.row#tiendas-row4-qr"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-qr"
+        }
+    },
+    "rich-text#subtitle-tiendas-qr": {
+        "props": {
+            "text": "#### Quintana Roo",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-qr": {
+        "children": [
+            "rich-text#tiendas-tienda1-qr",
+            "rich-text#tiendas-tienda2-qr",
+            "rich-text#tiendas-tienda3-qr"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-qr": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso La Isla Cancún\n**Dirección:** BLVD. KUKULCAN KM 12 - LA ISLA, ZONA HOTELERA - CANCÚN\n**Código postal:** 77500",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-qr": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Apto Cancún T2 Gde\n**Dirección:** CANCÚN-TULUM, BENITO JUÁREZ - CANCÚN\n**Código postal:** 77560",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-qr": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Outlet Cancún\n**Dirección:** AV. ANDRÉS QUINTANA ROO 39 - Cancún\n**Código postal:** 77500",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-qr": {
+        "children": [
+            "rich-text#tiendas-tienda4-qr",
+            "rich-text#tiendas-tienda5-qr",
+            "rich-text#tiendas-tienda6-qr"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-qr": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Playa del Carmen Esses\n**Dirección:** QUINTA AVENIDA 152, CENTRO, PLAYA DEL CARMEN - PLAYA DEL CARMEN\n**Código postal:** 77710",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda5-qr": {
+        "title": "tienda-5",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Gan Plaza Cancún\n**Dirección:** AV NICHUPTÉ SM 51 - GRAN PLAZA CANCÚN - CANCUN\n**Código postal:** 77533",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda6-qr": {
+        "title": "tienda-6",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Apto Cancún T2 Chico\n**Dirección:** CARRETERA CANCÚN-CHETUMAL 22, BENITO JUÁREZ - CANCÚN\n**Código postal:** 77569",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row3-qr": {
+        "children": [
+            "rich-text#tiendas-tienda7-qr",
+            "rich-text#tiendas-tienda8-qr",
+            "rich-text#tiendas-tienda9-qr"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda7-qr": {
+        "title": "tienda-7",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Cancún Mall\n**Dirección:** AV. COSTA MAYA 1, 228 - CANCÚN\n**Código postal:** 77500",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda8-qr": {
+        "title": "tienda-8",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Américas Cancún\n**Dirección:** AV TULUM SUR 7, 75 - PLAZA LAS AMÉRICAS - CANCÚN\n**Código postal:** 77500",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda9-qr": {
+        "title": "tienda-9",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Paseo del Carmen\n**Dirección:** AV. 10 SUR CON 1A SUR S/N, CENTRO - CENTRO - PLAYA DEL CARMEN\n**Código postal:** 77710",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row4-qr": {
+        "children": [
+            "rich-text#tiendas-tienda10-qr",
+            "rich-text#tiendas-tienda11-qr"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda10-qr": {
+        "title": "tienda-10",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Aeropuerto Cancún T4\n**Dirección:** KM 22 - Cancún\n**Código postal:** 77569",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda11-qr": {
+        "title": "tienda-11",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso\n**Dirección:** Calle Quinta Avenida 152 - Centro - Playa del Carmen\n**Código postal:** 77710",
+            "blockClass": "info-tienda"
+        }
+    }
+}

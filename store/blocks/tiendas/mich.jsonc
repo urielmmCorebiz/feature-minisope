@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#tiendas-row-mich": {
+        "title": "Michoacán",
+        "children": [
+            "flex-layout.col#tiendas-col-mich"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-mich"
+        }
+    },
+    "flex-layout.col#tiendas-col-mich": {
+        "children": [
+            "rich-text#subtitle-tiendas-mich",
+            "flex-layout.row#tiendas-row1-mich"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-mich"
+        }
+    },
+    "rich-text#subtitle-tiendas-mich": {
+        "props": {
+            "text": "#### Michoacán",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-mich": {
+        "children": [
+            "rich-text#tiendas-tienda1-mich",
+            "rich-text#tiendas-tienda2-mich",
+            "rich-text#tiendas-tienda3-mich"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-mich": {
+        "title": "tienda-1",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Plaza Las Américas\n**Dirección:** AV. Lic. ENRIQUE RAMÍREZ MIGUEL 1000, LAS AMÉRICAS - MORELIA\n**Código postal:** 58270",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-mich": {
+        "title": "tienda-2",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Morelia Centro\n**Dirección:** AV. FRANCISCO I. MADERO S/N - CENTRO HISTÓRICO DE MORELIA - MORELIA\n**Código postal:** 58000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-mich": {
+        "title": "tienda-3",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Paseo Altozano\n**Dirección:** AV. MONTAÑA MONARCA 1000 - MORELIA\n**Código postal:** 58350",
+            "blockClass": "info-tienda"
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "flex-layout.row#tiendas-row-chih": {
+        "title": "Chihuahua",
+        "children": [
+            "flex-layout.col#tiendas-col-chih"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-chih"
+        }
+    },
+    "flex-layout.col#tiendas-col-chih": {
+        "children": [
+            "rich-text#subtitle-tiendas-chih",
+            "flex-layout.row#tiendas-row1-chih",
+            "flex-layout.row#tiendas-row2-chih"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-chih"
+        }
+    },
+    "rich-text#subtitle-tiendas-chih": {
+        "props": {
+            "text": "#### Chihuahua",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-chih": {
+        "children": [
+            "rich-text#tiendas-tienda1-chih",
+            "rich-text#tiendas-tienda2-chih",
+            "rich-text#tiendas-tienda3-chih"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-chih": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Fashion Mall Chihuahua\n**Dirección:** PERI. DE LA JUVENTUD 3501 - QUINTAS DEL SOL - CHIHUAHUA\n**Código postal:** 31207",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-chih": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Paseo Chihuahua\n**Dirección:** PASEO CENTRAL, PERIF. DE LA JUVENTUD 5915 - CHIHUAHUA\n**Código postal:** 31216",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-chih": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Aeropuerto Ciudad Juárez\n**Dirección:** CARRETERA PANAMERICANA KM. 18.5 - CIUDAD JUÁREZ\n**Código postal:** 32690",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-chih": {
+        "children": [
+            "rich-text#tiendas-tienda4-chih",
+            "rich-text#tiendas-tienda5-chih"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-chih": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Las Misiones\n**Dirección:** BLVD. TEÓFILO BORUNDA 8681, PARTIDO IGLESIAS - LAS MISIONES - CIUDAD JUÁREZ\n**Código postal:** 32663",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda5-chih": {
+        "title": "tienda-5",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Aeropuerto Chihuahua\n**Dirección:** BLVD. JUAN PABLO II KM 14 - CHIHUAHUA\n**Código postal:** 31390",
+            "blockClass": "info-tienda"
+        }
+    }
+}

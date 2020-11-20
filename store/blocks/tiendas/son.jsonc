@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#tiendas-row-son": {
+        "title": "Sonora",
+        "children": [
+            "flex-layout.col#tiendas-col-son"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-son"
+        }
+    },
+    "flex-layout.col#tiendas-col-son": {
+        "children": [
+            "rich-text#subtitle-tiendas-son",
+            "flex-layout.row#tiendas-row1-son"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-son"
+        }
+    },
+    "rich-text#subtitle-tiendas-son": {
+        "props": {
+            "text": "#### Sonora",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-son": {
+        "children": [
+            "rich-text#tiendas-tienda1-son",
+            "rich-text#tiendas-tienda2-son"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-son": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Hermosillo\n**Dirección:** Periférico Oriente 1274 - Perisur - Hermosillo\n**Código postal:** 83290",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-son": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Sendero Obregón\n**Dirección:** Av.INTERNACIONAL FEDERAL 15 BETWEEN CALLE 300 and CALLE 10 - CIUDAD OBREGÓN\n**Código postal:** 85065",
+            "blockClass": "info-tienda"
+        }
+    }
+}

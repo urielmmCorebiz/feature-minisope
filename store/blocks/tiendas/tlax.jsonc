@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#tiendas-row-tlax": {
+        "title": "Tlaxcala",
+        "children": [
+            "flex-layout.col#tiendas-col-tlax"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-tlax"
+        }
+    },
+    "flex-layout.col#tiendas-col-tlax": {
+        "children": [
+            "rich-text#subtitle-tiendas-tlax",
+            "flex-layout.row#tiendas-row1-tlax"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-tlax"
+        }
+    },
+    "rich-text#subtitle-tiendas-tlax": {
+        "props": {
+            "text": "#### Tlaxcala",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-tlax": {
+        "children": [
+            "rich-text#tiendas-tienda1-tlax",
+            "rich-text#tiendas-tienda2-tlax"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-tlax": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Tlaxcala\n**Dirección:** CARR. PUEBLA-APIZACO 3, TLATEMPA - PATIO TLAXCALA - TLAXCALA\n**Código postal:** 90610",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-tlax": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Galerías Tlaxcala\n**Dirección:** LIBRAMIENTO PONIENTE TLAXCALA KM. 8 328 S/N - COL. SAN SEBASTIAN ATLAHAPA, MUNICIPIO DE TLAXCALA - México\n**Código postal:** 90111",
+            "blockClass": "info-tienda"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.link--link-popup-miniso-01,
+.link--link-popup-miniso-02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,.15);
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.link--link-popup-miniso-01{
+    background: #f7c1bb;
+    color: black;
+    margin-right: 10px;
+}
+
+.link--link-popup-miniso-01::after,
+.link--link-popup-miniso-02::after{
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.link--link-popup-miniso-01::after{
+    content: "Aplica CDMX, Edo Méx, Guadalajara";
+}
+
+.link--link-popup-miniso-02::after{
+    content: "Aplica toda la República Mex";
+}
+
+.link--link-popup-miniso-02{
+    background: #ccc;
+    color: #444;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:1024px){
+    .link--link-popup-miniso-02{
+        margin-left:0px;
+    }
+}

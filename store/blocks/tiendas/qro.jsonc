@@ -1,0 +1,81 @@
+{
+    "flex-layout.row#tiendas-row-qro": {
+        "title": "Querétaro",
+        "children": [
+            "flex-layout.col#tiendas-col-qro"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-qro"
+        }
+    },
+    "flex-layout.col#tiendas-col-qro": {
+        "children": [
+            "rich-text#subtitle-tiendas-qro",
+            "flex-layout.row#tiendas-row1-qro",
+            "flex-layout.row#tiendas-row2-qro"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-qro"
+        }
+    },
+    "rich-text#subtitle-tiendas-qro": {
+        "props": {
+            "text": "#### Querétaro",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-qro": {
+        "children": [
+            "rich-text#tiendas-tienda1-qro",
+            "rich-text#tiendas-tienda2-qro",
+            "rich-text#tiendas-tienda3-qro"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-qro": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Antea Querétaro\n**Dirección:** SAN LUIS POTOSÍ- SANTIAGO DE QUERÉTARO 12401, FELIZ OSORES SOTOMAYOR - ANTEA QUERÉTARO - Santiago de Querétaro\n**Código postal:** 76127",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-qro": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Uptown Juriquilla\n**Dirección:** ANILLO VIAL FRAY JUNIPERO SERRA 21260, EPIGMENIO GONZALEZ - UPTOWN JURIQUILLA - QUERETARO\n**Código postal:** 76085",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-qro": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Querétaro\n**Dirección:** AV REVOLUCION 99, EL ROCIO - QUERÉTARO\n**Código postal:** 76114",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-qro": {
+        "children": [
+            "rich-text#tiendas-tienda4-qro",
+            "rich-text#tiendas-tienda5-qro"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-qro": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Puerta La Victoria\n**Dirección:** AV CONSTITUYENTES 40, ZONA DOS EXTENDIDA, MERCURIO - LA VICTORIA - QUERETARO\n**Código postal:** 76040",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda5-qro": {
+        "title": "tienda-5",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Premium Outlets Querétaro\n**Dirección:** CARRETERA QUERÉTARO-CELAYA KM 6.5 - CORREGIDORA - SANTIAGO DE QUERÉTARO\n**Código postal:** 76904",
+            "blockClass": "info-tienda"
+        }
+    }
+}

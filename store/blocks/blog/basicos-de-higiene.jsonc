@@ -1,0 +1,71 @@
+{
+    "store.custom#blog-10": {
+      "blocks": [
+        "list-context.image-list#blog-10",
+        "flex-layout.row#blog-10"
+      ]
+    },
+
+    "list-context.image-list#blog-10": {
+      "children": [
+        "slider-layout#demo-blog-10"
+      ],
+      "props": {
+        "height": "auto",
+        "images": [
+          {
+            "image": "https://minisomx.vteximg.com.br/arquivos/ids/159669/entrada9.jpg",
+            "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159669/entrada9.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#demo-blog-10": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "carousel",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth": true
+      }
+    },
+
+    "flex-layout.row#blog-10": {
+      "children": [
+        "flex-layout.col#text-blog-10"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "acerca-de"]
+      }
+    },
+
+    "flex-layout.col#text-blog-10": {
+      "children": [
+        "rich-text#title-blog-10",
+        "rich-text#blog-first-10"
+      ],
+      "props": {
+        "blockclass": "",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title-blog-10": {
+      "props": {
+        "text":
+        "## 5 pasos de higiene MINISO",
+        "textPosition": "CENTER",
+        "blockClass": ""
+      }
+    },
+    "rich-text#blog-first-10": {
+      "props": {
+        "text": "### ¡Konnichiwa! \n\n Vivir en un ambiente libre de bacterias se ha vuelto vital como la salud y cuidado personal que necesitamos en nuestro día a día, por esta razón tiendas MINISO pensando en ti, te propone una selección de productos básicos de primera necesidad, para cumplir con este propósito. <br/><br/>**1. [Pañitos húmedos:](/paquete-de-toallitas-humedas-osos-escandalosos-mediano-2/p)** Llévalas contigo a todas partes y mentén tus manos siempre libres de bacterias.<br/>**2. [Hisopos:](/cotonetes-de-algodon-punta-blanca-200-pzas/p)** USalos para una limpieza profunda y detallada.<br/>**3. [Jabón hidratante:](/jabon-antibacterial-con-aloe-vera-verde-grande/p)** Olvidate de tener una piel reseca! Mantén tus manos limpias e hidratadas todo el tiempo.<br/>**4. [Gel antibacterial:](/gel-desinfectante-portatil-jake-limon-adventure-time/p)** ¡Practico, cómodo y listo al instante! Para que lo lleves siempre en tu bolso.<br/>**5. [Jabón facial de argán:](/salud-y-belleza)** La limpieza, hidratación y frescura que tu rostro necesita la encontraras usando este jabón.<br/><br/>  ¡Te estamos esperando! Ingresa a nuestro catálogo en línea, busca y elige tus productos favoritos de higiene personal, para que lleguen de #DeMinisoATuCasa. <br /> <br />Síguenos en <a href='https://www.facebook.com/minisoperu/' target='_blank'>Facebook</a>, <a href='https://www.instagram.com/minisoPeru/' target='_blank'>Instagram</a> y <a href='https://twitter.com/minisoperu' target='_blank'>Twitter</a> para que te enteres de todas nuestras promociones.<br/><br/>¡Arigatto!",
+        "blockClass": ""
+      }
+    }
+  }

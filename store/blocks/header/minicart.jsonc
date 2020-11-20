@@ -1,0 +1,126 @@
+{
+  "minicart.v2": {
+    "children": [
+      "minicart-base-content"
+    ],
+    "props": {
+      "variation": "popup",
+      "openOnHover": true
+    }
+  },
+  "minicart-base-content": {
+    "blocks": [
+      "minicart-empty-state"
+    ],
+    "children": [
+      "minicart-product-list",
+      "flex-layout.row#minicart-footer"
+    ]
+  },
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": [
+      "flex-layout.col#minicart-footer"
+    ]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": [
+      "minicart-summary",
+      "minicart-checkout-button"
+    ]
+  },
+  "minicart-product-list": {
+    "blocks": [
+      "product-list#minicart"
+    ]
+  },
+  "product-list#minicart": {
+    "blocks": [
+      "product-list-content-mobile"
+    ]
+  },
+  "minicart-summary": {
+    "blocks": [
+      "checkout-summary.compact#minicart"
+    ]
+  },
+  "minicart-summary#total-mobile": {
+    "blocks": [
+      "checkout-summary.compact#minicart"
+    ]
+  },
+  "checkout-summary.compact#minicart": {
+    "children": [
+      "summary-totalizers#minicart"
+    ],
+    "props": {
+      "totalizersToShow": [
+        "Items",
+        "Discounts"
+      ]
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": false,
+      "showDeliveryTotal": false
+    }
+  },
+  "minicart-empty-state": {
+    "children": [
+      "flex-layout.row#empty-state"
+    ]
+  },
+  "flex-layout.row#empty-state": {
+    "children": [
+      "flex-layout.col#empty-state"
+    ]
+  },
+  "flex-layout.col#empty-state": {
+    "children": [
+      "rich-text#empty-state"
+    ]
+  },
+  "rich-text#empty-state": {
+    "props": {
+      "text": "¡No tienes artículos añadidos!",
+      "blockClass": "minicart-empty-card"
+    }
+  },
+  "product-list-content-mobile": {
+    "children": [
+      "flex-layout.row#product-content"
+    ]
+  },
+  "flex-layout.row#product-content": {
+    "children": [
+      "product-list-image",
+      "flex-layout.col#product-description",
+      "flex-layout.col#product-option"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#product-description": {
+    "children": [
+      "vtex.product-list:product-name",
+      "price"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#product-option": {
+    "children": [
+      "remove-button",
+      "quantity-selector"
+    ],
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "product-options"
+    }
+  }
+}

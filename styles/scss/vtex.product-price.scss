@@ -1,0 +1,24 @@
+.savings{
+    background-color: #e4c9ff;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    width: 65px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:global(.vtex-stack-layout-0-x-stackContainer--product) .savings{
+    margin: 15px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--col-image-pdp) .savings{
+    position: absolute;
+    left: 22%;
+}

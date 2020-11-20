@@ -1,0 +1,75 @@
+{
+    "store.custom#collection-3banners": {
+        "blocks": [
+            "flex-layout.row#collection-3banners",
+            "search-result-layout.customQuery#collection-3banners"
+        ]
+    },
+    "search-result-layout.customQuery#collection-3banners": {
+        "props": {
+            "querySchema": {
+                "orderByField": "",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 12,
+                "queryField": "137",
+                "mapField": "productClusterIds",
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "skip",
+                "__unstableProductOriginVtex": true
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "flex-layout.row#collection-3banners": {
+        "children": [
+            "list-context.image-list#collection-3banners"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "collection-3banners"
+        }
+    },
+    "list-context.image-list#collection-3banners": {
+        "children": [
+            "slider-layout#collection-3banners"
+        ],
+        "props": {
+            "images": []
+        }
+    },
+    "slider-layout#collection-3banners": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "never",
+            "blockClass": "collection-3banners"
+        }
+    },
+    "image#collection-3banners-1": {
+        "title": "Desktop image collection",
+        "props": {
+            "src": "desktop-image-collection"
+        }
+    },
+    "image#collection-3banners-2": {
+        "title": "Desktop image2 collection",
+        "props": {
+            "src": "desktop-image-collection"
+        }
+    },
+    "image#collection-3banners-3": {
+        "title": "Desktop image3 collection",
+        "props": {
+            "src": "desktop-image-collection"
+        }
+    }
+}

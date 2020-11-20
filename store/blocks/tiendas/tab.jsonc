@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#tiendas-row-tab": {
+        "title": "Tabasco",
+        "children": [
+            "flex-layout.col#tiendas-col-tab"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-tab"
+        }
+    },
+    "flex-layout.col#tiendas-col-tab": {
+        "children": [
+            "rich-text#subtitle-tiendas-tab",
+            "flex-layout.row#tiendas-row1-tab"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-tab"
+        }
+    },
+    "rich-text#subtitle-tiendas-tab": {
+        "props": {
+            "text": "#### Tabasco",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-tab": {
+        "children": [
+            "rich-text#tiendas-tienda1-tab"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-tab": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Altabrisa Tabasco\n**Dirección:** PERIFERICO CARLOS PELLICER 129, PLUTARCO ELIAS CALLES - VILLAHERMOSA\n**Código postal:** 86179",
+            "blockClass": "info-tienda"
+        }
+    }
+}

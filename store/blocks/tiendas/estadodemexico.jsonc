@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#tiendas-row-estadodemexico": {
+        "title": "estadodemexico",
+        "children": [
+            "flex-layout.col#tiendas-col-estadodemexico"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-estadodemexico"
+        }
+    },
+    "flex-layout.col#tiendas-col-estadodemexico": {
+        "children": [
+            "rich-text#subtitle-tiendas-estadodemexico",
+            "flex-layout.row#tiendas-row1-estadodemexico"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-estadodemexico"
+        }
+    },
+    "rich-text#subtitle-tiendas-estadodemexico": {
+        "props": {
+            "text": "#### Estado de México",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-estadodemexico": {
+        "children": [
+            "rich-text#tiendas-tienda1-estadodemexico",
+            "rich-text#tiendas-tienda2-estadodemexico",
+            "rich-text#tiendas-tienda3-estadodemexico"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-estadodemexico": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Satélite\n**Dirección:** Circuito Centro Comercial 225 Fraccionamiento Ciudad Satélite Naucalpan de - Ciudad de México\n**Código postal:** 53100",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-estadodemexico": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Toluca\n**Dirección:** AV MIGUEL HIDALGO ORIENTE # 1350 - BARRIO DE SAN SEBASTIAN - TOLUCA\n**Código postal:** 50090",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-estadodemexico": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Puerta Texcoco\n**Dirección:** CARRETERA FEDERAL MÉXICO TEXCOCO - Santiago Cuautlalpan\n**Código postal:** 56255",
+            "blockClass": "info-tienda"
+        }
+    }
+}

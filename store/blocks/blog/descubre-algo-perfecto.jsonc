@@ -1,0 +1,71 @@
+{
+    "store.custom#blog5": {
+      "blocks": [
+        "list-context.image-list#blog5",
+        "flex-layout.row#blog5"
+      ]
+    },
+
+    "list-context.image-list#blog5": {
+      "children": [
+        "slider-layout#demo-blog5"
+      ],
+      "props": {
+        "height": "auto",
+        "images": [
+          {
+            "image": "https://minisomx.vteximg.com.br/arquivos/ids/159661/entrada1.jpg",
+            "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159661/entrada1.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#demo-blog5": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "carousel",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth": true
+      }
+    },
+
+    "flex-layout.row#blog5": {
+      "children": [
+        "flex-layout.col#text-blog5"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "acerca-de"]
+      }
+    },
+
+    "flex-layout.col#text-blog5": {
+      "children": [
+        "rich-text#title-blog5",
+        "rich-text#blog5-first"
+      ],
+      "props": {
+        "blockclass": "",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title-blog5": {
+      "props": {
+        "text":
+        "## ¡Descubre algo perfecto para ti!",
+        "textPosition": "CENTER",
+        "blockClass": ""
+      }
+    },
+    "rich-text#blog5-first": {
+      "props": {
+        "text": "En Miniso siempre podrás encontrar algo perfecto para ti o para tus más queridos. Innovamos para ti con nuevos productos y artículos para que nuestros MinisoLovers encuentren algo perfecto para cada momento de su día a día. ¿Te gustaría saber más sobre qué puedes encontrar en Miniso?<br/><br/>¡Comencemos!<br/><br/>**Salud y Belleza**<br/>Consiéntete con nuestros productos de salud y belleza. Podrás encontrar mascarillas, kits de cuidado para la cara, limpiadores faciales, desmaquillantes, masajeadoras relajantes para la cabeza y mucho más. ¡No esperes más y luce una piel radiante!<br/><br/>**Moda**<br/>Luce increíble con nuestros artículos de moda. Podrás encontrar algo ideal para cada momento de tu día, como unos lentes de sol, gorras de béisbol Shake y tines súper cómodos para recorrer tus lugares favoritos.<br/><br/>**Cosméticos**<br/>Anímate a lucir radiante con los artículos de moda que tenemos para ti. Encuentra toallitas limpiadoras de esmalte con fragancias a fresas y sandía (mmm sandía), esmaltes para uñas de color rosa, rojo cereza, azafrán amarillo y más.<br/><br/>**Deporte**<br/>Si eres de los que no descansa y se preocupa mucho por estar en excelente estado físico, ¡esta sección es para ti! Encuentra artículos para ejercitarte todos los días en el gym, en el parque o en tu casa y alcanzar todos tus objetivos.<br/><br/>Podrás encontrar toallas deportivas Cooling, Leggins para entrenamiento, cangureras deportivas y discos giratorios para tu cintura, además de otras decenas de productos perfectos para tu entrenamiento.<br/><br/>**Hogar**<br/>¿Te gustaría mudarte con tu pareja o ya lo hiciste y quieres tener un hogar súper cool para que todos lo conozcan? Consiente y decora tu lugar favorito con los artículos que nuestros MinisoLovers más aman.<br/><br/>En nuestra Tienda Miniso encontrarás artículos para tu Living, cocina y baño como tapetes, toallas súper suaves, sets de baño, sets de cocina, loncheras de colores cool y más.<br/><br/>**Juguetes**<br/>Haz feliz a tus hijos, sorprende a tus sobrinos o regala algo increíble a tu date. Descubre nuestros juguetes y peluches súper abrazables de dinosaurios, osos, pingüinos y unicornios de colores rosa, azul, beige y más.<br/><br/>**Papelería**<br/>Organiza tu día de forma divertida con nuestras agendas con diseños increíbles. También podrás encontrar plumones de todos los colores para darle vida a todos tus apuntes y anotaciones. #EfectoMiniso es darle mucho color a todo lo que haces en tus días!<br/><br/>**Tecnología**<br/>Sabemos que te estás actualizando constantemente y que quieres estar en tendencia.Los MinisoLovers aman nuestros productos para cuidado de smartphones, gamepads, audífonos, selfie sticks y bocinas inalámbricas.<br/><br/>Encuentra en nuestra Tienda Miniso productos perfectos para tu próximo viaje. Descubre nuestros Neceser, botellas de viaje, antifaces para tener un sueño profuuundo y almohadas para viajar cómodo a cualquier parte del mundo. ¿Cuál será tu próximo destino?<br/><br/>Síguenos en <a href='https://www.facebook.com/minisoJPChile' target='_blank'>Facebook</a>, <a href='https://www.instagram.com/miniso.chile' target='_blank'>Instagram</a> y <a href='https://twitter.com/MinisoMexico' target='_blank'>Twitter</a> para que te enteres de todas nuestras promociones",
+        "blockClass": ""
+      }
+    }
+  }

@@ -1,0 +1,267 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop-1",
+      "flex-layout.row#footer-desktop-2",
+      "flex-layout.row#footer-desktop-3"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-mobile"
+    ]
+  },
+  "flex-layout.row#footer-desktop-1": {
+    "children": [
+      "flex-layout.col#footer-desktop-1",
+      "flex-layout.col#footer-desktop-2",
+      "flex-layout.col#footer-desktop-3",
+      "flex-layout.col#footer-desktop-5"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-1",
+      "paddingTop": 8,
+      "paddingBottom": 3,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#footer-desktop-1": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-1"
+    ],
+    "props": {
+      "blockClass": "footer-desktop"
+    }
+  },
+  "flex-layout.col#footer-desktop-2": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-2"
+    ],
+    "props": {
+      "blockClass": "footer-desktop"
+    }
+  },
+  "flex-layout.col#footer-desktop-3": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-3"
+    ],
+    "props": {
+      "blockClass": "footer-desktop"
+    }
+  },
+  "flex-layout.col#footer-desktop-4": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-4"
+    ],
+    "props": {
+      "blockClass": "footer-desktop"
+    }
+  },
+  "flex-layout.col#footer-desktop-5": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-5"
+    ],
+    "props": {
+      "blockClass": "footer-desktop"
+    }
+  },
+  "flex-layout.row#footer-desktop-2": {
+    "children": [
+      "rich-text#footer-copyright",
+      "vtex.menu@2.x:menu#footer-6"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-2",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#footer-copyright": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Miniso Chile. Todos los derechos reservados © 2020",
+      "blockClass": "footer-copyright"
+    }
+  },
+  "flex-layout.row#footer-desktop-3": {
+    "children": [
+      "rich-text#footer-cookies"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-2",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#footer-cookies": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Miniso.cl utiliza cookies para que tengas la mejor experiencia de navegación. Si sigues navegando entendemos que aceptas nuestra politica de cookies",
+      "blockClass": "footer-copyright"
+    }
+  },
+  "flex-layout.row#footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "footer-mobile",
+      "paddingTop": 3,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-mobile-1",
+      "flex-layout.col#footer-mobile-2",
+      "flex-layout.col#footer-mobile-3"
+    ],
+    "props": {
+      "blockClass": "footer-mobile"
+    }
+  },
+  "flex-layout.col#footer-mobile-1": {
+    "children": [
+      "flex-layout.row#footer-mobile-1",
+      "flex-layout.row#footer-mobile-2",
+      "flex-layout.row#footer-mobile-3"
+    ],
+    "props": {
+      "blockClass": "footer-mobile-1"
+    }
+  },
+  "flex-layout.row#footer-mobile-1": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-1",
+      "vtex.menu@2.x:menu#footer-2"
+    ],
+    "props": {
+      "blockClass": "footer-mobile-1"
+    }
+  },
+  "flex-layout.row#footer-mobile-2": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-3"
+    ],
+    "props": {
+      "blockClass": "footer-mobile-2"
+    }
+  },
+  "flex-layout.row#footer-mobile-3": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-5"
+    ],
+    "props": {
+      "blockClass": "footer-mobile-3"
+    }
+  },
+  "flex-layout.col#footer-mobile-2": {
+    "children": [
+      "rich-text#footer-copyright",
+      "vtex.menu@2.x:menu#footer-6"
+    ],
+    "props": {
+      "blockClass": "footer-mobile-2"
+    }
+  },
+  "flex-layout.col#footer-mobile-3": {
+    "children": [
+      "rich-text#footer-cookies"
+    ],
+    "props": {
+      "blockClass": "footer-mobile-2"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "title": "Redes Sociales",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/minisoJPChile"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/miniso.chile"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/MinisoMexico"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/channel/UCij39FzpeoB81opYs2GAPQQ"
+        }
+      ],
+      "blockClass": "footer-social-networks"
+    }
+  },
+  "flex-layout.row#footer--payments-methods": {
+    "children": [
+      "flex-layout.col#payment-method--visa",
+      "flex-layout.col#payment-method--mastercard",
+      "flex-layout.col#payment-method--american",
+      "flex-layout.col#payment-method--dinners",
+      "flex-layout.col#payment-method--elo"
+    ],
+    "props": {
+      "colGap": 6,
+      "colSizing": "auto",
+      "blockClass": "footer--payments-methods--content"
+    }
+  },
+  "flex-layout.col#payment-method--visa": {
+    "props": {
+      "blockClass": [
+        "custom-payment-methods",
+        "custom-payment-methods--visa"
+      ]
+    }
+  },
+  "flex-layout.col#payment-method--mastercard": {
+    "props": {
+      "blockClass": [
+        "custom-payment-methods",
+        "custom-payment-methods--mastercard"
+      ]
+    }
+  },
+  "flex-layout.col#payment-method--american": {
+    "props": {
+      "blockClass": [
+        "custom-payment-methods",
+        "custom-payment-methods--american"
+      ]
+    }
+  },
+  "flex-layout.col#payment-method--dinners": {
+    "props": {
+      "blockClass": [
+        "custom-payment-methods",
+        "custom-payment-methods--dinners"
+      ]
+    }
+  },
+  "flex-layout.col#payment-method--elo": {
+    "props": {
+      "blockClass": [
+        "custom-payment-methods",
+        "custom-payment-methods--elo"
+      ]
+    }
+  },
+  "flex-layout.col#payment-method--boleto": {
+    "props": {
+      "blockClass": [
+        "custom-payment-methods",
+        "custom-payment-methods--boleto"
+      ]
+    }
+  }
+}

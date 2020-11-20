@@ -1,0 +1,221 @@
+{
+    "menu-item#menu-categorias": {
+        "props": {
+            "id": "menu-item-menu-categorias",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Categorias",
+                "text": "Categorías"
+            },
+            "blockClass": "menu-title"
+        },
+        "blocks": [
+            "submenu#menu-categorias"
+        ]
+    },
+    "submenu#menu-categorias": {
+        "children": [
+            "flex-layout.row#categorias"
+        ],
+        "props": {
+            "width": "100%",
+            "blockClass": "submenu-categorias"
+        }
+    },
+    "submenu#menu-licencias": {
+        "children": [
+            "menu#menu-categorias-licencias"
+        ],
+        "props": {
+            "width": "100%",
+            "blockClass": "submenu-licencias"
+        }
+    },
+    "flex-layout.row#categorias": {
+        "children": [
+            "flex-layout.col#categorias-1",
+            "flex-layout.col#categorias-2"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "menu-categorias"
+        }
+    },
+    "flex-layout.col#categorias-1": {
+        "children": [
+            "flex-layout.row#categorias-1",
+            "flex-layout.row#categorias-2"
+        ],
+        "props": {
+            "width": "78%",
+            "blockClass": "categorias-1"
+        }
+    },
+    "flex-layout.col#categorias-2": {
+        "children": [
+            "rich-text#categorias-imgTitle-1",
+            "rich-text#categorias-imgTitle-2",
+            "image#menucategorias-1"
+        ],
+        "props": {
+            "width": "22%",
+            "blockClass": "categorias-2"
+        }
+    },
+    "rich-text#categorias-imgTitle-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "text": "MIRA LO <span>NUEVO</span>",
+            "blockClass": [
+                "categorias-imgTitle",
+                "categorias-imgTitle-1"
+            ]
+        }
+    },
+    "rich-text#categorias-imgTitle-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "text": "DE HIGIENE",
+            "blockClass": [
+                "categorias-imgTitle",
+                "categorias-imgTitle-2"
+            ]
+        }
+    },
+    "flex-layout.row#categorias-1": {
+        "children": [
+            "menu#menu-categorias-hogar",
+            "menu#menu-categorias-belleza",
+            "menu#menu-categorias-moda",
+            "menu#menu-categorias-jugueteria",
+            "menu#menu-categorias-deportes"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "menu-categorias-1"
+        }
+    },
+    "image#menucategorias-1": {
+        "title": "menu-categorias",
+        "props": {
+            "src": "/arquivos/banner_pop_3.jpg",
+            "blockClass": "menucategorias-1",
+            "link": {
+                "url": "/snacks",
+                "title": "Mira lo nuevo de Higiene!"
+            }
+        }
+    },
+    "menu#menu-categorias-hogar": {
+        "props": {
+            "categoryId": 4,
+            "orientation": "vertical",
+            "blockClass": "menu-categorias"
+        }
+    },
+    "menu#menu-categorias-licencias": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ["menu-categorias", "menu-licencias"]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#submenushop"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenushop": {
+        "children": [
+            "menu-item#adventure-time",
+            "menu-item#marvel",
+            "menu-item#we-bare-bears"
+        ]
+    },
+    "menu#menu-categorias-belleza": {
+        "props": {
+            "categoryId": 5,
+            "orientation": "vertical",
+            "blockClass": "menu-categorias"
+        }
+    },
+    "menu#menu-categorias-moda": {
+        "props": {
+            "categoryId": 6,
+            "orientation": "vertical",
+            "blockClass": "menu-categorias"
+        }
+    },
+    "menu#menu-categorias-jugueteria": {
+        "props": {
+            "categoryId": 8,
+            "orientation": "vertical",
+            "blockClass": "menu-categorias"
+        }
+    },
+    "menu#menu-categorias-deportes": {
+        "props": {
+            "categoryId": 13,
+            "orientation": "vertical",
+            "blockClass": "menu-categorias"
+        }
+    },
+    "menu#menu-categorias-snacks": {
+        "props": {
+            "categoryId": 408,
+            "orientation": "vertical",
+            "blockClass": ["menu-categorias", "menu-categorias-b"]
+        }
+    },
+    "flex-layout.row#categorias-2": {
+        "children": [
+            "menu#menu-categorias-cosmeticos",
+            "menu#menu-categorias-papeleria",
+            "menu#menu-categorias-tecnologia",
+            "menu#menu-categorias-viajes",
+            "menu#menu-categorias-bolsas"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "menu-categorias-1"
+        }
+    },
+    "menu#menu-categorias-cosmeticos": {
+        "props": {
+            "categoryId": 7,
+            "orientation": "vertical",
+            "blockClass": "menu-categorias"
+        }
+    },
+    "menu#menu-categorias-papeleria": {
+        "props": {
+            "categoryId": 9,
+            "orientation": "vertical",
+            "blockClass": "menu-categorias"
+        }
+    },
+    "menu#menu-categorias-tecnologia": {
+        "props": {
+            "categoryId": 11,
+            "orientation": "vertical",
+            "blockClass": "menu-categorias"
+        }
+    },
+    "menu#menu-categorias-viajes": {
+        "props": {
+            "categoryId": 12,
+            "orientation": "vertical",
+            "blockClass": "menu-categorias"
+        }
+    },
+    "menu#menu-categorias-bolsas": {
+        "props": {
+            "categoryId": 14,
+            "orientation": "vertical",
+            "blockClass": "menu-categorias"
+        }
+    }
+  }

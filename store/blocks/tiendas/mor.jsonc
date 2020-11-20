@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#tiendas-row-mor": {
+        "title": "Morelos",
+        "children": [
+            "flex-layout.col#tiendas-col-mor"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-mor"
+        }
+    },
+    "flex-layout.col#tiendas-col-mor": {
+        "children": [
+            "rich-text#subtitle-tiendas-mor",
+            "flex-layout.row#tiendas-row1-mor"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-mor"
+        }
+    },
+    "rich-text#subtitle-tiendas-mor": {
+        "props": {
+            "text": "#### Morelos",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-mor": {
+        "children": [
+            "rich-text#tiendas-tienda1-mor",
+            "rich-text#tiendas-tienda2-mor"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-mor": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Los Atrios Cuautla\n**Dirección:** AUTOPISTA CUAUTLA-OAXTEPEC KM 31 900 - TIERRA LARGA - CUAUTLA\n**Código postal:** 62757",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-mor": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Cuernavaca Averanda\n**Dirección:** MÉXICO-ACAPULCO KM 87.5, VILLAS DEL LAGO - CUERNAVACA AVERANDA - CUERNAVACA\n**Código postal:** 62374",
+            "blockClass": "info-tienda"
+        }
+    }
+}

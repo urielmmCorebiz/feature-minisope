@@ -1,0 +1,299 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "flex-layout.row#season-promotion",
+      "__fold__",
+      "flex-layout.row#home-shelf",
+      "flex-layout.row#texto-retraso",
+      "flex-layout.row#feature-products",
+      "flex-layout.row#promotion-news--top",
+      "flex-layout.row#promotion-news--bottom",
+      "flex-layout.row#newsletter"
+    ]
+  },
+  "flex-layout.row#home-shelf": {
+    "children": [
+      "flex-layout.col#home-shelf"
+    ],
+    "props": {
+      "blockClass": "home-shelf"
+    }
+  },
+  "flex-layout.col#home-shelf": {
+    "children": [
+      "rich-text#home-shelf-title",
+      "shelf#shelf-01",
+      "shelf#shelf-02",
+      "shelf#shelf-03",
+      "shelf#shelf-04"
+    ],
+    "props": {
+      "blockClass": "home-shelf"
+    }
+  },
+  "rich-text#home-shelf-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lo más destacado",
+      "blockClass": "titles-home"
+    }
+  },
+  "shelf#shelf-01": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "collection": "156",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Outlet",
+        "gap": "ph5"
+      }
+    }
+  },
+  "shelf#shelf-02": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "category": "4",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Hogar",
+        "gap": "ph5"
+      }
+    }
+  },
+  "shelf#shelf-03": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "category": "5",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Salud y Belleza",
+        "gap": "ph5"
+      }
+    }
+  },
+  "shelf#shelf-04": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "category": "8",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Juguetes",
+        "gap": "ph5"
+      }
+    }
+  },
+  "list-context.image-list#demo": {
+    "children": [
+      "slider-layout#demo-images"
+    ],
+    "props": {
+      "height": "auto",
+      "images": [{
+          "image": "/arquivos/banner_home_01.png",
+          "mobileImage": "/arquivos/banner_home_01m.png"
+        }, {
+          "image": "/arquivos/banner_home_02.png",
+          "mobileImage": "/arquivos/banner_home_02m.png"
+        },
+        {
+          "image": "/arquivos/banner_home_03.png",
+          "mobileImage": "/arquivos/banner_home_03m.png"
+        },
+        {
+          "image": "/arquivos/banner_home_04.png",
+          "mobileImage": "/arquivos/banner_home_04m.png"
+        },
+        {
+          "image": "/arquivos/banner_home_05.png",
+          "mobileImage": "/arquivos/banner_home_05m.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000
+      },
+      "blockClass": "carousel",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "fullWidth": true
+    }
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  },
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  },
+  "flex-layout.row#divisor": {
+    "props": {
+      "blockClass": "page-divisor"
+    }
+  },
+  "flex-layout.row#newsletter": {
+    "children": [
+      "flex-layout.col#newsletter-1",
+      "flex-layout.col#newsletter-2"
+    ],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  },
+  "flex-layout.col#newsletter-1": {
+    "children": [
+      "rich-text#newsletter-title",
+      "rich-text#newsletter"
+    ],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  },
+  "rich-text#newsletter-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "¡Que no se te pase ni una!",
+      "blockClass": "newsletter-title"
+    }
+  },
+  "rich-text#newsletter": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "text": "Deja tu correo y enterate de todo lo que pasa en miniso antes que nadie. Tips, noticias, tendencias, promociones y más.",
+      "blockClass": "newsletter"
+    }
+  },
+  "flex-layout.col#newsletter-2": {
+    "children": [
+      "newsletter"
+    ],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  },
+  "newsletter": {
+    "props": {
+      "blockClass": "newsletter",
+      "placeholder": "hola@correo.com",
+      "submit": "enviar"
+    }
+  },
+  "flex-layout.row#texto-retraso": {
+    "children": [
+      "flex-layout.col#texto-retraso"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "texto-retraso"
+    }
+  },
+  "flex-layout.col#texto-retraso": {
+    "children": [
+      "rich-text#texto-retraso-1"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "texto-retraso"
+    }
+  },
+  "rich-text#texto-retraso-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Hogar",
+      "blockClass": "texto-retraso"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#tiendas-row-gro": {
+        "title": "Guerrero",
+        "children": [
+            "flex-layout.col#tiendas-col-gro"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-gro"
+        }
+    },
+    "flex-layout.col#tiendas-col-gro": {
+        "children": [
+            "rich-text#subtitle-tiendas-gro",
+            "flex-layout.row#tiendas-row1-gro"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-gro"
+        }
+    },
+    "rich-text#subtitle-tiendas-gro": {
+        "props": {
+            "text": "#### Guerrero",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-gro": {
+        "children": [
+            "rich-text#tiendas-tienda1-gro",
+            "rich-text#tiendas-tienda2-gro"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-gro": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Acapulco\n**Dirección:** CARR CAYACO - PUERTO MARQUÉS 244 - El CAYACO - ACAPULCO DE JUÁREZ\n**Código postal:** 39905",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-gro": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Galerías Diana\n**Dirección:** AV COSTERA MIGUEL ALEMÁN 1632 - FRACC. MAGALLANES, MAGALLANES - Acapulco de Juárez\n**Código postal:** 39670",
+            "blockClass": "info-tienda"
+        }
+    }
+}

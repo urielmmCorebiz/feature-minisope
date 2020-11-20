@@ -1,0 +1,12 @@
+.footerLayoutSpacer {
+  border-top: 0.08333rem solid #f2f2f2;
+}
+
+.footerLayout {
+  margin: 15px 0;
+
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 1250px;
+    padding: 0 15px;
+  }
+}

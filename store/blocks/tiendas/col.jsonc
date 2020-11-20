@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#tiendas-row-col": {
+        "title": "Colima",
+        "children": [
+            "flex-layout.col#tiendas-col-col"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-col"
+        }
+    },
+    "flex-layout.col#tiendas-col-col": {
+        "children": [
+            "rich-text#subtitle-tiendas-col",
+            "flex-layout.row#tiendas-row1-col"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-col"
+        }
+    },
+    "rich-text#subtitle-tiendas-col": {
+        "props": {
+            "text": "#### Colima",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-col": {
+        "children": [
+            "rich-text#tiendas-tienda1-col"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-col": {
+        "title": "tienda-1",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Zentralia\n**Dirección:** PASEO MIGUEL DE LA MADRID HURTADO 301, VALLE DORADO - CENTRO COMERCIAL ZENTRALIA - COLIMA\n**Código postal:** 28018",
+            "blockClass": "info-tienda"
+        }
+    }
+}

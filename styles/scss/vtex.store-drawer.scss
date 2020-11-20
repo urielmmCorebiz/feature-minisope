@@ -1,0 +1,96 @@
+.drawer--menu {
+    background-color: transparent;
+
+    .drawerContent--menu {
+        width: 80%;
+        height: 100%;
+        background-color: #fff;
+
+        // min-width: 80% !important;
+        .drawerHeader {
+            padding: 10px 0;
+            padding-left: 20px;
+            border-bottom: solid thin #e0e0e0;
+            margin-bottom: 10px;
+
+            :global(.vtex-store-components-3-x-imageElement--logo) {
+                max-width: 120px;
+            }
+        }
+
+        .closeIconButton {
+            position: fixed;
+            right: 20%;
+            top: 1%;
+        }
+
+        :global(.vtex-menu-2-x-menuContainerNav) {
+            width: 100%;
+        }
+
+        :global(.vtex-flex-layout-0-x-flexRow) {
+            width: 100%;
+        }
+
+        :global(.vtex-menu-2-x-styledLinkContent) {
+            padding: 5px 0;
+        }
+
+        :global(.vtex-menu-2-x-styledLinkContent--menu-drawer--level-one) {
+            padding: 10px 0;
+            font-size: 1rem;
+            text-transform: uppercase;
+            color: #d22630;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+.openIconContainer--categorias {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.openIconContainer--categorias.openIconContainer--drawer-open-licencias {
+    margin-top: 5px;
+}
+
+.drawer--categorias {
+    background-color: transparent;
+
+    .drawerContent--categorias {
+        width: 80%;
+        height: 100%;
+        background-color: #fff;
+    }
+}
+
+.closeIconContainer--categorias {
+    padding: 5px 0;
+    border-bottom: solid thin #e0e0e0;
+    margin-bottom: 10px;
+
+    .closeIconButton--categorias {
+        display: flex;
+
+        .closeIcon--categorias {
+            display: none;
+        }
+    }
+
+    ::before {
+        content: "";
+        width: 20px;
+        height: 15px;
+        background: url('/arquivos/arrow-go.png') no-repeat;
+        background-size: contain;
+        display: block;
+        transform: rotate(180deg);
+        margin-right: 5px;
+    }
+
+    ::after {
+        content: "volver";
+        font-weight: bold;
+    }
+}

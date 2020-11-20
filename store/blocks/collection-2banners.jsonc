@@ -1,0 +1,69 @@
+{
+    "store.custom#collection-2banners": {
+        "blocks": [
+            "flex-layout.row#collection-2banners",
+            "search-result-layout.customQuery#collection-2banners"
+        ]
+    },
+    "search-result-layout.customQuery#collection-2banners": {
+        "props": {
+            "querySchema": {
+                "orderByField": "",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 12,
+                "queryField": "137",
+                "mapField": "productClusterIds",
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "skip",
+                "__unstableProductOriginVtex": true
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "flex-layout.row#collection-2banners": {
+        "children": [
+            "list-context.image-list#collection-2banners"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "collection-2banners"
+        }
+    },
+    "list-context.image-list#collection-2banners": {
+        "children": [
+            "slider-layout#collection-2banners"
+        ],
+        "props": {
+            "images": []
+        }
+    },
+    "slider-layout#collection-2banners": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "never",
+            "blockClass": "collection-2banners"
+        }
+    },
+    "image#collection-2banners-1": {
+        "title": "Desktop image collection",
+        "props": {
+            "src": "desktop-image-collection"
+        }
+    },
+    "image#collection-2banners-2": {
+        "title": "Desktop image2 collection",
+        "props": {
+            "src": "desktop-image-collection"
+        }
+    }
+}

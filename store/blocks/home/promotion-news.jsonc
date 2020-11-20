@@ -1,0 +1,66 @@
+{
+    "rich-text#promotion-news--title": {
+        "props": {
+            "text": "## Lo más nuevo",
+            "blockClass": "promotion-news-content--title"
+        }
+    },
+    "flex-layout.row#promotion-news--top": {
+        "children": [
+            "image#card-news-1",
+            "image#card-news-2"
+        ],
+        "props": {
+            "blockClass": ["promotion-news-content", "promotion-news-content-1"]
+        }
+    },
+    "flex-layout.row#promotion-news--bottom": {
+        "children": [
+            "image#card-news-3",
+            "image#card-news-4"
+        ],
+        "props": {
+            "blockClass": ["promotion-news-content", "promotion-news-content-2"]
+        }
+    },
+    "image#card-news-1": {
+        "props": {
+            "src": "/arquivos/banner_box_higiene_01.png",
+            "blockClass": ["promotion-news--image", "promotion-news--image--left"],
+            "link": {
+                "url": "/mundo-miniso/basicos-de-higiene-miniso",
+                "openNewTab": "false"
+            }
+        }
+    },
+    "image#card-news-2": {
+        "props": {
+            "src": "/arquivos/banner_box_ayudante_02.png",
+            "blockClass": ["promotion-news--image", "promotion-news--image--right"],
+            "link": {
+                "url": "/mundo-miniso/miniso-es-tu-ayudante-de-cocina",
+                "openNewTab": "false"
+            }
+        }
+    },
+    "image#card-news-3": {
+        "props": {
+            "src": "/arquivos/banner_box_dulce_03.png",
+            "blockClass": ["promotion-news--image", "promotion-news--image--left"],
+            "link": {
+                "url": "/mundo-miniso/miniso-tiene-algo-dulce-para-ti",
+                "openNewTab": "false"
+            }
+        }
+    },
+    "image#card-news-4": {
+        "props": {
+            "src": "/arquivos/banner_box_hogar_04.png",
+            "blockClass": ["promotion-news--image", "promotion-news--image--right"],
+            "link": {
+                "url": "/mundo-miniso/hogar-nuevo-estilo",
+                "openNewTab": "false"
+            }
+        }
+    }
+}

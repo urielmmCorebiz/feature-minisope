@@ -1,0 +1,57 @@
+.wishlistIconContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+
+    :global(.vtex-button){
+        background: transparent!important;
+        outline: none;
+        border:none;
+    }
+
+    .wishlistIcon{
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='20' viewBox='0 0 24 20'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0H24V24H0z' transform='translate(0 -2)'/%3E%3Cpath fill='%231E1E24' fill-rule='nonzero' d='M12.08 22c-.583 0-1.114-.218-1.544-.606l-8.6-8.242C.19 11.479-.444 9.03.315 6.824 1.328 3.891 3.96 2 7.046 2c1.871 0 3.617.703 4.907 1.94l.1.096.102-.097C13.47 2.68 15.215 2 17.062 2c1.872 0 3.618.703 4.908 1.94 2.707 2.593 2.707 6.836 0 9.43l-8.398 8.048c-.355.364-.911.582-1.493.582zM7.146 4.5c-1.592 0-3.558.832-4.379 3.185-.473 1.355-.075 2.877.995 3.899L12.05 19.5l8.086-7.726c.846-.808 1.294-1.878 1.294-3.019 0-1.14-.473-2.21-1.294-3.019-.846-.808-1.966-1.236-3.16-1.236-1.194 0-2.314.452-3.16 1.236l-.945.88c-.473.451-1.22.451-1.692 0l-.92-.88C9.46 4.928 8.34 4.5 7.147 4.5z' transform='translate(0 -2)'/%3E%3C/g%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        transition: opacity .15;
+        opacity: .7;
+        filter: alpha(opacity=70);
+
+        &:hover{
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+
+    }
+
+    .fill{
+        background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='heart' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' class='svg-inline--fa fa-heart fa-w-16 fa-2x'%3E%3Cpath fill='currentColor' d='M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z' class=''%3E%3C/path%3E%3C/svg%3E")!important;
+    }
+}
+
+:global(.vtex-search-result-3-x-galleryItem){
+    .wishlistIconContainer{
+        margin-top: 0px;
+    }
+}
+
+:global(.vtex-product-summary-2-x-element){
+    .wishlistIconContainer{
+        position: absolute;
+        right: 0px;
+        top: 4px;
+        z-index: 2;
+        margin-top:0px;
+        opacity: .5;
+        filter:alpha(opacity=50);
+        transition: opacity .2s linear;
+
+        :global(.vtex-button__label){
+            padding: 0 15px
+        }
+
+        &:hover{
+            opacity: 1;
+            filter:alpha(opacity=100)
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "flex-layout.row#season-promotion": {
+        "children": ["flex-layout.col#season-promotion--cards"],
+        "props": {
+            "blockClass": "season-promotion--cards"
+        }
+    },
+    "flex-layout.col#season-promotion--cards": {
+        "children": [
+            "rich-text#season-promotion--cards-1",
+            "rich-text#season-promotion--cards-2",
+            "flex-layout.row#season-promotion--cards"
+        ],
+        "props": {
+            "blockClass": "season-promotion--content-card"
+        }
+    },
+    "rich-text#season-promotion--cards-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Categorías",
+            "blockClass": "titles-home"
+        }
+    },
+    "rich-text#season-promotion--cards-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "De Miniso a tu casa",
+            "blockClass": "subtitles-home"
+        }
+    },
+    "flex-layout.row#season-promotion--cards": {
+        "children": [
+            "image#card-link-1",
+            "image#card-link-2",
+            "image#card-link-3",
+            "image#card-link-4"
+        ],
+        "props": {
+            "blockClass": "season-promotion--content-card",
+            "rowGap": "6"
+        }
+    },
+    "image#card-link-1": {
+        "props": {
+            "src": "/arquivos/higiene_01.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/",
+                "openNewTab": "false"
+            }
+        }
+    },
+    "image#card-link-2": {
+        "props": {
+            "src": "/arquivos/organizadores_01.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/",
+                "openNewTab": "false"
+            }
+        }
+    },
+    "image#card-link-3": {
+        "props": {
+            "src": "/arquivos/fitness_01.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/",
+                "openNewTab": "false"
+            }
+        }
+    },
+    "image#card-link-4": {
+        "props": {
+            "src": "/arquivos/tecnologia_01.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/",
+                "openNewTab": "false"
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#tiendas-row-tamps": {
+        "title": "tamps",
+        "children": [
+            "flex-layout.col#tiendas-col-tamps"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-tamps"
+        }
+    },
+    "flex-layout.col#tiendas-col-tamps": {
+        "children": [
+            "rich-text#subtitle-tiendas-tamps",
+            "flex-layout.row#tiendas-row1-tamps",
+            "flex-layout.row#tiendas-row2-tamps"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-tamps"
+        }
+    },
+    "rich-text#subtitle-tiendas-tamps": {
+        "props": {
+            "text": "#### TAMPS.",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-tamps": {
+        "children": [
+            "rich-text#tiendas-tienda1-tamps",
+            "rich-text#tiendas-tienda2-tamps",
+            "rich-text#tiendas-tienda3-tamps"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-tamps": {
+        "title": "tienda-1",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Paseo Reforma Laredo\n**Dirección:** AV. REFORMA 5601 - LAS ALAMEDAS - NUEVO LAREDO\n**Código postal:** 88275",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-tamps": {
+        "title": "tienda-2",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Patio Matamoros\n**Dirección:** AV. CONSTITUYENTES 300 - QUINTA REAL - HEROICA MATAMOROS\n**Código postal:** 87348",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-tamps": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Altama\n**Dirección:** AV. EJÉRCITO MEXICANO 706, PRIMAVERA - ALTAMA - TAMPICO\n**Código postal:** 89130",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-tamps": {
+        "children": [
+            "rich-text#tiendas-tienda4-tamps"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-tamps": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Tampico Centro\n**Dirección:** BENITO JUÁREZ SUR 103, CENTRO - TAMPICO\n**Código postal:** 89000",
+            "blockClass": "info-tienda"
+        }
+    }
+}

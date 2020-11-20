@@ -1,0 +1,73 @@
+{
+  "store.custom#acerca-de": {
+    "blocks": [
+      "flex-layout.row#acerca-de"
+    ]
+  },
+  "flex-layout.row#acerca-de": {
+    "children": [
+      "flex-layout.col#text-acerca-de"
+    ],
+    "props": {
+      "blockClass": ["page-institucionales", "acerca-de"]
+    }
+  },
+  
+  "flex-layout.col#text-acerca-de": {
+    "children": [
+      "rich-text#title-acerca-de",
+      "rich-text#acerca-de-section-1",
+      "rich-text#acerca-de-section-2",
+      "rich-text#acerca-de-section-3",
+      "rich-text#acerca-de-section-4",
+      "rich-text#acerca-de-section-5",
+      "rich-text#acerca-de--faq"
+    ],
+    "props": {
+      "blockclass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-acerca-de": {
+    "props": {
+      "text":
+      "# Acerca de",
+      "blockClass": ""
+    }
+  },
+  "rich-text#acerca-de-section-1": {
+    "props": {
+      "text": "## NUESTRA PERSONALIDAD\nEl señor Miniso es joven, millenial y disruptivo. Se caracteriza por tener un muy buen gusto, es amante del diseño y tiene talento para ello.\nPor eso ha ganado premios como el IF Design Award y el Red Dot Design Award.\nEs perfeccionista, se preocupa por que cada uno de sus productos tenga una excelente calidad, es creativo e innovador cada 7 días está pensando en qué nueva locura va a hacer y qué maravilloso producto creará que satisfaga necesidades que no sabíamos que teníamos.\nAdemás, es fan de hacer las cosas por un precio honesto siempre ha pensado que no es necesario tener mucho dinero o poseer marcas lujosas para obtener cosas que nos simplifique la vida y el día a día.\nEs obsesivo compulsivo y por eso siempre trata de tener un poco de todo y un poco para todos.",
+      "blockClass": ["acerca-de--section-feature"]
+    }
+  },
+  "rich-text#acerca-de-section-2": {
+    "props": {
+      "text": "## NUESTRA HISTORIA\n2013\nMiniso nace en Japón en el 2013 y el primer país al que llega fuera de Asia es México. Nuestra primera tienda se abre en galerías Coapa y desde ese día no hemos parado. Campañas, actividades, eventos, hacemos de todo un poco y todo lo hacemos por nuestros MinisoLovers. Las expectativas son superadas, en menos de 3 años abrimos más de 120 tiendas, hemos ocupado más de el 50% del territorio nacional y aún seguimos en constante expansión. Queremos llegar a cada rincón donde están nuestros MinisoLovers. Somos una empresa Joven cuyo lema es siempre seguir adelante, que las personas lo sientan y lo experimenten junto a nosotros.",
+      "blockClass": ["acerca-de--section-feature"]
+    }
+  },
+  "rich-text#acerca-de-section-3": {
+    "props": {
+      "text": "## NUESTRA FILOSOFÍA\nEn Miniso estamos locos y está bien, queremos contagiar a cada MinisoLover allá afuera con lo que nuestra marca significa para nosotros.\nDesde el cuidadoso diseño de cada producto hasta la experiencia que cada persona tiene en nuestras tiendas debe ser algo memorable y único.\nNuestro objetivo es siempre sorprender, siempre enamorar y siempre cumplir lo que prometemos.\nVer lo que nadie más está viendo, hacer lo que nadie está haciendo, romper esquemas, construir la mejor versión de la marca que se pueda construir.",
+      "blockClass": ["acerca-de--section-feature"]
+    }
+  },"rich-text#acerca-de-section-4": {
+    "props": {
+      "text": "## NUESTRO ADN\n #### Diseño:\nEn MINISO tenemos un excelente equipo de diseño alrededor del mundo, con diseñadores de Japón, Noruega, Dinamarca y Suiza que crean la serie de productos que se encuentran en nuestras tiendas.\nEl 80% de los productos están hechos en Japón, Corea del Sur, Singapur, Malasia y China.\nEl equipo de diseño selecciona materiales eco friendly de todo el mundo para crear productos de excelente calidad y que respeten el medio ambiente.\nLos diseñadores se enfocan en crear productos, funcionales y con tecnologías innovadoras que correspondan a un estilo de vida simple y natural.\n\n #### Variedad:\nTenemos en catálogo más de 5.000 productos y muchos más en proceso de diseño y producción.\n\n #### Calidad:\nTenemos laboratorios de calidad donde se prueba cada producto con tecnologías y estándares de talla mundial.\n\n #### Innovación:\nCada 7 días tenemos productos nuevos, nuestro grupo de investigación está en constante búsqueda de tendencias y necesidades para que la experiencia en Miniso siempre sea nueva y sorprendente.\n\n #### Precios accesibles:\nGracias a las economías de escala tenemos diseños increíbles, buena calidad y precios justos.\nCalidad + Diseño + Precios accesibles | Consumo Inteligente",
+      "blockClass": ["acerca-de--section-feature"]
+    }
+  },
+  "rich-text#acerca-de-section-5": {
+    "props": {
+      "text": "## LOGROS MINISO\nEl equipo de diseño Miniso está siempre en constante innovación creando nuevos e increíbles productos. Estos son algunos de los logros más importantes:\nproducto: Bandejas\ndiseñador: Zhang Juan\npremio: Premios de Diseño IF2019\n\nproducto: Lampara\ndiseñador: Jhuan Xing\npremio: Premios de Diseño Reddot 2019\n\nproducto: Radio\ndiseñador: Mao Lin\npremio: Premios de Diseño IF2019",
+      "blockClass": ["acerca-de--section-feature"]
+    }
+  },
+  "rich-text#acerca-de--faq": {
+    "props": {
+      "text": "",
+      "blockClass": ["acerca-de--section-feature", "faq"]
+    }
+  }
+}

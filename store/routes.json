@@ -1,0 +1,83 @@
+{
+  "store.custom#facturacion": {
+    "path": "/facturacion"
+  },
+  "store.custom#acerca-de": {
+    "path": "/acerca-de"
+  },
+  "store.custom#aviso-de-privacidad": {
+    "path": "/aviso-de-privacidad"
+  },
+  "store.custom#terminos-condiciones": {
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#devoluciones-garantias": {
+    "path": "/devoluciones-y-garantias"
+  },
+  "store.custom#formas-pago": {
+    "path": "/formas-de-pago"
+  },
+  "store.custom#terminos-promociones": {
+    "path": "/terminos-de-promociones"
+  },
+  "store.custom#tiendas": {
+    "path": "/tiendas"
+  },
+  "store.custom#blog": {
+    "path": "/mundo-miniso/dia-del-nino"
+  },
+  "store.custom#blog2": {
+    "path": "/mundo-miniso/hogar-nuevo-estilo"
+  },
+  "store.custom#blog3": {
+    "path": "/mundo-miniso/miniso-tips-para-rostro-mas-iluminado"
+  },
+  "store.custom#blog4": {
+    "path": "/mundo-miniso/miniso-es-tu-ayudante-de-cocina"
+  },
+  "store.custom#blog5": {
+    "path": "/mundo-miniso/descubre-algo-perfecto-para-ti"
+  },
+  "store.custom#blog-6": {
+    "path": "/mundo-miniso/decorando-tu-hogar-2020"
+  },
+  "store.custom#blog-7": {
+    "path": "/mundo-miniso/miniso-tiene-algo-dulce-para-ti"
+  },
+  "store.custom#blog-8": {
+    "path": "/mundo-miniso/5-basicos-miniso-para-tarde-de-spa"
+  },
+  "store.custom#blog-9": {
+    "path": "/mundo-miniso/tecnologia-mas-cerca-que-nunca"
+  },
+  "store.custom#blog-10": {
+    "path": "/mundo-miniso/basicos-de-higiene-miniso"
+  },
+  "store.custom#blog-11": {
+    "path": "/mundo-miniso/juega-en-la-vida-real"
+  },
+  "store.custom#blog-12": {
+    "path": "/mundo-miniso/juntos-podemos-ayudar-mas"
+  },
+  "store.custom#collection-2banners": {
+    "path": "/collection-2banners"
+  },
+  "store.custom#collection-3banners": {
+    "path": "/collection-3banners"
+  },
+  "store.custom#store-locator": {
+    "path": "/store-locator"
+  },
+  "store.wishlist": {
+    "path": "/wishlist"
+  },
+  "store.custom#zonas": {
+    "path": "/zonas-de-reparto"
+  },
+  "store.custom#reclamaciones": {
+    "path": "/reclamaciones"
+  }
+}

@@ -1,0 +1,88 @@
+{
+    "flex-layout.row#tiendas-row-pue": {
+        "title": "Puebla",
+        "children": [
+            "flex-layout.col#tiendas-col-pue"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-pue"
+        }
+    },
+    "flex-layout.col#tiendas-col-pue": {
+        "children": [
+            "rich-text#subtitle-tiendas-pue",
+            "flex-layout.row#tiendas-row1-pue"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-pue"
+        }
+    },
+    "rich-text#subtitle-tiendas-pue": {
+        "props": {
+            "text": "#### Puebla",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-pue": {
+        "children": [
+            "rich-text#tiendas-tienda1-pue",
+            "rich-text#tiendas-tienda2-pue",
+            "rich-text#tiendas-tienda3-pue"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-pue": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Parques Puebla\n**Dirección:** CALZADA IGNACIO ZARAGOZA 410, CORREDOR INDUSTRIAL CIÉNEGA - PUEBLA\n**Código postal:** 72210",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-pue": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Dorada\n**Dirección:** BLVD HEROES 5 DE MAYO 3510, ANZURES - PLAZA DORADA - PUEBLA\n**Código postal:** 72532",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-pue": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Puebla Reforma\n**Dirección:** AV REFORMA 118, CENTRO - PUEBLA\n**Código postal:** 72000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-pue": {
+        "children": [
+            "rich-text#tiendas-tienda4-pue",
+            "rich-text#tiendas-tienda5-pue",
+            "rich-text#tiendas-tienda6-pue"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-pue": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Angelopólis\n**Dirección:** BLVD DEL NIÑO POBLANO 2510, RESERVA TERRITORIAL ATLIXCÁYOTL - ANGELOPÓLIS CENTER - PUEBLA\n**Código postal:** 72197",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda5-pue": {
+        "title": "tienda-5",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Puebla 4\n**Dirección:** CALLE 2 NORTE 206, CENTRO - PUEBLA\n**Código postal:** 72000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda6-pue": {
+        "title": "tienda-6",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Puebla 5 de Mayo\n**Dirección:** CALLE 5 DE MAYO 406, CENTRO - PUEBLA\n**Código postal:** 72000",
+            "blockClass": "info-tienda"
+        }
+    }
+}

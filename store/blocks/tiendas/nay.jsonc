@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#tiendas-row-nay": {
+        "title": "Nayarit",
+        "children": [
+            "flex-layout.col#tiendas-col-nay"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-nay"
+        }
+    },
+    "flex-layout.col#tiendas-col-nay": {
+        "children": [
+            "rich-text#subtitle-tiendas-nay",
+            "flex-layout.row#tiendas-row1-nay"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-nay"
+        }
+    },
+    "rich-text#subtitle-tiendas-nay": {
+        "props": {
+            "text": "#### Nayarit",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-nay": {
+        "children": [
+            "rich-text#tiendas-tienda1-nay"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-nay": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Fórum Tepic\n**Dirección:** BLVD. LUIS DONALDO COLOSIO 680 - BENITO JUÁREZ ORIENTE - TEPIC\n**Código postal:** 63175",
+            "blockClass": "info-tienda"
+        }
+    }
+}

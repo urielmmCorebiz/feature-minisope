@@ -1,0 +1,22 @@
+.paper--modal-popup-miniso{
+    padding:20px;
+}
+
+.triggerContainer--trigger-popup-miniso{
+    position: absolute; 
+    opacity: 0;
+    visibility: hidden;
+    top: -99999em;
+}
+
+
+@media screen and (max-width:1024px){
+    .paper--modal-popup-miniso{
+        :global(.vtex-flex-layout-0-x-flexColChild--col-popup-miniso-02){
+            margin: 0px!important
+        }
+        :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+            margin-bottom: 15px;
+        }
+    }
+}

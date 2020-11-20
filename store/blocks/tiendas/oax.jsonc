@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#tiendas-row-oax": {
+        "title": "Oaxaca",
+        "children": [
+            "flex-layout.col#tiendas-col-oax"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-oax"
+        }
+    },
+    "flex-layout.col#tiendas-col-oax": {
+        "children": [
+            "rich-text#subtitle-tiendas-oax",
+            "flex-layout.row#tiendas-row1-oax"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-oax"
+        }
+    },
+    "rich-text#subtitle-tiendas-oax": {
+        "props": {
+            "text": "#### Oaxaca",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-oax": {
+        "children": [
+            "rich-text#tiendas-tienda1-oax",
+            "rich-text#tiendas-tienda2-oax"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-oax": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Bella Oaxaca\n**Dirección:** CARR. NUEVA MONTE ALBAN 101 - AGENCIA DE POLICIA MONTOYA - OAXACA DE JUARÉZ\n**Código postal:** 68036",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-oax": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Oaxaca Centro\n**Dirección:** CALLE MACEDONIO ALCALA 100, CENTRO - OAXACA\n**Código postal:** 68000",
+            "blockClass": "info-tienda"
+        }
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "flex-layout.row#tiendas-row-lista-tiendas": {
+        "title": "Costanera",
+        "children": [
+            "flex-layout.col#tiendas-col-chile"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-ags"
+        }
+    },
+    "flex-layout.col#tiendas-col-chile": {
+        "children": [
+            "flex-layout.row#tiendas-row1-chile",
+            "flex-layout.row#tiendas-row2-chile",
+            "flex-layout.row#tiendas-row3-chile",
+            "flex-layout.row#tiendas-row4-chile",
+            "flex-layout.row#tiendas-row5-chile"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-ags"
+        }
+    },
+    "flex-layout.row#tiendas-row1-chile": {
+        "children": [
+            "rich-text#tiendas-tienda-costantera",
+            "rich-text#tiendas-tienda-florida",
+            "rich-text#tiendas-tienda-arauco-estacion"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "flex-layout.row#tiendas-row2-chile": {
+        "children": [
+            "rich-text#tiendas-tienda-la-reina",
+            "rich-text#tiendas-tienda-portal-nunoa",
+            "rich-text#tiendas-tienda-los-dominicos"
+
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "flex-layout.row#tiendas-row3-chile": {
+        "children": [
+            "rich-text#tiendas-tienda-mall-tobalaba",
+            "rich-text#tiendas-tienda-mall-paseo-quilin",
+            "rich-text#tiendas-tienda-mall-marina"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "flex-layout.row#tiendas-row4-chile": {
+        "children": [
+            "rich-text#tiendas-tienda-miniso-independencia",
+            "rich-text#tiendas-tienda-open-kennedy",
+            "rich-text#tiendas-tienda-imperio"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "flex-layout.row#tiendas-row5-chile": {
+        "children": [
+            "rich-text#tiendas-tienda-arauco-maipu"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda-costantera": {
+        "title": "Costantera",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Costanera Center\n**Dirección:** Av. Andres Bello 2425 Planta Baja Local 136 \n Comuna; Providencia",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-florida": {
+        "title": "Florida",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Florida Center\n**Dirección:** Av. Vicuña Mackenna oriente 6100 2º Nivel Local 2085 \n Comuna; La Florida",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-arauco-estacion": {
+        "title": "Arauco Estación",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Arauco Estación\n**Dirección:** Av. Libertador Bernardo O´Higgins 3250 1º Nivel Local F0134-G0169 \n Comuna; Estación Central",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-la-reina": {
+        "title": "La Reina",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Portal La Reina\n**Dirección:** Av. Francisco Bilbao 8750 2º Nivel, Local 2040 \n Comuna: Las Condes",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-portal-nunoa": {
+        "title": "Portal Ñuñoa",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Portal Ñuñoa\n**Dirección:** Av. Jose Pedro Alessandri 1132, 3º Nivel Local 3012, \n Comuna; Ñuñoa",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-los-dominicos": {
+        "title": "Los Dominicos",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Plaza Los Dominicos\n **Dirección:** Av. Padre Hurtado Sur 785, 2º Nivel Local D-2052 \n Comuna; Las Condes",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-mall-tobalaba": {
+        "title": "Mall Tobalaba",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso MallPlaza Tobalaba\n **Dirección** Av. Camilo Henríquez 3692, 2º Nivel Local B233 \n Comuna; Puente Alto.",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-mall-paseo-quilin": {
+        "title": "Mall Paseo Quilïn",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Paseo Quilín\n  **Dirección** Av. Mar Tirreno 3349, 1º Nivel Local 1001\n Comuna; Peñalolén.",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-mall-marina": {
+        "title": "Mall Marina",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Mall Marina\n **Dirección** Av. Libertad 1348, 1º Nivel Local 032-034 \n Comuna; Viña del Mar.",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-miniso-independencia": {
+        "title": "Miniso Independencia",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Bario Independencia\n **Dirección** Independencia 56, 2º Nivel Local TM242 \n Comuna; Independencia",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-open-kennedy": {
+        "title": "Miniso Open Kennedy",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Open Kennedy\n **Dirección:** Av. Kennedy 5601, Nivel (Acceso Kennedy) Local L1-16A\n Comuna; Las Condes.",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-imperio": {
+        "title": "Miniso Imperio",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Vivo Imperio\n **Dirección:** huérfanos 830, 2º Nivel Local Tm2012\n Comuna; Santiago Centro",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda-arauco-maipu": {
+        "title": "Arauco Maipú",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Arauco Maipú\n **Dirección:** Av. Américo Vespucio 399, 1º Nivel Local 528\n Comuna; Maipú",
+            "blockClass": "info-tienda"
+        }
+    }
+}

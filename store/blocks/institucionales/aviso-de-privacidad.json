@@ -1,0 +1,108 @@
+{
+  "store.custom#aviso-de-privacidad": {
+    "blocks": [
+      "flex-layout.row#aviso-de-privacidad"
+    ]
+  },
+  "flex-layout.row#aviso-de-privacidad": {
+    "children": [
+      "flex-layout.col#text-aviso-de-privacidad"
+    ],
+    "props": {
+      "blockClass": [
+        "page-institucionales",
+        "aviso-de-privacidad"
+      ]
+    }
+  },
+  "flex-layout.col#text-aviso-de-privacidad": {
+    "children": [
+      "rich-text#title-aviso-de-privacidad",
+      "rich-text#aviso-de-privacidad-section-1",
+      "rich-text#aviso-de-privacidad-consentimiento",
+      "rich-text#aviso-de-privacidad-banco-de-datos",
+      "rich-text#aviso-de-privacidad-finalidades",
+      "rich-text#aviso-de-privacidad-transferencias",
+      "rich-text#aviso-de-privacidad-tiempo-de-conservacion",
+      "rich-text#aviso-de-privacidad-caracter-de-consentimiento",
+      "rich-text#aviso-de-privacidad-ejercicios-de-derechos-arco"
+    ],
+    "props": {
+      "blockclass": [
+        "page-institucionales",
+        "aviso-de-privacidad"
+      ],
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-aviso-de-privacidad": {
+    "props": {
+      "text": "# AVISO DE PRIVACIDAD MINI BF PERU SAC",
+      "blockClass": ""
+    }
+  },
+  "rich-text#aviso-de-privacidad-section-1": {
+    "props": {
+      "text": "De conformidad con lo previsto en la Ley N° 29733 y el Decreto Supremo N° 003-2013-JUS (en adelante, la “Normativa de Protección de Datos Personales”), MINI BF PERU SAC (en adelante, “MINISO”) con domicilio en Av. Javier Prado Este Nro. 476 (Piso 8 Oficina 105-106), distrito de San Isidro, provincia y departamento de Lima, Perú da tratamiento a los datos personales de sus clientes, de acuerdo con lo siguiente:",
+      "blockClass": [
+        "aviso-de-privacidad-section-feature"
+      ]
+    }
+  },
+  "rich-text#aviso-de-privacidad-consentimiento": {
+    "props": {
+      "text": "## 1. Consentimiento \n\n El registro y/o remisión de su información personal en los formularios electrónicos y/o en cualquier otro medio en nuestra página web www.miniso.pe constituye el consentimiento libre, previo, informado, expreso e inequívoco requerido por la Normativa de Protección de Datos Personales que que Usted ingrese su información y/o dé click al botón “enviar”, “aceptar” o a cualquier otro similar que aparezca antes del envío de sus datos en el formulario electrónico y/o en cualquier otro medio del enlace indicado. \n\nPor favor, tome en cuenta que, si Usted tiene menos de 18 años, debe obtener el permiso de alguno de sus padres y/o tutores legales antes de proporcionarnos cualquier dato personal. Si no cuenta con este consentimiento no debe brindarnos sus datos personales.",
+      "blockClass": [
+        "aviso-de-privacidad-section-feature"
+      ]
+    }
+  },
+  "rich-text#aviso-de-privacidad-banco-de-datos": {
+    "props": {
+      "text": "## 2. Banco de datos \n\n Los datos personales que registre y/o remita a través de los formularios electrónicos y/o de cualquier otro medio contenidos en la sección Master data de nuestra página web serán almacenados en el banco de datos denominado “Usuarios de página web” de titularidad de MINISO.",
+      "blockClass": [
+        "aviso-de-privacidad-section-feature"
+      ]
+    }
+  },
+  "rich-text#aviso-de-privacidad-finalidades": {
+    "props": {
+      "text": "## 3. Finalidades: \n\nSi Usted brinda su consentimiento, su información personal será empleada para cumplir con las siguientes finalidades: \n\n i. Suministrarle servicios y venderle productos, de manera presencial, por E- Commerce o por medio de Marketplace. \n\n ii La comercialización, procesamiento o perfeccionamiento de compra y/o de pago de productos de manera presencial, E-Commerce o Marketplace, así como las obligaciones que emanen de dichas operaciones \n\n iii Efectuar las gestiones pertinentes para el desarrollo de la etapa precontractual, contractual y pos contractual con el Titular, respecto de cualquiera de los productos o servicios ofrecidos por MINISO y que han sido adquiridos por usted, así como dar cumplimiento a la regulación aplicable y a las órdenes de autoridades competentes. \n\n iv Gestionar trámites solicitudes, quejas, reclamos referidas a los productos o servicios adquiridos a MINISO. \n\n v. La devolución y/o cambio de los bienes y/o productos adquiridos. \n\n vi. Entregar en la tienda y/o en el domicilio indicado, los bienes y/o productos adquiridos de manera presencial o por medio de E- Commerce. En caso de que la compra se haga por medio de Marketplace será dicho operador el responsable por el domicilio.",
+      "blockClass": [
+        "aviso-de-privacidad-section-feature"
+      ]
+    }
+  },
+  "rich-text#aviso-de-privacidad-transferencias": {
+    "props": {
+      "text": "## 4. Transferencias \n\n MINISO tratará directamente los datos personales que Usted registre y/o remita a través de los formularios electrónicos y/o en cualquier otro medio contenidos en la sección Master data de nuestra página web. No obstante, de adquirir nuestros productos, MINISO podrá transferir su información personal, a nivel nacional, a repartidores, distribuidores y a personas que prestan servicios de geolocalización para fines de la ejecución del contrato de compra venta correspondiente, y/o a autoridades o entidades públicas, cuando conforme a ley, se encuentre obligado a ello. Además, a nivel internacional, MINISO transferirá su información personal a USA, país en el que se encuentra ubicado el servidor de nuestra página web.",
+      "blockClass": [
+        "aviso-de-privacidad-section-feature"
+      ]
+    }
+  },
+  "rich-text#aviso-de-privacidad-tiempo-de-conservacion": {
+    "props": {
+      "text": "## Tiempo de conservación \n\n Los datos personales que nos proporcione serán conservados por MINISO durante un plazo máximo de dos a cuatro años luego de ingresada su última solicitud de compra, de registrada su información si es que no ha registrado ninguna solicitud de compra en nuestro sistema o de remitirnos alguna consulta, queja o reclamo. Luego de transcurrido este plazo, eliminaremos su información de nuestros archivos.",
+      "blockClass": [
+        "aviso-de-privacidad-section-feature"
+      ]
+    }
+  },
+  "rich-text#aviso-de-privacidad-caracter-de-consentimiento": {
+    "props": {
+      "text": "## Carácter del consentimiento. \n El consentimiento que Usted nos otorga mediante el registro y/o remisión de su información personal en los formularios electrónicos y/o en cualquier otro medio contenido en nuestra página web es obligatorio para crear su usuario y contraseña, de modo tal que usted tenga acceso a nuestra plataforma de productos; pueda solicitar cotizaciones; realizar consultas y/o reclamos; y pueda preparar, celebrar y/o ejecutar una relación contractual con nuestra empresa. De no otorgarlo, estas finalidades no podrán cumplirse.",
+      "blockClass": [
+        "aviso-de-privacidad-section-feature"
+      ]
+    }
+  },
+  "rich-text#aviso-de-privacidad-ejercicios-de-derechos-arco": {
+    "props": {
+      "text": "## Ejercicios de Derechos ARCO \n\nComo TITULAR de los Datos Personales la regulación aplicable lo faculta para revocar esta autorización y ejercer los derechos contemplados en la Ley de Protección de Datos Personales – Ley N° 29733. Para ello, bastará que remita una comunicación electrónica al correo tiendaenlinea@miniso.pe con la referencia: “Solicitud de atención - Derechos ARCO”.",
+      "blockClass": [
+        "aviso-de-privacidad-section-feature"
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--rowResult){
+    .container {
+        &:hover{
+            box-shadow: 0 0 15px -3px rgba(0,0,0,.35);
+        }
+    }
+}
+
+.container {
+    transition: all .2s linear;
+    padding-bottom:10px;
+    
+    .nameContainer {
+        text-align: left;
+        padding-bottom: 0;
+        padding-top: 10px;
+        .productBrand {
+            font-size: 16px;
+            font-weight: 500;
+            color: #1e1e24;
+            @media (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+    }
+    .productPriceClass {
+        width: 100%;
+        align-items: flex-start;
+        .sellingPrice {
+            font-size: 21px;
+            font-weight: bold;
+            color: #1ac0c6;
+            @media (max-width: 768px) {
+                font-size: 18px;
+            }
+        }
+    }
+    .installmentContainer {
+        display: none;
+    }
+}
+
+.element {
+    padding: 0 10px;
+    position: relative;
+    
+    :global(.vtex-button) {
+        border-radius: 6px;
+        border-color: #f7c1bb;
+        background-color: #f7c1bb;
+        min-height: 43px;
+        @media (max-width: 768px) {
+            :global(.vtex-button__label) {
+                padding: 0;
+            }
+        }
+        :global(.vtex-add-to-cart-button-0-x-buttonText) {
+            font-size: 15px;
+            letter-spacing: 1px;
+            text-align: center;
+            color: #1e1e24;
+        }
+        &:hover {
+            background-color: #d22630;
+            border-color: #d22630;
+            :global(.vtex-add-to-cart-button-0-x-buttonText) {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.priceContainer{
+    padding:.5rem 0
+}

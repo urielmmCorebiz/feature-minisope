@@ -1,0 +1,71 @@
+{
+    "store.custom#blog3": {
+      "blocks": [
+        "list-context.image-list#blog3",
+        "flex-layout.row#blog3"
+      ]
+    },
+
+    "list-context.image-list#blog3": {
+      "children": [
+        "slider-layout#demo-blog3"
+      ],
+      "props": {
+        "height": "auto",
+        "images": [
+          {
+            "image": "https://minisomx.vteximg.com.br/arquivos/ids/159663/entrada3.jpg",
+            "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159663/entrada3.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#demo-blog3": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "carousel",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth": true
+      }
+    },
+
+    "flex-layout.row#blog3": {
+      "children": [
+        "flex-layout.col#text-blog3"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "acerca-de"]
+      }
+    },
+
+    "flex-layout.col#text-blog3": {
+      "children": [
+        "rich-text#title-blog3",
+        "rich-text#blog3-first"
+      ],
+      "props": {
+        "blockclass": "",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title-blog3": {
+      "props": {
+        "text":
+        "## MINISO Tips para un rostro más luminoso",
+        "textPosition": "CENTER",
+        "blockClass": ""
+      }
+    },
+    "rich-text#blog3-first": {
+      "props": {
+        "text": "Los cambios de clima y la contaminación pueden hacer que tu piel pierda su brillo y luzca opaca, para evitar los efectos del medio ambiente sobre tu rostro existen algunos hábitos que puedes introducir en tu vida diaria.<br/><br/>**-Toma más tiempo de sueño:** De esa forma tu piel tendrá la oportunidad de regenerarse y eliminar las células muertas.<br/>**-Cepilla tu rostro:** Con un cepillo de cerdas suaves sobre tu rostro sin aplicar fuerza, estimulas la circulación de tu rostro y le darás una suave exfoliación.<br/>**-Limpia tus brochas:** Todas las herramientas que usas para maquillarte, pueden alojar bacterias que afectan la apariencia de tu rostro.<br/>**-Protégete del sol:** Evita las manchas y la deshidratación utilizando protector solar y evitando la exposición directa.<br/>**-Aplica mascarillas:** Una vez a la semana, consiéntete con una mascarilla hidratante que complemente todos los cuidados.<br/><br/>Ahora nuestros productos van de Miniso a tu casa, encuéntralos en [línea](/salud-y-belleza/d).<br/><br/>Síguenos en <a href='https://www.facebook.com/minisoJPChile' target='_blank'>Facebook</a>, <a href='https://www.instagram.com/miniso.chile' target='_blank'>Instagram</a> y <a href='https://twitter.com/MinisoMexico' target='_blank'>Twitter</a> para que te enteres de todas nuestras promociones",
+        "blockClass": ""
+      }
+    }
+  }

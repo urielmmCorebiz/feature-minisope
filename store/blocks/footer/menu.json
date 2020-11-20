@@ -1,0 +1,463 @@
+{
+  "vtex.menu@2.x:menu#footer-1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer",
+        "footer-1"
+      ]
+    },
+    "children": [
+      "menu-item#footer-loNuevo"
+    ]
+  },
+  "menu-item#footer-curiosidades": {
+    "props": {
+      "id": "menu-item-curiosidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Curiosidades",
+        "text": "Curiosidades"
+      }
+    }
+  },
+  "menu-item#footer-loNuevo": {
+    "props": {
+      "id": "menu-item-loNuevo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/140?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Lo Nuevo",
+        "text": "Lo Nuevo"
+      }
+    }
+  },
+  "menu-item#footer-paraTi": {
+    "props": {
+      "id": "menu-item-paraTi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Para Ti",
+        "text": "Para Ti"
+      }
+    }
+  },
+  "menu-item#footer-promociones": {
+    "props": {
+      "id": "menu-item-promociones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/142?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer",
+        "footer-2"
+      ]
+    },
+    "children": [
+      "menu-item#footer-miCuenta",
+      "menu-item#footer-misPedidos",
+      "menu-item#footer-formasPago",
+      "menu-item#footer-devoluciones",
+      "menu-item#footer-zonas-de-reparto",
+      "menu-item#footer-preguntas",
+      "menu-item#footer-facturacion"
+    ]
+  },
+  "menu-item#footer-miCuenta": {
+    "props": {
+      "id": "menu-item-miCuenta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Mi Cuenta",
+        "text": "Mi Cuenta"
+      }
+    }
+  },
+  "menu-item#footer-misPedidos": {
+    "props": {
+      "id": "menu-item-misPedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/orders",
+        "noFollow": false,
+        "tagTitle": "Mis Pedidos",
+        "text": "Mis Pedidos"
+      }
+    }
+  },
+  "menu-item#footer-formasPago": {
+    "props": {
+      "id": "menu-item-formasPago",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/formas-de-pago",
+        "noFollow": false,
+        "tagTitle": "Formas de Pago",
+        "text": "Formas de Pago"
+      }
+    }
+  },
+  "menu-item#footer-zonas-de-reparto": {
+    "props": {
+      "id": "zonas-de-reparto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zonas-de-reparto",
+        "noFollow": false,
+        "tagTitle": "Zonas de reparto",
+        "text": "Zonas de reparto"
+      }
+    }
+  },
+  "menu-item#footer-devoluciones": {
+    "props": {
+      "id": "menu-item-devoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/devoluciones-y-garantias",
+        "noFollow": false,
+        "tagTitle": "Cambios y Devoluciones",
+        "text": "Cambios y Devoluciones"
+      }
+    }
+  },
+  "menu-item#footer-preguntas": {
+    "props": {
+      "id": "menu-item-preguntas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
+      }
+    }
+  },
+  "menu-item#footer-facturacion": {
+    "props": {
+      "id": "menu-item-facturacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://facturacion.miniso.com.mx:8384/",
+        "noFollow": false,
+        "tagTitle": "Facturación",
+        "text": "Facturación"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-3": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer",
+        "footer-3"
+      ]
+    },
+    "children": [
+      "menu-item#footer-konnichiwa",
+      "menu-item#footer-trabajaNosotros"
+    ]
+  },
+  "menu-item#footer-mundoMiniso": {
+    "props": {
+      "id": "menu-item-mundoMiniso",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mundo Miniso",
+        "text": "Mundo Miniso"
+      }
+    }
+  },
+  "menu-item#footer-konnichiwa": {
+    "props": {
+      "id": "menu-item-konnichiwa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acerca-de",
+        "noFollow": false,
+        "tagTitle": "Konnichiwa",
+        "text": "Konnichiwa"
+      }
+    }
+  },
+  "menu-item#footer-tiendas": {
+    "props": {
+      "id": "menu-item-tiendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tiendas",
+        "text": "Tiendas"
+      }
+    }
+  },
+  "menu-item#footer-trabajaNosotros": {
+    "props": {
+      "id": "menu-item-trabajaNosotros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.linkedin.com/company/miniso-mexico/",
+        "noFollow": false,
+        "tagTitle": "Trabaja con Nosotros",
+        "text": "Trabaja con Nosotros"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-4": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer",
+        "footer-4"
+      ]
+    },
+    "children": [
+      "menu-item#footer-canjea",
+      "menu-item#footer-regala",
+      "menu-item#footer-checar"
+    ]
+  },
+  "menu-item#footer-canjea": {
+    "props": {
+      "id": "menu-item-canjea",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Canjea una Miniso Card",
+        "text": "Canjea una Miniso Card"
+      }
+    }
+  },
+  "menu-item#footer-regala": {
+    "props": {
+      "id": "menu-item-regala",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Regala una Miniso Card",
+        "text": "Regala una Miniso Card"
+      }
+    }
+  },
+  "menu-item#footer-checar": {
+    "props": {
+      "id": "menu-item-checar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mira una Miniso Card",
+        "text": "Mira una Miniso Card"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-5": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer",
+        "footer-5"
+      ]
+    },
+    "children": [
+      "menu-item#footer-facebook",
+      "menu-item#footer-instagram",
+      "menu-item#footer-twitter",
+      "menu-item#footer-youtube"
+    ]
+  },
+  "menu-item#footer-facebook": {
+    "props": {
+      "id": "menu-item-facebook",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.facebook.com/minisoJPChile",
+        "noFollow": false,
+        "target": "_blank",
+        "tagTitle": "Facebook",
+        "text": "Facebook"
+      }
+    }
+  },
+  "menu-item#footer-instagram": {
+    "props": {
+      "id": "menu-item-instagram",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.instagram.com/miniso.chile",
+        "noFollow": false,
+        "target": "_blank",
+        "tagTitle": "Instagram",
+        "text": "Instagram"
+      }
+    }
+  },
+  "menu-item#footer-twitter": {
+    "props": {
+      "id": "menu-item-twitter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://twitter.com/MinisoMexico",
+        "noFollow": false,
+        "target": "_blank",
+        "tagTitle": "Twitter",
+        "text": "Twitter"
+      }
+    }
+  },
+  "menu-item#footer-youtube": {
+    "props": {
+      "id": "menu-item-youtube",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.youtube.com/channel/UCij39FzpeoB81opYs2GAPQQ",
+        "noFollow": false,
+        "target": "_blank",
+        "tagTitle": "Youtube",
+        "text": "Youtube"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-6": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "footer-6"
+    },
+    "children": [
+      "menu-item#footer-terminos",
+      "menu-item#footer-privacidad"
+    ]
+  },
+  "menu-item#footer-terminos": {
+    "props": {
+      "id": "menu-item-terminos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "tagTitle": "Términos y Condiciones",
+        "text": "Términos y Condiciones"
+      }
+    }
+  },
+  "menu-item#footer-privacidad": {
+    "props": {
+      "id": "menu-item-privacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aviso-de-privacidad",
+        "noFollow": false,
+        "tagTitle": "Aviso de Privacidad",
+        "text": "Aviso de Privacidad"
+      }
+    }
+  },
+  "menu-item#footer-politica": {
+    "props": {
+      "id": "menu-item-politica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Política y Seguridad",
+        "text": "Política y Seguridad"
+      }
+    }
+  }
+}

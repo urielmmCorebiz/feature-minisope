@@ -1,0 +1,71 @@
+{
+    "store.custom#blog-8": {
+      "blocks": [
+        "list-context.image-list#blog-8",
+        "flex-layout.row#blog-8"
+      ]
+    },
+
+    "list-context.image-list#blog-8": {
+      "children": [
+        "slider-layout#demo-blog-8"
+      ],
+      "props": {
+        "height": "auto",
+        "images": [
+          {
+            "image": "https://minisomx.vteximg.com.br/arquivos/ids/159667/entrada7.jpg",
+            "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159667/entrada7.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#demo-blog-8": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "carousel",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth": true
+      }
+    },
+
+    "flex-layout.row#blog-8": {
+      "children": [
+        "flex-layout.col#text-blog-8"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "acerca-de"]
+      }
+    },
+
+    "flex-layout.col#text-blog-8": {
+      "children": [
+        "rich-text#title-blog-8",
+        "rich-text#blog-first-8"
+      ],
+      "props": {
+        "blockclass": "",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title-blog-8": {
+      "props": {
+        "text":
+        "## 5 Básicos de MINISO para tu propia tarde de spa",
+        "textPosition": "CENTER",
+        "blockClass": ""
+      }
+    },
+    "rich-text#blog-first-8": {
+      "props": {
+        "text": "Permanecer en casa en vacaciones no tiene que ser aburrido, aprovecha la ocasión para consentirte un poco mientras cuidas tu belleza. ¿Qué tal un spa en casa? Toma nota porque **MINISO** tiene para ti los artículos básicos para que sea perfecta.<br/><br/>**[Velas aromáticas y difusor:](/paquete-de-velas-aromaticas-chico-2/p)** Acompaña tu aroma preferido con la música que más te guste para crear la atmósfera.<br/>**[Cepillo de limpieza facial:](/cepillo-de-limpieza-facial-electrico-blanco-mediano/p)** Exfolia tu rostro mientras le das un ligero masaje.<br/>**[Tiras para poros:](/bandas-para-puntos-negros-chicas-2/p)** Elimina las impurezas de tu rostro en las zonas de naríz y barbilla.<br/>**[Limpiador facial:](/limpiador-facial-mediano/p)** Limpia profundamente toda tu cara, hidrata y nutre tu piel.<br/>**[Mascarilla hidratante:](/mascarilla-facial-calmante-20g-moisture-jelly/p)** Mientras te consientes, date unos minutos para cerrar tus ojos y relajarte.<br/>**[Tratamiento intensivo:](/salud-y-belleza)** Si lo prefieres aplica un tratamiento intensivo para tu piel con duración de una semana.<br/>**[Masajeador:](/masajeador-para-pies-multicolor-mediano-2/p)** Tu cuerpo también merece atención, dale un poco de amor con un masaje corporal.<br/>**[Suero hidratante:](/tonico-hidratante-de-sandia-chico/p)** Después de la mascarilla, aplica suero hidratante con un delicioso aroma para dar por terminado tu facial<br/><br/>¡Inicia sesión y guarda tus productos favoritos! O visítanos con tus amigas y elijan lo que más les guste. Descubre más en nuestras Tiendas Miniso o [Tienda en línea Miniso](/salud-y-belleza/d).<br/><br/>Síguenos en <a href='https://www.facebook.com/minisoJPChile' target='_blank'>Facebook</a>, <a href='https://www.instagram.com/miniso.chile' target='_blank'>Instagram</a> y <a href='https://twitter.com/MinisoMexico' target='_blank'>Twitter</a> para que te enteres de todas nuestras promociones.<br/><br/>Sayonara",
+        "blockClass": ""
+      }
+    }
+  }

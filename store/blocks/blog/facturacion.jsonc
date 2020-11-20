@@ -1,0 +1,68 @@
+{
+  "store.custom#facturacion": {
+    "blocks": [
+      "list-context.image-list#facturacion",
+      "flex-layout.row#facturacion"
+    ]
+  },
+
+  "list-context.image-list#facturacion": {
+    "children": [
+      "slider-layout#demo-facturacion"
+    ],
+    "props": {
+      "height": "auto",
+      "images": [{
+        "image": "/arquivos/panoramica-miniso-facturacion.jpg",
+        "mobileImage": "/arquivos/panoramica-miniso-facturacion.jpg"
+      }]
+    }
+  },
+  "slider-layout#demo-facturacion": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#facturacion": {
+    "children": [
+      "flex-layout.col#text-facturacion"
+    ],
+    "props": {
+      "blockClass": ["page-institucionales", "acerca-de"]
+    }
+  },
+
+  "flex-layout.col#text-facturacion": {
+    "children": [
+      "rich-text#title-facturacion",
+      "rich-text#facturacion-first"
+    ],
+    "props": {
+      "blockclass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-facturacion": {
+    "props": {
+      "text": "## Facturación Miniso",
+      "textPosition": "CENTER",
+      "blockClass": ""
+    }
+  },
+  "rich-text#facturacion-first": {
+    "props": {
+      "text": "Puedes obtener tu factura en los siguientes portales: \n\nSi el folio de tu ticket de venta contiene la letra T (ejemplo Folio: T-69914) envía un correo a contacto@miniso.cl con los datos de tú compra, de no contener la letra T (ejemplo Folio: 55) ingresa a https://app.facturame.mx/Miniso/, \n\nSíguenos en Facebook, Instagram y Twitter para que te enteres de todas nuestras promociones \n\n¡Arigato!",
+      "blockClass": ""
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+    "store.custom#blog-11": {
+      "blocks": [
+        "list-context.image-list#blog-11",
+        "flex-layout.row#blog-11"
+      ]
+    },
+
+    "list-context.image-list#blog-11": {
+      "children": [
+        "slider-layout#demo-blog-11"
+      ],
+      "props": {
+        "height": "auto",
+        "images": [
+          {
+            "image": "https://minisomx.vteximg.com.br/arquivos/ids/159670/entrada10.jpg",
+            "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159670/entrada10.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#demo-blog-11": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "carousel",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth": true
+      }
+    },
+
+    "flex-layout.row#blog-11": {
+      "children": [
+        "flex-layout.col#text-blog-11"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "acerca-de"]
+      }
+    },
+
+    "flex-layout.col#text-blog-11": {
+      "children": [
+        "rich-text#title-blog-11",
+        "rich-text#blog-first-11"
+      ],
+      "props": {
+        "blockclass": "",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title-blog-11": {
+      "props": {
+        "text":
+        "## Juega en la vida real",
+        "textPosition": "CENTER",
+        "blockClass": ""
+      }
+    },
+    "rich-text#blog-first-11": {
+      "props": {
+        "text": "Pasar horas en los dispositivos móviles puede ser entretenido, pero también lo es voltear al mundo que nos rodea y compartir con las personas que más queremos momentos de diversión viviendo únicamente el presente.<br/><br/>¡**MINISO** te propone una tarde divertida de juegos de mesa para salir de la rutina!<br/><br/>Además de pasar momentos agradables con nuestras personas favoritas, jugar con juegos de mesa, rompecabezas o con juguetes armables, estimula nuestras capacidades motoras y visuales, dándonos un escape del mundo digital. ¿Sabías que en nuestras sucursales puedes encontrar algunos juegos para compartir con tu familia?<br/><br/>¡Da click y guarda tus productos favoritos! Para que todos lleguen [De Miniso a tu casa](/Juguetes/d).<br/><br/>Síguenos en <a href='https://www.facebook.com/minisoJPChile' target='_blank'>Facebook</a>, <a href='https://www.instagram.com/miniso.chile' target='_blank'>Instagram</a> y <a href='https://twitter.com/MinisoMexico' target='_blank'>Twitter</a> para que te enteres de todas nuestras promociones.<br/><br/>¡Sayonara!",
+        "blockClass": ""
+      }
+    }
+  }

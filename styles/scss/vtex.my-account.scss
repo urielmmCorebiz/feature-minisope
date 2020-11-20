@@ -1,0 +1,115 @@
+:global(.vtex-account_menu-link) {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+:global(.profileSummary .flex-ns .mb8 .c-on-base) {
+    font-family: "Manrope";
+}
+
+:global(.vtex-pageHeader__title) {
+    font-family: Manrope;
+}
+
+:global(.vtex-button__label .align-baseline) {
+    font-weight: bold;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) {
+    &::after {
+        content: "Al dar click en Guardar, estas de acuerdo con los Términos y Condiciones y el Aviso de Privacidad de Miniso. Consúltalos.";
+        position: relative;
+        top: 10px;
+        font-size: 14px;
+    }
+}
+
+:global(.vtex-my-orders-app-3-x-cancelBtn) {
+    display: none;
+}
+
+:global(.vtex-my-orders-app-3-x-orderDetails) {
+    :global(.db.dib-ns.mb5.mb0-ns) {
+        :global(.no-underline) {
+            display: none;
+        }
+    }
+}
+
+:global(.vtex-my-orders-app-3-x-detailsBtn) {
+    background-color: #f7c1bb;
+
+    span {
+        color: #1e1e24;
+    }
+}
+
+:global(.vtex-pageHeader__children) {
+    a[href="#/cards/new"] {
+        display: none;
+    }
+}
+
+:global(.vtex-order-placed-2-x-orderOptionsWrapper) {
+
+    a[href*="/edit"],
+    a[href*="/cancel"] {
+        display: none;
+    }
+}
+
+:global(.vtex-order-placed-2-x-section--pickupPackages) {
+    :global(.vtex-order-placed-2-x-packageShippingEstimate) {
+        font-size: 0;
+
+        &::before {
+            content: "Listo en 1 día";
+            font-weight: 400;
+            font-size: 0.875rem;
+            text-transform: none;
+            letter-spacing: 0;
+        }
+    }
+}
+
+:global(.vtex-account__order-details) {
+    a[href*="/cancel"] {
+        display: none;
+    }
+}
+
+:global(.vtex-my-orders-app-3-x-invoiceBtn) {
+    :global(.vtex-my-orders-app-3-x-font) {
+        font-size: 0;
+
+        &::before {
+            content: "Imprimir Referencia para Pago";
+            font-size: 14px;
+        }
+    }
+}
+
+:global(.vtex-my-account-1-x-menuLinks) {
+    div {
+        &:nth-child(4) {
+            display: none;
+        }
+    }
+}
+
+:global(.vtex-order-placed-2-x-noticesList) {
+    :last-child {
+        display: none !important;
+    }
+}
+
+:global(.vtex-order-placed-2-x-packageAddressWrapper) {
+    &:before {
+        content: "Direcci\F3n Registrada";
+        margin-bottom: 0.2em;
+        display: inline-block;
+        color: #727273;
+        font-size: 11px;
+    }
+}

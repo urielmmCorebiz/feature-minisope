@@ -1,0 +1,79 @@
+{
+    "store.custom#terminos-promociones": {
+        "blocks": [
+            "flex-layout.row#terminos-promociones"
+        ]
+    },
+    "flex-layout.row#terminos-promociones": {
+        "children": [
+            "flex-layout.col#text-terminos-promociones"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "terminos-promociones"
+            ]
+        }
+    },
+    "flex-layout.col#text-terminos-promociones": {
+        "children": [
+            "rich-text#title-terminos-promociones",
+            "rich-text#terminos-promociones-section-1",
+            "rich-text#terminos-promociones-section-2",
+            "rich-text#terminos-promociones-section-3"
+        ],
+        "props": {
+            "blockclass": [
+                "page-institucionales",
+                "terminos-promociones"
+            ],
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#title-terminos-promociones": {
+        "props": {
+            "text": "# TÉRMINOS DE LAS PROMOCIONES",
+            "blockClass": ""
+        }
+    },
+    "rich-text#terminos-promociones-section-1": {
+        "props": {
+            "text": "### Promociones Hot Sale",
+            "blockClass": [
+                "terminos-promociones-section-feature"
+            ]
+        }
+    },
+    "rich-text#terminos-promociones-section-2": {
+        "props": {
+            "text": "##### ENVÍO GRATIS\n * El envío gratis aplica en todas las compras realizadas entre el 23 de mayo y el 1ero de junio de 2020.\n\n * Aplica con cualquier forma de pago.\n * Aplica para envíos dentro del territorio de la República Mexicana.\n * No aplica para envíos internacionales.\n * Aplican términos y condiciones en:  https://www.miniso.cl/terminos-y-condiciones",
+            "blockClass": [
+                "terminos-promociones-section-feature"
+            ]
+        }
+    },
+    "rich-text#terminos-promociones-section-3": {
+        "props": {
+            "text": "##### COMPRA MÍNIMA CON DESCUENTO\n * La promoción 10% de descuento en compras mayores a $499.00 aplica en las compras realizadas entre el 23 de mayo y el 1ero de junio de 2020 en www.miniso.cl .\n\n * Aplica en compras equivalentes o mayores a los $499.00 realizadas en una misma compra.\n * No aplica en tickets o compras separadas.\n * No aplica en transacciones rechazadas ni de manera retroactiva en la página www.miniso.cl.\n * El descuento se refleja de manera automática al finalizar la compra en la sección de “checkout”.",
+            "blockClass": [
+                "terminos-promociones-section-feature"
+            ]
+        }
+    },
+    "rich-text#terminos-promociones-section-4": {
+        "props": {
+            "text": "## ",
+            "blockClass": [
+                "terminos-promociones-section-feature"
+            ]
+        }
+    },
+    "rich-text#terminos-promociones-section-5": {
+        "props": {
+            "text": "## ",
+            "blockClass": [
+                "terminos-promociones-section-feature"
+            ]
+        }
+    }
+}

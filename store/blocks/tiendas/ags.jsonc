@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#tiendas-row-ags": {
+        "title": "Aguascalientes",
+        "children": [
+            "flex-layout.col#tiendas-col-ags"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-ags"
+        }
+    },
+    "flex-layout.col#tiendas-col-ags": {
+        "children": [
+            "rich-text#subtitle-tiendas-ags",
+            "flex-layout.row#tiendas-row1-ags"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-ags"
+        }
+    },
+    "rich-text#subtitle-tiendas-ags": {
+        "props": {
+            "text": "#### Aguascalientes",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-ags": {
+        "children": [
+            "rich-text#tiendas-tienda1-ags",
+            "rich-text#tiendas-tienda2-ags"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-ags": {
+        "title": "tienda-1",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Espacio Aguascalientes\n**Dirección:** AV. TECNOLÓGICO 120 - OJOCALIENTE - Aguascalientes\n**Código postal:** 20198",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-ags": {
+        "title": "tienda-2",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Altaria Aguascalientes\n**Dirección:** BLVD. Zacatecas NORTE 849, TROJES DE ALONSO - ALTARIA AGUASCALIENTES - Aguascalientes\n**Código postal:** 20120",
+            "blockClass": "info-tienda"
+        }
+    }
+}

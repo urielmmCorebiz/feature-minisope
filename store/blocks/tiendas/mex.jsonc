@@ -1,0 +1,209 @@
+{
+    "flex-layout.row#tiendas-row-mex": {
+        "title": "México",
+        "children": [
+            "flex-layout.col#tiendas-col-mex"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-mex"
+        }
+    },
+    "flex-layout.col#tiendas-col-mex": {
+        "children": [
+            "rich-text#subtitle-tiendas-mex",
+            "flex-layout.row#tiendas-row1-mex",
+            "flex-layout.row#tiendas-row2-mex",
+            "flex-layout.row#tiendas-row3-mex",
+            "flex-layout.row#tiendas-row4-mex",
+            "flex-layout.row#tiendas-row5-mex",
+            "flex-layout.row#tiendas-row6-mex"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-mex"
+        }
+    },
+    "rich-text#subtitle-tiendas-mex": {
+        "props": {
+            "text": "#### México",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-mex": {
+        "children": [
+            "rich-text#tiendas-tienda1-méx",
+            "rich-text#tiendas-tienda2-méx",
+            "rich-text#tiendas-tienda3-méx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-méx": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Luna Parc\n**Dirección:** AV 1 DE MAYO S/N, CENTRO, CUMBRIA - LUNA PARC - CUAUTITLAN IZCALLI\n**Código postal:** 54730",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-méx": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Lago de Guadalupe\n**Dirección:** AV. LAGO DE GUADALUPE S/N - SAN PEDRO BARRIENTOS - TLANEPANTLA\n**Código postal:** 54010",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-méx": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Outlet Lerma\n**Dirección:** CARR. MÉXICO-TOLUCA KM. 50, LA MERCED - Toluca de Lerdo\n**Código postal:** 52000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-mex": {
+        "children": [
+            "rich-text#tiendas-tienda4-méx",
+            "rich-text#tiendas-tienda5-méx",
+            "rich-text#tiendas-tienda6-méx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-méx": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Ciudad Jardín\n**Dirección:** AV BORDO DE XOCHIACA 3, RAÚL ROMERO AMPLIACIÓN, JARDIN BICENTENARIO - PLAZA CIUDAD JARDÍN - NEZAHUALCOYOTL\n**Código postal:** 57205",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda5-méx": {
+        "title": "tienda-5",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Toluca Portales\n**Dirección:** PORTAL 20 DE NOVIEMBRE 111, CENTRO TOLUCA - TOLUCA\n**Código postal:** 55000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda6-méx": {
+        "title": "tienda-6",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso La Cuspide\n**Dirección:** AV. LOMAS VERDES 1200, LA CUSPIDE - NAUCALPAN DE JUARÉZ\n**Código postal:** 53126",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row3-mex": {
+        "children": [
+            "rich-text#tiendas-tienda7-méx",
+            "rich-text#tiendas-tienda8-méx",
+            "rich-text#tiendas-tienda9-méx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda7-méx": {
+        "title": "tienda-7",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Cosmopol\n**Dirección:** JESUS DEL MONTE VIALIDAD DE LA BARRANCA 6 - EX HACIENDA BOSQUE DE LAS PALMAS - NAUCALPAN\n**Código postal:** 52763",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda8-méx": {
+        "title": "tienda-8",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Sendero Toluca\n**Dirección:** BLVD. MIGUEL ALEMÁN 55 - PARQUE IINDUSTRIAL LERMA TOLUCA - Lerma de Villada\n**Código postal:** 52120",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda9-méx": {
+        "title": "tienda-9",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Magnocentro\n**Dirección:** BLVD MAGNOCENTRO 26, BOSQUE DE LAS PALMAS - MAGNOCENTRO CENTRO COMERCIAL - HUIXQUILUCAN\n**Código postal:** 52778",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row4-mex": {
+        "children": [
+            "rich-text#tiendas-tienda10-méx",
+            "rich-text#tiendas-tienda11-méx",
+            "rich-text#tiendas-tienda12-méx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda10-méx": {
+        "title": "tienda-10",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Cuatro Caminos\n**Dirección:** TRANSMISIONES MILITARES 30, ALCE BLANCO - CUATTRO CAMINOS - Naucalpan de Juárez\n**Código postal:** 53489",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda11-méx": {
+        "title": "tienda-11",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Tlanepantla\n**Dirección:** AV. SOR JUANA IINÉS DE LA CRUZ 280, TLANEPANTLA - PLAZA TLANEPATLA - Tlalnepantla de Baz\n**Código postal:** 54033",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda12-méx": {
+        "title": "tienda-12",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Chalco\n**Dirección:** BLVD. JUAN PABLO 370, EL AGOSTADERO - VALLE DE CHALCO SOLIDARIDAD\n**Código postal:** 56615",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row5-mex": {
+        "children": [
+            "rich-text#tiendas-tienda13-méx",
+            "rich-text#tiendas-tienda14-méx",
+            "rich-text#tiendas-tienda15-méx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda13-méx": {
+        "title": "tienda-13",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Aragón\n**Dirección:** AV CARLOS HANK GONZALEZ 120, RINCONADA DE ARAGÓN - ECATEPEC\n**Código postal:** 55140",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda14-méx": {
+        "title": "tienda-8",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Galerias Toluca\n**Dirección:** AV 1 DE MAYO 1700, SANTA ANA TLAPATITLÁN - GALERIAS TOLUCA - TOLUCA\n**Código postal:** 52141",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda15-méx": {
+        "title": "tienda-15",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Town Square Metepec\n**Dirección:** AV. IGNACIO COMONFORT 1100 - RESIDENCIAL LA PROVIDENCIA - METEPEC\n**Código postal:** 52177",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row6-mex": {
+        "children": [
+            "rich-text#tiendas-tienda16-méx",
+            "rich-text#tiendas-tienda17-méx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda16-méx": {
+        "title": "tienda-16",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Parque Toreo\n**Dirección:** BLVD. MANUEL ÁVILA CAMACHO 5, LOMAS DE SOTELO - TOREO PARQUE CENTRAL - Naucalpan de Juárez\n**Código postal:** 53390",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda17-méx": {
+        "title": "tienda-17",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Punta Norte\n**Dirección:** HACIENDA SIERRA VIEJA 2 - HACIENDA DEL PARQUE - CUAUTITLÁN IZCALLI\n**Código postal:** 54769",
+            "blockClass": "info-tienda"
+        }
+    }
+}

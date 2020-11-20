@@ -1,0 +1,31 @@
+{
+    "store.custom#recomendador": {
+        "blocks": [
+            "recomendador"
+        ]
+    },
+    "store.custom#collection": {
+        "blocks": [
+            "search-result-layout.customQuery"
+        ]
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "orderByField": "",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 12,
+                "queryField": "137",
+                "mapField": "productClusterIds",
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "skip",
+                "__unstableProductOriginVtex": true
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

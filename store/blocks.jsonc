@@ -1,0 +1,167 @@
+/* Blocks can be defined both on the store/blocks.json file, and in any number of json
+ * files inside the store/blocks directory, with any arbitrary directory structure.
+ *
+ * Additionally, all blocks files can support comments, such as this one, if given the
+ * .jsonc file extension.
+ *
+ * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
+ * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
+ */
+{
+  "store.orderplaced": {
+    "blocks": [
+      "order-placed"
+    ]
+  },
+  "store.account": {
+    "blocks": [
+      "my-account"
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "store.login": {
+    "blocks": [
+      "login",
+      "login-content#default"
+    ]
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "add-to-list-btn",
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "add-to-cart-button": {
+    "props": {
+      "text": "A MI BOLSA"
+    }
+  },
+  "product-summary-price": {
+    "props": {
+      "showSavings": false,
+      "showListPrice": true,
+      "showLabels": false,
+      "showInstallments": false,
+      "blockClass": "price-summary"
+    }
+  },
+  "product-price": {
+    "props": {
+      "showSavings": false,
+      "showListPrice": true,
+      "showLabels": false,
+      "showInstallments": false
+    }
+  },
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image",
+      "product-bookmark",
+      "product-summary-specification-badges"
+    ]
+  },
+  "product-summary-image": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "1:1",
+        "phone": "1:1"
+      }
+    }
+  },
+  "product-summary-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "store.product-review-form": {
+    "blocks": [
+      "product-review-form"
+    ]
+  },
+  "store.not-found#product": {
+    "blocks": [
+      "rich-text#not-found"
+    ]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PAGE NOT FOUND**",
+      "font": "t-heading-1"
+    }
+  },
+  "search-result": {
+    "blocks": [
+      "filter-navigator.v2",
+      "gallery",
+      "not-found",
+      "breadcrumb",
+      "total-products",
+      "order-by",
+      "search-title"
+    ],
+    "props": {
+      "mobileLayout": {
+        "mode1": "small"
+      },
+      "querySchema": {
+        "maxItemsPerPage": 21,
+        "orderByField": "OrderByPriceDESC"
+      },
+      "hiddenFacets": {
+        "layoutMode1": "normal",
+        "layoutMode2": "small",
+        "specificationFilters": {
+          "hiddenFilters": [{
+            "__editorItemTitle": "editor.search-result.hiddenFacets.specificationFilters.hiddenFilter"
+          }]
+        }
+      },
+      "summary": {
+        "isOneClickBuy": false,
+        "showBadge": true,
+        "displayBuyButton": "displayButtonHover",
+        "showCollections": false,
+        "labelListPrice": false,
+        "labelSellingPrice": false,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": false,
+        "showSavings": false,
+        "name": {
+          "showBrandName": false,
+          "showSku": false,
+          "showProductReference": false
+        }
+      },
+      "pagination": "show-more"
+    }
+  },
+  "order-by": {
+    "props": {
+      "hiddenOptions": []
+    }
+  },
+  "order-by.v2": {
+    "props": {
+      "hiddenOptions": []
+    }
+  }
+}

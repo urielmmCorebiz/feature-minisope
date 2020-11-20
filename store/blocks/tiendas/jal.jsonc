@@ -1,0 +1,145 @@
+{
+    "flex-layout.row#tiendas-row-jal": {
+        "title": "Jalisco",
+        "children": [
+            "flex-layout.col#tiendas-col-jal"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-jal"
+        }
+    },
+    "flex-layout.col#tiendas-col-jal": {
+        "children": [
+            "rich-text#subtitle-tiendas-jal",
+            "flex-layout.row#tiendas-row1-jal",
+            "flex-layout.row#tiendas-row2-jal",
+            "flex-layout.row#tiendas-row3-jal",
+            "flex-layout.row#tiendas-row4-jal"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-jal"
+        }
+    },
+    "rich-text#subtitle-tiendas-jal": {
+        "props": {
+            "text": "#### Jalisco",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-jal": {
+        "children": [
+            "rich-text#tiendas-tienda1-jal",
+            "rich-text#tiendas-tienda2-jal",
+            "rich-text#tiendas-tienda3-jal"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-jal": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Gran Terraza Oblatos\n**Dirección:** AV. CIRCUNVALACIÓN DIVISIÓN DEL NORTE 2700, OBLATOS - GUADALAJARA\n**Código postal:** 44716",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-jal": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Isla Vallarta\n**Dirección:** AV. FRANCISCO MEDINA ASCENCIO 2479 - ZONA HOTELERA NORTE, LAS GLORIAS - PUERTO VALLARTA\n**Código postal:** 48333",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-jal": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Gran Patio Patria\n**Dirección:** AV PASEO ROYAL COUNTRY 4555 - GRAN PATIO PATRIA - ZAPOPAN\n**Código postal:** 45136",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-jal": {
+        "children": [
+            "rich-text#tiendas-tienda4-jal",
+            "rich-text#tiendas-tienda5-jal",
+            "rich-text#tiendas-tienda6-jal"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-jal": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Patria\n**Dirección:** AV PATRIA 1950 PLANTA ALTA LOCAL 5 - JACARANDAS - ZAPOPAN\n**Código postal:** 45160",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda5-jal": {
+        "title": "tienda-5",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Gran Plaza\n**Dirección:** Avenida Ignacio Luis Vallarta 3959 - Santa María del Pueblito - Zapopan\n**Código postal:** 45049",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda6-jal": {
+        "title": "tienda-6",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Galerías Vallarta\n**Dirección:** AV. FRANCISCO MEDINA ASCENCIO 2920, EDUCACIÓN - PUERTO VALLARTA\n**Código postal:** 48338",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row3-jal": {
+        "children": [
+            "rich-text#tiendas-tienda7-jal",
+            "rich-text#tiendas-tienda8-jal",
+            "rich-text#tiendas-tienda9-jal"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda7-jal": {
+        "title": "tienda-7",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Landmark Guadalajara\n**Dirección:** AV. PASEO DE LOS VIRREYES 45 - THE LANDMARK FRACC. PLAZA CORPORATIVA ZAPOPAN - GUADALAJARA\n**Código postal:** 45116",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda8-jal": {
+        "title": "tienda-8",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Fórum Tlaquepaque\n**Dirección:** BLVD GENERAL MARCELINO GARCÍA BARRAGÁN 2077 - PRADOS DEL NILO - GUADALAJARA\n**Código postal:** 44840",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda9-jal": {
+        "title": "tienda-9",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Punto Sur\n**Dirección:** AV. PASE PUNTO SUR 235, LOS GAVILANES - TLAJOMULCO DE ZUÑIGA\n**Código postal:** 45645",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row4-jal": {
+        "children": [
+            "rich-text#tiendas-tienda10-jal",
+            "rich-text#tiendas-tienda11-jal"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda10-jal": {
+        "title": "tienda-10",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Midtown Jalisco\n**Dirección:** AV ADOLFO LOPEZ MATEOS NORTE # 95 - ITALIA PROVIDENCIA - GUADALAJARA\n**Código postal:** 44648",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda11-jal": {
+        "title": "tienda-11",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Galerias Guadalajara\n**Dirección:** AV RAFAEL SANZIO # 150 - CAMICHINES VALLARTA - ZAPOPAN\n**Código postal:** 45030",
+            "blockClass": "info-tienda"
+        }
+    }
+}

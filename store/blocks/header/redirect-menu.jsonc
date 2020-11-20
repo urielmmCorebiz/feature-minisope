@@ -1,0 +1,46 @@
+{
+    "vtex.menu@2.x:menu#redirect-menu": {
+      "children": [
+        "menu-item#redirect-menu-item-01",
+        "menu-item#redirect-menu-item-02"
+      ],
+      "props": {
+        "blockClass": "main-menu-items"
+      }
+    },
+    "menu-item#redirect-menu-item-01": {
+      "props": {
+        "id": "menu-item-menu-01",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "custom",
+          "href": "/catalogo-extendido",
+          "tagTitle": "Catálogo Extendido",
+          "text": "Catálogo Extendido"
+        },
+        "blockClass": [
+            "menu-redirect-item",
+            "menu-redirect-item-01"
+        ]
+      }
+    },
+    "menu-item#redirect-menu-item-02": {
+      "props": {
+        "id": "menu-item-menu-item-02",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "href": "/me-urge-miniso",
+          "tagTitle": "Me urge Miniso",
+          "text": "Me urge Miniso"
+        },
+        "blockClass": [
+            "menu-redirect-item",
+            "menu-redirect-item-02"
+        ]
+      }
+    }
+  }

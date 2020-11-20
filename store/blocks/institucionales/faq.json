@@ -1,0 +1,315 @@
+{
+    "store.custom#faq": {
+        "blocks": [
+            "flex-layout.row#faq"
+        ]
+    },
+    "flex-layout.row#faq": {
+        "children": [
+            "flex-layout.col#text-faq"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "faq"
+            ]
+        }
+    },
+    "flex-layout.col#text-faq": {
+        "children": [
+            "rich-text#title-faq",
+            "rich-text#faq-como-comprar",
+            "rich-text#faq-section-2",
+            "rich-text#faq-section-3",
+            "rich-text#faq-section-4",
+            "rich-text#faq-pago-en-efectivo",
+            "rich-text#faq-como-funciona-pago-en-efectivo",
+            "rich-text#faq-pago-contra-etrega",
+            "rich-text#faq-no-llega-codigo",
+            "rich-text#faq-correo-de-confirmacion",
+            "rich-text#faq-tiempo-en-llegar-mi-pedido",
+            "rich-text#faq-como-se-aprobo-mi-pago",
+            "rich-text#faq-rechazo-de-tarjeta",
+            "rich-text#faq-costo-de-envio",
+            "rich-text#faq-donde-esta-mi-pedido",
+            "rich-text#faq-no-tengo-numero-de-guia",
+            "rich-text#faq-cambiar-direccion-de-entrega",
+            "rich-text#faq-ya-paso-fecha-estimada-de-enrtega",
+            "rich-text#faq-enrtegas-a-todo-peru",
+            "rich-text#faq-envios-a-otro-pais",
+            "rich-text#faq-venta-al-por-mayor",
+            "rich-text#faq-pedido-incompleto",
+            "rich-text#faq-devoluciones",
+            "rich-text#faq-grarantias",
+            "rich-text#faq-section-24",
+            "rich-text#faq-section-25",
+            "rich-text#faq-section-26",
+            "rich-text#faq-section-27",
+            "rich-text#faq-section-28",
+            "rich-text#faq-section-29",
+            "rich-text#faq-facturar-compra",
+            "rich-text#faq-impuestos"
+        ],
+        "props": {
+            "blockclass": [
+                "page-institucionales",
+                "faq"
+            ],
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#title-faq": {
+        "props": {
+            "text": "# FAQs",
+            "blockClass": ""
+        }
+    },
+    "rich-text#faq-como-comprar": {
+        "props": {
+            "text": "##### ¿Cómo comprar?\nR: Comprar es muy fácil. Estos son los pasos que tienes que seguir:\n1. Busca lo que quieras, puedes usar nuestras categorías o el buscador  \n2. Agrega a tu bolsa los productos que quieras dando clic al botón A mi bolsa. \n3. Una vez que hayas escogido todo lo que te gusta, ve a tu bolsa y da clic en Comprar. \n4. Revisa que los productos que seleccionaste y que tus datos sean los correctos y presiona el botón Finalizar Compra. \n5. Si eres un nuevo usuario, completa la información de contacto (Identificación) y los datos correspondientes a la dirección en donde se realizará el envío (Entrega). Si ya tienes una cuenta con nosotros, únicamente proporciona los datos correspondientes a la dirección en donde se realizará el envío (Entrega). \n6. Selecciona el método de pago que más te convenga y proporciona los datos correspondientes. \n7. Revisa y modifica, si así lo deseas, la información de las secciones Identificación y Entrega y presiona el botón Comprar ahora. \n8. ¡Listo! Podrás ver la información de tu pedido en la sección de Mis Pedidos y recibirás un correo con la información de tu compra.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-section-2": {
+        "props": {
+            "text": "##### ¿Cómo elijo productos para mi carrito de compra?\nR: Da clic sobre el producto que te interesa y en el detalle del producto da clic en el botón “A mi bolsa”. \n\n¿Los pagos son Seguros?\n\nHemos Invertido en los sistemas de protección más avanzados para tu compra, es por lo que mantenemos las transacciones altamente protegidas de principio a fin. Utilizamos la plataforma de Mercado Pago, encriptamos los datos en forma segura (TLS) y así cumplimos con los más altos estándares de seguridad online. PCI-DSS monitorea y certifica lo que hacemos.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-section-3": {
+        "props": {
+            "text": "##### ¿Los pagos son Seguros?\nR: Hemos Invertido en los sistemas de protección más avanzados para tu compra, es por ello que mantenemos las transacciones altamente protegidas de principio a fin. Utilizamos la plataforma de Mercado Pago, encriptamos los datos en forma segura (TLS) y así cumplimos con los más altos estándares de seguridad online. PCI-DSS monitorea y certifica lo que hacemos.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-section-4": {
+        "props": {
+            "text": "##### ¿Cuáles son los Métodos de Pago?\nTarjeta de débito y crédito. \n Al momento de pagar ingresas los datos de tu tarjeta de débito o tu tarjeta crédito y listo.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-pago-en-efectivo": {
+        "props": {
+            "text": "##### Pago en efectivo\nAl momento de pagar te enviaremos al correo registrado un código CIP para proceder a pagar desde Banca por internet/ móvil, agentes/ bodegas y agencias. Para conocer más sobre cómo pagar, ingresa a https://bit.ly/3jRsaKN",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-como-funciona-pago-en-efectivo": {
+        "props": {
+            "text": "##### ¿Cómo funciona el Pago Efectivo?\nFunciona por intermedio de un código CIP de pago único que se genera al elegir a Pago Efectivo como medio de pago en tus compras online. Este código de pago se muestra al finalizar el proceso de compra y además es enviado a tu correo electrónico para que realices el pago en cualquier agente corresponsal a nivel nacional. Para más información, ingresa a https://bit.ly/3jRsaKN",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-pago-contra-etrega": {
+        "props": {
+            "text": "##### ¿Hay pago contra entrega?\nPor el momento no existe esa modalidad, sin embargo, estamos trabajando para habilitarla próximamente.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-no-llega-codigo": {
+        "props": {
+            "text": "##### No me llega el código para entrar a mi cuenta, ¿qué debo hacer?\nEl correo con el código en algunos casos puede tardar hasta 3 minutos para llegar a tu bandeja.\n\n En caso de que no lo veas en tu bandeja de entrada, revisa tu bandeja de correos no deseados. En caso de que no encuentres el correo, vuelve a introducir tu correo para generar un nuevo código. Recuerda que el código tiene una vigencia, por lo cual si te marca error al ingresarlo vuelve a introducir tu correo para generar un nuevo código.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-correo-de-confirmacion": {
+        "props": {
+            "text": "##### Ya hice mi pedido y aún no recibo correo de confirmación\nPrimero verifica tu bandeja de spam (correo no deseado). O verifica en nuestra página web, en la sección de “Pedidos” de “Mi cuenta”. Si tienes dudas puedes escribirnos a: tiendaenlinea@miniso.pe",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-tiempo-en-llegar-mi-pedido": {
+        "props": {
+            "text": "##### ¿Cuánto tiempo tarda en llegar mi pedido/ Cuánto tardan en procesar las órdenes? \n\n Te contamos que los tiempos regulares estimados de entrega son: \n\n * Lima 3 días hábiles. \n\n * Provincia de 5 a 7 días hábiles. \n\nSin embrago, debido a la emergencia sanitaria estos tiempos pueden variar y extenderse, en especial las zonas que tengan restricciones establecidas por el gobierno.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-como-se-aprobo-mi-pago": {
+        "props": {
+            "text": "##### ¿Cómo se si aprobó mi pago? \nRecibirás confirmación en tu correo electrónico registrado, o también puedes verificar en nuestra página web en la sección de “Pedidos” de “Mi cuenta”.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-rechazo-de-tarjeta": {
+        "props": {
+            "text": "##### Rechazaron mi tarjeta al realizar la compra, ¿Qué hago? \n En algunas ocasiones MercadoPago rechaza la transacción por motivos de seguridad, te sugerimos utilizar otra tarjeta o comunicarte con tu banco para que te ayude a verificar si ésta tiene restricciones para compras online.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-costo-de-envio": {
+        "props": {
+            "text": "##### ¿Cuál es el costo de envío? \n El costo se calcula cuando realizas tu compra y éste varía depende del destino.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-donde-esta-mi-pedido": {
+        "props": {
+            "text": "##### ¿Cómo se dónde está mi envío? \nDesde “Mi Cuenta” en “Pedidos” podrás ver el estatus de tu pedido.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-no-tengo-numero-de-guia": {
+        "props": {
+            "text": "##### No he recibido mi número de guía, ¿Qué hago? \n Por favor escríbenos a: tiendaenlinea@miniso.pe con la siguiente información: \n\n * Nombre registrado en la plataforma. \n * Número de pedido.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-cambiar-direccion-de-entrega": {
+        "props": {
+            "text": "##### ¿Cómo puedo cambiar la dirección de entrega?\n Con tu número de guía puedes modificar tu dirección en la App de EXXE. Debes saber que únicamente se puede cambiar a otra dirección dentro del mismo estado y en zonas que tenga cobertura EXXE.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-ya-paso-fecha-estimada-de-enrtega": {
+        "props": {
+            "text": "##### Ya pasó la fecha estimada de entrega ¿cuándo va a llegar mi pedido? \nTe invitamos a ingresar a nuestro sitio web en la sección pedidos, allí puedes conocer el número de guía y con este puedes rastrear tu pedido en la página web de EXXE: www.exxe.com.co \n\n Si tienes dudas puedes escribirnos a: tiendaenlinea@miniso.pe",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-enrtegas-a-todo-peru": {
+        "props": {
+            "text": "##### ¿Las entregas son a todo el Perú? \n Realizamos entregas dentro del territorio nacional donde nuestro transportista tenga cobertura.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-envios-a-otro-pais": {
+        "props": {
+            "text": "##### ¿Hacen envíos a otro país? \nPor el momento no contamos con envíos fuera del territorio peruano.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-venta-al-por-mayor": {
+        "props": {
+            "text": "##### ¿Tienen venta al por mayor en línea? \nEn Miniso no contamos con ventas al por mayor.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-pedido-incompleto": {
+        "props": {
+            "text": "##### ¿Qué hago si recibí mi pedido incompleto, dañado, vacío o no es lo que pedí? \nPor favor escríbenos a: tiendaenlinea@miniso.pe con la siguiente información: \n\n * Número de pedido. \n * Nombre registrado en la plataforma. \n * Correo electrónico registrado en la plataforma. \n * Cuáles y cuántos productos llegaron incompletos, dañados, vacíos o erróneos.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-devoluciones": {
+        "props": {
+            "text": "##### ¿Cómo hago una devolución? \nTe invitamos a consultar nuestra política de cambios y garantías aquí: https://bit.ly/2AZbNeA si tienes alguna duda escríbenos a tiendaenlinea@miniso.pe",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-grarantias": {
+        "props": {
+            "text": "##### ¿Cómo hago válida una garantía? \n Te invitamos a consultar nuestra política de cambios y garantías aquí: https://bit.ly/2AZbNeA si tienes alguna duda escríbenos a tiendaenlinea@miniso.pe",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-section-24": {
+        "props": {
+            "text": "##### ¿Puedo realizar mi garantía en cualquier tienda? \n Sí, debes llevar una copia de la boleta, cumplir con las especificaciones de acuerdo con nuestras políticas de cambios y devoluciones y dirigirte a tu tienda Miniso más cercana.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-section-25": {
+        "props": {
+            "text": "##### ¿Los cambios o devoluciones por garantía tienen costo? \nDepende del motivo del cambio, si es por “gusto” debe ser asumido por el cliente. En el caso de una garantía, Miniso asume el valor del flete.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-section-26": {
+        "props": {
+            "text": "##### ¿Mis datos personales están protegidos? \n¡Claro! Si tienes alguna duda al respecto, puedes consultar nuestro  Aviso de Privacidad  o bien enviar un correo electrónico a tiendaenlinea@miniso.pe donde con gusto te atenderemos.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-section-27": {
+        "props": {
+            "text": "##### ¿Cuándo resurtirán producto en mi tienda favorita? \nEl Sr. Miniso está trabajando constantemente para resurtir todas nuestras tiendas y que así puedas disfrutar en tu siguiente visita de la mejor experiencia.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-section-28": {
+        "props": {
+            "text": "##### ¿Mi tarjeta de regalo/código de dscto. ECommerce puedo usarlo en tienda física? \nPor el momento no es posible.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-section-29": {
+        "props": {
+            "text": "##### ¿Tienen promociones o descuentos? \nTe invitamos a visitar nuestra página web: www.miniso.pe allí conocerás todas nuestras promociones vigentes.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-facturar-compra": {
+        "props": {
+            "text": "##### El producto que adquirí no funciona, ¿cómo sé si tiene garantía? \nMINISO ofrece una garantía únicamente a los productos eléctricos, electrónicos y electrodomésticos que comercializa.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    },
+    "rich-text#faq-impuestos": {
+        "props": {
+            "text": "##### ¿Mi factura/compra es deducible de impuestos al unirme a la causa? \nTe contamos que es a través de Miniso que se realizará la donación de producto, y esta es proporcional al monto de tu compra. Esto quiere decir que el monto total de tu compra es proporcional a la donación en producto que la institución reciba, y ésta no es deducible de impuestos.",
+            "blockClass": [
+                "faq-section-feature"
+            ]
+        }
+    }
+}

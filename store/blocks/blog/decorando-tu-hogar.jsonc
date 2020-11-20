@@ -1,0 +1,71 @@
+{
+    "store.custom#blog-6": {
+      "blocks": [
+        "list-context.image-list#blog-6",
+        "flex-layout.row#blog-6"
+      ]
+    },
+
+    "list-context.image-list#blog-6": {
+      "children": [
+        "slider-layout#demo-blog-6"
+      ],
+      "props": {
+        "height": "auto",
+        "images": [
+          {
+            "image": "https://minisomx.vteximg.com.br/arquivos/ids/159662/entrada2.jpg",
+            "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159662/entrada2.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#demo-blog-6": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "carousel",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth": true
+      }
+    },
+
+    "flex-layout.row#blog-6": {
+      "children": [
+        "flex-layout.col#text-blog-6"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "acerca-de"]
+      }
+    },
+
+    "flex-layout.col#text-blog-6": {
+      "children": [
+        "rich-text#title-blog-6",
+        "rich-text#blog-first-6"
+      ],
+      "props": {
+        "blockclass": "",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title-blog-6": {
+      "props": {
+        "text":
+        "## Inicia el año decorando tu hogar con las mejores recomendaciones 2020",
+        "textPosition": "CENTER",
+        "blockClass": ""
+      }
+    },
+    "rich-text#blog-first-6": {
+      "props": {
+        "text": "Dále un giro a tu vida comenzando por la decoración de tu espacio. El estilo no importa, eso lo decides tú. Te dejamos unos tips y recuerda que puedes encontrar todo lo que necesitas en nuestras Tiendas Miniso.<br/><br/>**Para tu Entrada:**<br/>Para comenzar, decora la entrada como realmente se lo merece y dale un toque rústico y cómodo con un Tapete de Fibra Miniso. Tiene una textura muy suave y un diseño que se adecúa a cualquier espacio en la casa.<br/><br/>**Para tu Cocina:**<br/>Si eres fan de los osos, toma un rico café por la mañana con la tasa de cerámica Miniso, la combinación perfecta entre una bebida rica y caliente acompañada de un diseño divertido y súper tierno.<br/><br/>En Miniso hemos investigado y trabajado en soluciones que colaboren con el medio ambiente. Nos encontramos en cambio constante y buscamos ser mejores para cada uno de nuestros MinisoLovers.<br/><br/>Así que que a partir de enero no utilizamos más bolsas plásticas, reemplazándolas por bolsas compostables y de tela reutilizable, también le damos a nuestros MinisoLovers sets de vasos de plástico ecológicos con diferentes colores.A partir de ahora puedes servir tus bebidas en hermosos vasos reutilizables y combinarlos con la decoración de tu casa. Tienen un material eco-friendly  para que consumas con la tranquilidad de que estás cuidando al planeta.<br/><br/>Libera al Chefcito que tienes dentro y cocina esos platillos que tanto te gustan con el sartén de cerámica y granito de Miniso. Tiene la superficie perfecta para que nada se adhiera y ningún ingrediente te falte a la hora de cocinar.<br/><br/>**Para tu Baño:**<br/>También te invitamos a que disfrutes y sientas el placer de secarte con la mayor suavidad después de un relajante baño con la toalla de baño Jacquard Miniso. Su tejido absorbente será amigable con tu piel y se llevará hasta la última gota de agua…<br/><br/>Por último cepilla los dientes con la mayor diversión que existe. Los cepillos dentales Anime de Miniso convierten una acción cotidiana en algo divertido y extraordinario. No esperes más y visítanos, amarás todo lo que tenemos para ti.<br/><br/>Síguenos en <a href='https://www.facebook.com/minisoJPChile' target='_blank'>Facebook</a>, <a href='https://www.instagram.com/miniso.chile' target='_blank'>Instagram</a> y <a href='https://twitter.com/MinisoMexico' target='_blank'>Twitter</a> para que te enteres de todas nuestras promociones",
+        "blockClass": ""
+      }
+    }
+  }

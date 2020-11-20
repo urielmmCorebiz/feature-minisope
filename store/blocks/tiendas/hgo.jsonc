@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#tiendas-row-hgo": {
+        "title": "Hidalgo",
+        "children": [
+            "flex-layout.col#tiendas-col-hgo"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-hgo"
+        }
+    },
+    "flex-layout.col#tiendas-col-hgo": {
+        "children": [
+            "rich-text#subtitle-tiendas-hgo",
+            "flex-layout.row#tiendas-row1-hgo"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-hgo"
+        }
+    },
+    "rich-text#subtitle-tiendas-hgo": {
+        "props": {
+            "text": "#### Hidalgo",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-hgo": {
+        "children": [
+            "rich-text#tiendas-tienda1-hgo",
+            "rich-text#tiendas-tienda2-hgo",
+            "rich-text#tiendas-tienda3-hgo"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-hgo": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Q\n**Dirección:** BLVD. LUIS DONALDO COLOSIO KM 8 S/N - PLAZA Q - PACHUCA DE SOTO\n**Código postal:** 42186",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-hgo": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Galerías\n**Dirección:** CAMINO REAL DE LA PLATA 102 GALERÍAS, ZONA PLATEADA - PLAZA GALERÍAS - PACHUCA DE SOTO\n**Código postal:** 42083",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-hgo": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Pachuca Centro\n**Dirección:** VICENTE GUERRERO 500, CENTRO - PACHUCA DE SOTO\n**Código postal:** 42000",
+            "blockClass": "info-tienda"
+        }
+    }
+}

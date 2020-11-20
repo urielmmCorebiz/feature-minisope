@@ -1,0 +1,143 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "rich-text#estilos-alimentacao",
+      "slider-layout#deals"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#estilos-alimentacao": {
+    "props": {
+      "text": "Licencias",
+      "textAlignment": "left",
+      "blockClass": [
+        "deals",
+        "deals--title"
+      ],
+      "width": "15%"
+    }
+  },
+  "slider-layout#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4",
+      "flex-layout.col#deals5",
+      "flex-layout.col#deals6"
+    ],
+    "props": {
+      "showPaginationDots": "never",
+      "showNavigationArrows": "mobileOnly",
+      "itemsPerPage": {
+        "desktop": 6,
+        "phone": 3
+      },
+      "blockClass": "categories-slider"
+    }
+  },
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "https://via.placeholder.com/96x96.png"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ]
+  },
+  "image#deal2": {
+    "props": {
+      "src": "https://via.placeholder.com/96x96.png"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ]
+  },
+  "image#deal3": {
+    "props": {
+      "src": "https://via.placeholder.com/96x96.png"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ]
+  },
+  "image#deal4": {
+    "props": {
+      "src": "https://via.placeholder.com/96x96.png"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals5": {
+    "children": [
+      "image#deal5",
+      "rich-text#deal5"
+    ]
+  },
+  "image#deal5": {
+    "props": {
+      "src": "https://via.placeholder.com/96x96.png"
+    }
+  },
+  "rich-text#deal5": {
+    "props": {
+      "text": "",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals6": {
+    "children": [
+      "image#deal6",
+      "rich-text#deal6"
+    ]
+  },
+  "image#deal6": {
+    "props": {
+      "src": "https://via.placeholder.com/96x96.png"
+    }
+  },
+  "rich-text#deal6": {
+    "props": {
+      "text": "",
+      "blockClass": "deals"
+    }
+  }
+}

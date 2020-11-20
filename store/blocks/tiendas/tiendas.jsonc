@@ -1,0 +1,34 @@
+{
+    "store.custom#tiendas": {
+        "blocks": [
+            "flex-layout.row#tiendas"
+        ]
+    },
+    "flex-layout.row#tiendas": {
+        "children": [
+            "flex-layout.col#tiendas"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "tiendas"
+            ]
+        }
+    },
+    "flex-layout.col#tiendas": {
+        "children": [
+            "rich-text#title-tiendas",
+            "flex-layout.row#tiendas-row-lista-tiendas"
+        ],
+        "props": {
+            "blockclass": "",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#title-tiendas": {
+        "props": {
+            "text": "# Tiendas",
+            "blockClass": "title-tiendas"
+        }
+    }
+}

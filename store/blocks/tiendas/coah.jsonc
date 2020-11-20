@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#tiendas-row-coah": {
+        "title": "Coahuila",
+        "children": [
+            "flex-layout.col#tiendas-col-coah"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-coah"
+        }
+    },
+    "flex-layout.col#tiendas-col-coah": {
+        "children": [
+            "rich-text#subtitle-tiendas-coah",
+            "flex-layout.row#tiendas-row1-coah"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-coah"
+        }
+    },
+    "rich-text#subtitle-tiendas-coah": {
+        "props": {
+            "text": "#### Coahuila",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-coah": {
+        "children": [
+            "rich-text#tiendas-tienda1-coah"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-coah": {
+        "title": "tienda-1",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Almanara\n**Dirección:** Periferico Raul Lopez Sanchez No.5000 - Residencial el Fresno - torreon\n**Código postal:** 27018",
+            "blockClass": "info-tienda"
+        }
+    }
+}

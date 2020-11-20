@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#tiendas-row-sin": {
+        "title": "Sinaloa",
+        "children": [
+            "flex-layout.col#tiendas-col-sin"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-sin"
+        }
+    },
+    "flex-layout.col#tiendas-col-sin": {
+        "children": [
+            "rich-text#subtitle-tiendas-sin",
+            "flex-layout.row#tiendas-row1-sin"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-sin"
+        }
+    },
+    "rich-text#subtitle-tiendas-sin": {
+        "props": {
+            "text": "#### Sinaloa",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-sin": {
+        "children": [
+            "rich-text#tiendas-tienda1-sin",
+            "rich-text#tiendas-tienda2-sin",
+            "rich-text#tiendas-tienda3-sin"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-sin": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Galerías Mazatlán\n**Dirección:** AV. LA MARINA ESQ. AV. DEL DELFÍN 6204 - DESARROLLO MARINA MAZATLÁN - MAZATLÁN\n**Código postal:** 82103",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-sin": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Aeropuerto Mazatlán\n**Dirección:** CARR. INTERNACIONAL AL SUR S/N - AEROPUERTO INTERNACIONAL DE MAZATLÁN - MAZATLÁN\n**Código postal:** 82269",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-sin": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Paseo Los Mochis\n**Dirección:** BLVD. CENTENARIO 805 PTE - CENTRO - LOS MOCHIS\n**Código postal:** 81271",
+            "blockClass": "info-tienda"
+        }
+    }
+}

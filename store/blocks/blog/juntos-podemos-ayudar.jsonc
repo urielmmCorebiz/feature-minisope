@@ -1,0 +1,71 @@
+{
+    "store.custom#blog-12": {
+      "blocks": [
+        "list-context.image-list#blog-12",
+        "flex-layout.row#blog-12"
+      ]
+    },
+  
+    "list-context.image-list#blog-12": {
+      "children": [
+        "slider-layout#demo-blog-12" 
+      ],
+      "props": {
+        "height": "auto",
+        "images": [
+          {
+            "image": "https://minisomx.vteximg.com.br/arquivos/ids/159674/nota11_large.png",
+            "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159674/nota11_large.png"
+          }
+        ]
+      }
+    },
+    "slider-layout#demo-blog-12": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "carousel",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth": true
+      }
+    },
+  
+    "flex-layout.row#blog-12": {
+      "children": [
+        "flex-layout.col#text-blog-12"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "acerca-de"]
+      }
+    },
+    
+    "flex-layout.col#text-blog-12": {
+      "children": [
+        "rich-text#title-blog-12",
+        "rich-text#blog-first-12"
+      ],
+      "props": {
+        "blockclass": "",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title-blog-12": {
+      "props": {
+        "text":
+        "## ¡Juntos podemos ayudar más! Únete a la iniciativa de acción social Miniso",
+        "textPosition": "CENTER",
+        "blockClass": ""      
+      }
+    }, 
+    "rich-text#blog-first-12": {
+      "props": {
+        "text": "En estos momentos tan difíciles para todos es importante que nos mantengamos unidos, es momento que pensemos en todos y todas. Porque más allá de la situación, seguimos siendo personas que sienten y se preocupan. Hoy es momento de ponernos la camiseta y darnos la mano en la distancia. Es por eso que queremos ayudar a los sectores más vulnerables o de necesidad en nuestra sociedad junto a ti.<br/><br/>Ya en nuestra plataforma, está disponible la posibilidad para ti de seleccionar un sector de la sociedad para que Miniso done en productos el mismo valor que tú compres y ayudes a llevar un poco de felicidad a personas que lo necesitan.<br/><br/>Además de poder recibir y disfrutar de tus productos favoritos estarás ayudando junto a nosotros a la comunidad. Podrás elegir entre sectores de Actividad Vulnerables, Sector Salud, Niños, Adultos Mayores y Mujeres en situación de violencia.<br/><br/>Recuerda verificar en tu proceso de pago, seleccionar una de las casillas de las categorías de instituciones. ¡Juntos podemos ayudar más!",
+        "blockClass": ""
+      }
+    }
+  } 

@@ -1,0 +1,45 @@
+{
+  "store.custom#zonas": {
+      "blocks": [
+          "flex-layout.row#zonas-de-reparto"
+      ]
+  },
+  "flex-layout.row#zonas-de-reparto": {
+      "children": [
+          "flex-layout.col#text-zonas"
+      ],
+      "props": {
+          "blockClass": [
+              "page-institucionales",
+              "faq"
+          ]
+      }
+  },
+  "flex-layout.col#text-zonas": {
+      "children": [
+          "rich-text#zonas-title",
+          "rich-text#zonas-lista"
+      ],
+      "props": {
+          "blockclass": [
+              "page-institucionales",
+              "faq"
+          ],
+          "preventVerticalStretch": true
+      }
+  },
+  "rich-text#zonas-title": {
+      "props": {
+          "text": "# Zonas de reparto",
+          "blockClass": ""
+      }
+  },
+  "rich-text#zonas-lista": {
+      "props": {
+          "text": "##### Lima Metropolitana \n ANCON \nATE  \nBARRANCO \nBELLAVISTA \nBREÑA \nCALLAO \nCARABAYLLO \nCARMEN DE LA LEGUA REYNOSO \nCERCADO DE LIMA \nCHACLACAYO \nCHORRILLOS \nCIENEGUILLA \nCOMAS \nEL AGUSTINO \nINDEPENDENCIA \nJESUS MARIA \nLA MOLINA \nLA PERLA \nLA PUNTA \nLA VICTORIA \nLINCE \nLOS OLIVOS \nLURIGANCHO \nLURIN \nMAGDALENA DEL MAR \nMI PERÚ \nMIRAFLORES \nPACHACAMAC \nPUCUSANA \nPUEBLO LIBRE \nPUENTE PIEDRA \nPUNTA HERMOSA \nPUNTA NEGRA \nRIMAC \nSAN BARTOLO \nSAN BORJA \nSAN ISIDRO \nSAN JUAN DE LURIGANCHO \nSAN JUAN DE MIRAFLORES \nSAN LUIS \nSAN MARTIN DE PORRES \nSAN MIGUEL \nSANTA ANITA \nSANTA MARIA DEL MAR \nSANTA ROSA \nSANTIAGO DE SURCO \nSURQUILLO \nVENTANILLA \nVILLA EL SALVADOR \nVILLA MARIA DEL TRIUNFO \n\n\n # Provincia* \n\n AMAZONAS\nANCASH \nAPURIMAC \nAREQUIPA \nAYACUCHO \nCAJAMARCA \nCUSCO \nHUANCAVELICA \nHUANUCO \nICA \nJUNIN \nLA LIBERTAD \nLIMA \nLORETO \nMADRE DE DIOS \nMOQUEGUA \nPASCO \nPIURA \nPUNO \nSAN MARTIN \nTACNA \nTUMBES \nUCAYALI \n\n *Considerar: Según el actual Gobierno vaya gradualmente modificando las normativas en el país debido a la actual situación, nuestra Tienda Online irá actualizando las zonas de reparto. Si hubiera algún pedido pendiente de entrega y la zona no esté habilitada para despacho, nuestro servicio de atención al cliente comunicará al usuario en un plazo no mayor a 3 días el estado de su pedido. Para más información puedes escribirnos a tiendaenlinea@miniso.pe",
+          "blockClass": [
+              "faq-section-feature"
+          ]
+      }
+  }
+}

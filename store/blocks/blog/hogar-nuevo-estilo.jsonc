@@ -1,0 +1,71 @@
+{
+    "store.custom#blog2": {
+      "blocks": [
+        "list-context.image-list#blog2",
+        "flex-layout.row#blog2"
+      ]
+    },
+
+    "list-context.image-list#blog2": {
+      "children": [
+        "slider-layout#demo-blog2"
+      ],
+      "props": {
+        "height": "auto",
+        "images": [
+          {
+            "image": "https://minisomx.vteximg.com.br/arquivos/ids/159665/entrada5.jpg",
+            "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159665/entrada5.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#demo-blog2": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "carousel",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth": true
+      }
+    },
+
+    "flex-layout.row#blog2": {
+      "children": [
+        "flex-layout.col#text-blog2"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "acerca-de"]
+      }
+    },
+
+    "flex-layout.col#text-blog2": {
+      "children": [
+        "rich-text#title-blog2",
+        "rich-text#blog-second"
+      ],
+      "props": {
+        "blockclass": "",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title-blog2": {
+      "props": {
+        "text":
+        "## Dale a tu hogar un nuevo estilo",
+        "textPosition": "CENTER",
+        "blockClass": ""
+      }
+    },
+    "rich-text#blog-second": {
+      "props": {
+        "text": "Hacer de una casa tu hogar y tu espacio personal para hacer que la vida suceda, es mucho más que solo vivir en él y decorarlo. También hay que dar constante mantenimiento para que todo permanezca en orden mientras lo disfrutas. ¡**MINISO** tiene las herramientas perfectas para hacerlo suceder!<br/><br/>No importa si únicamente quieres colocar un nuevo cuadro en tu pared, quieres ensamblar un gran mueble, o una repisa para organizar tus libros favoritos. En nuestras tiendas encontrarás artículos adecuados para hacer esta labor mucho más sencilla sin gastar demasiado.<br/><br/>¿Estás pensando en hacer una remodelación? No te preocupes. Además de taladros, desarmadores y martillos, contamos con accesorios en colores de temporada para que tu casa se sienta como un hogar todos los días. ¡Conoce nuestro [catálogo de productos en línea](/hogar/d)!<br/><br/>Síguenos en <a href='https://www.facebook.com/minisoJPChile' target='_blank'>Facebook</a>, <a href='https://www.instagram.com/miniso.chile' target='_blank'>Instagram</a> y <a href='https://twitter.com/MinisoMexico' target='_blank'>Twitter</a> para que te enteres de todas nuestras promociones<br/><br/>¡Arigato, MinisoLover! Nos vemos muy pronto.",
+        "blockClass": ""
+      }
+    }
+  }

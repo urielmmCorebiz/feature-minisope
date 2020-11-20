@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#tiendas-row-camp": {
+        "title": "Campeche",
+        "children": [
+            "flex-layout.col#tiendas-col-camp"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-camp"
+        }
+    },
+    "flex-layout.col#tiendas-col-camp": {
+        "children": [
+            "rich-text#subtitle-tiendas-camp",
+            "flex-layout.row#tiendas-row1-camp"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-camp"
+        }
+    },
+    "rich-text#subtitle-tiendas-camp": {
+        "props": {
+            "text": "#### Campeche",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-camp": {
+        "children": [
+            "rich-text#tiendas-tienda1-camp",
+            "rich-text#tiendas-tienda2-camp"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-camp": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Galerías Campeche\n**Dirección:** AV. PEDRO SAINZ DE BARANDA 139 ESQ. AV. DÁRSENA - COLONIA SECTOR METROPOLITANO DEL ÁREA DE AH CAMPECHE - México\n**Código postal:** 24020",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-camp": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Zentralia Cd. Carmen\n**Dirección:** CORREGIDORA 26, AEROPUERTO - ZENTRALIA - CIUDAD DEL CARMEN\n**Código postal:** 24197",
+            "blockClass": "info-tienda"
+        }
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "store.custom#devoluciones-garantias": {
+        "blocks": [
+            "flex-layout.row#devoluciones-garantias"
+        ]
+    },
+    "flex-layout.row#devoluciones-garantias": {
+        "children": [
+            "flex-layout.col#text-devoluciones-garantias"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "devoluciones-garantias"
+            ]
+        }
+    },
+    "flex-layout.col#text-devoluciones-garantias": {
+        "children": [
+            "rich-text#title-devoluciones-garantias",
+            "rich-text#devoluciones-garantias-section-1",
+            "rich-text#devoluciones-garantias-section-2",
+            "rich-text#devoluciones-garantias-section-productos-excluidos",
+            "rich-text#devoluciones-garantias-section-productos-excluidos-desc",
+            "rich-text#devoluciones-garantias-section-plazo",
+            "rich-text#devoluciones-garantias-section-tramite",
+            "rich-text#devoluciones-garantias-section-garantia",
+            "rich-text#devoluciones-garantias-section-requisitos",
+            "rich-text#devoluciones-garantias-section-validation-detail",
+            "rich-text#devoluciones-garantias-section-devolucion-dinero",
+            "rich-text#devoluciones-garantias-section-limites-garantia",
+            "rich-text#devoluciones-garantias-section-derecho-retracto"
+        ],
+        "props": {
+            "blockclass": [
+                "page-institucionales",
+                "devoluciones-garantias"
+            ],
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#title-devoluciones-garantias": {
+        "props": {
+            "text": "# Cambios y garantia de productos",
+            "blockClass": ""
+        }
+    },
+    "rich-text#devoluciones-garantias-section-1": {
+        "props": {
+            "text": "##### I. Política de cambios\n La Política de Cambios es un beneficio otorgado por Mini BF Chile SpA (en adelante “Miniso”) a sus Consumidores. Este beneficio consiste en la posibilidad de efectuar cambios de los productos adquiridos en sus tiendas físicas y en la tienda online, cumpliendo las condiciones aquí descritas. La Política de Cambios no reemplaza, altera, ni modifica la Garantía del Producto.",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    },
+    "rich-text#devoluciones-garantias-section-2": {
+        "props": {
+            "text": "##### Condiciones para solicitar el beneficio\n 1.  Al momento del cambio, el Consumidor deberá presentar junto con el Producto la boleta o factura original de compra sin tachaduras ni enmendaduras de ningún tipo. \n\n 2.  El Producto debe estar en las mismas condiciones que fue entregado al Consumidor. \n\n 3. Que el Producto esté nuevo, sin uso, en excelentes condiciones, se conserve el empaque o embalaje original del Producto en perfectas condiciones conservando sus sellos, el Producto no haya sido utilizado, el Producto no haya sido modificado, reparado, alterado, manipulado, se conserven y entreguen los accesorios originales del Producto en excelentes condiciones sin uso, junto con los regalos promocionales que hayan estado asociados a la compra. \n\n 4. El Producto no podrá tener abolladuras, rayones, roturas, manchas, falla de funcionamiento, y si tiene celofán debe estar en perfecto estado, apto para la venta. Por lo tanto, los Productos que presenten cualquier de estas características o semejantes no tendrán cambio por ningún motivo. \n\n 5. Los cambios únicamente se pueden hacer efectivos en la tienda en la cual se realizó la compra del Producto. Para el caso de compras online, el Consumidor deberá enviar un correo a la dirección contacto@miniso.cl, en el cual deberá explicar la causa del cambio del Producto. Una vez recibido el correo, MINISO dará respuesta en un plazo aproximado de diez (10) días hábiles. \n\n 6. En el caso de Productos que requieran armado, la Política de cambio aquí regulada no será efectiva si el Producto ya fue armado. Sólo se podrá hacer efectiva si el Producto no ha sido abierto, y se mantiene en su embalaje original en las condiciones aquí descritas. \n\n 7. En todo caso, MINISO se reserva el derecho de no realizar cambios, analizadas las condiciones de cada caso a su propio criterio. \n\n 8. Para que se pueda solicitar el cambio del Producto se deberá solicitar en el plazo dispuesto para ello en la presente Política. \n\n 9. Para los casos de solicitud de cambio no aplica bajo ningún concepto devolución de dinero al Consumidor. \n\n 10. Cumplidas todas las condiciones antes indicadas, el Consumidor podrá efectuar el cambio de uno o más productos por cualquier otro producto de la tienda. Si los nuevos productos son de mayor valor que aquellos que se cambian, el Consumidor deberá completar pagando la diferencia. En ningún caso se realizarán restituciones de precio si el nuevo producto es de menor valor que aquel objeto del cambio.",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    },
+    "rich-text#devoluciones-garantias-section-productos-excluidos": {
+        "props": {
+            "text": "##### Productos excluidos del beneficio \n Se encuentran excluidos del beneficio de cambio aquí regulado, lo siguientes Productos: \n\n - Artículos adquiridos en otro país. \n - Alimentos \n - Artículos comprados en promoción o en liquidación \n - Bisutería \n - Ropa interior \n - Vestidos de baño \n - Ropa de vestir con algún tipo de arreglo. \n - Artículos modificados a petición del Consumidor \n - Productos de uso personal\n - Fragancias o perfumes\n - Productos en salud\n - Productos de higiene\n - Papelería\n - Peluches\n - Almohadas y fundas\n - Relojes\n - Joyería\n - Afeitadoras\n - Depiladoras\n - Secadores de pelo\n - Planchas\n - Maquillaje o productos cosméticos\n - Cremas\n - Productos de limpieza corporal (ej: jabones, gel, shampoo, etc).\n - Pilas alcalinas o litio\n - Cortadores de Pelo\n - Productos de Salud, Higiene y Belleza en general. ",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    },
+    "rich-text#devoluciones-garantias-section-productos-excluidos-desc": {
+        "props": {
+            "text": "La posibilidad de efectuar cambios no procederá respecto de los productos rebajados, en promoción en liquidación, o que estén marcados como de “segunda mano”, “segunda selección” o expresiones similares.",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    },
+    "rich-text#devoluciones-garantias-section-plazo": {
+        "props": {
+            "text": "##### Plazo \n Para que el Consumidor pueda hacer efectivo el cambio, deberá realizar la solicitud en los términos expuestos, así: (i) dentro de los cinco (5) días corridos siguientes a la fecha en la cual se realizó la compra del Producto cuando se realice en tienda, y (ii) en el caso de compra online será dentro de los cinco (5) días corridos siguientes a la fecha de recepción del Producto. \n\n Los costos de transporte, así como los demás gastos que conlleve el cambio del Producto serán cubiertos exclusivamente por el Consumidor.",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    },
+    "rich-text#devoluciones-garantias-section-tramite": {
+        "props": {
+            "text": "##### Tramite \n Para realizar los cambios, el Consumidor debe cumplir con lo siguiente: \n\n  (i) Compras en Tiendas: Para las compras en tiendas, el Consumidor deberá acudir directamente a la tienda en la cual se realizó la compra del Producto, cumpliendo los plazos y requisitos aquí descritos. \n\n (ii) *Compras Online:* Para las compras online, el Consumidor deberá enviar un correo a la dirección contacto@miniso.cl, en el cual deberá explicar la causa del cambio del Producto, cumpliendo los plazos y requisitos aquí descritos. Una vez recibido el correo, MINISO revisará el caso particular y el cumplimiento de los requisitos señalados, para dar respuesta en un plazo aproximado de diez (10) días hábiles.",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    },
+    "rich-text#devoluciones-garantias-section-garantia": {
+        "props": {
+            "text": "##### Garantia \n De conformidad con la Ley N° 19.496 sobre protección de los derechos de los consumidores (la “Ley del Consumidor”), todo producto nuevo adquirido en las tiendas de MINI BF Chile SpA cuenta con garantía legal de 3 meses contados desde la fecha de la compra, en caso de que el producto adquirido presente defectos de fabricación y funcionamiento, siempre que el producto en cuestión no se hubiera deteriorado por un hecho imputable al Consumidor o al Comprador. \n\n Sin embargo, si el producto es perecible o está naturalmente destinado a ser usado o consumido en un plazo breve, el plazo de devolución será impreso en el producto o su envoltorio o, en su defecto, será en un plazo no mayor a 7 días corridos contados desde la fecha de compra. \n\n En caso de cualquier diferencia con respecto al término de la garantía señalado en el Producto y lo dispuesto en la presente Política, prevalece lo señalado en la presente sección. \n\n No se aceptarán solicitudes de garantía fuera del término fijado para la misma.",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    },
+    "rich-text#devoluciones-garantias-section-requisitos": {
+        "props": {
+            "text": "##### Requisitos \n La aplicación de la garantía estará sujeta a lo siguiente: \n\n 1. El Producto no haya sido utilizado para un fin diferente a aquél que naturalmente le corresponda o de formas diferentes a aquellas que correspondan a sus especificaciones. \n\n 2. El Producto no haya sido modificado, reparado, alterado, manipulado. \n\n 3. Se conserven y entreguen los accesorios originales del Producto. \n\n 4. El Producto no se haya deteriorado por un hecho imputable al Consumidor o consumidor. \n\nTrámite. La solicitud para hacer efectiva la garantía, de un Producto deberá ser realizada por el Consumidor, dentro de los términos antes indicados, de manera escrita al siguiente correo contacto@miniso.cl o presencialmente en nuestras tiendas, y deberá acompañarse lo siguiente: \n\n - La boleta de compra o factura sin tachaduras o enmendaduras. \n - La fecha de la compra del Producto. \n - Datos de identificación y contacto del Consumidor o quien realizó la compra. \n - Descripción del Producto. \n - Breve descripción respecto de las razones de la solicitud, detallando el daño que tiene el Producto.",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    },
+    "rich-text#devoluciones-garantias-section-validation-detail": {
+        "props": {
+            "text": "MINISO validará los datos presentados por el Consumidor, y estudiará las condiciones de la solicitud. En el evento en que la solicitud carezca de los requisitos antes indicados, MINISO le informará al Consumidor este hecho a efectos de que se acompañen los antecedentes aplicables, o el hecho de que no procede la garantía del Producto por no cumplirse los requisitos establecidos aquí descritos, según corresponda. Se deja constancia que el trámite no se reanudará, mientras la solicitud no sea presentada conforme con los requisitos señalados. \n\n Cuando MINISO se pronuncie sobre la solicitud, tanto para una respuesta positiva como negativa, MINISO se lo expresará al Consumidor por escrito incluyendo las razones para su procedencia. \n\n Para poder hacer efectiva la garantía del Producto, el Consumidor tendrá que poner a disposición de MINISO el Producto objeto de la solicitud, dentro del plazo de la garantía legal. Para tal fin, MINISO expedirá una constancia de “recibido” del Producto. \n\n Para efectos de las compras online, los costos del transporte de los Productos objeto de la Solicitud de Garantía serán asumidos por MINISO, según sea el caso. No obstante, si el Producto estuviera en un lugar diferente al lugar donde fue entregado, el Consumidor deberá asumir los costos de transporte y/o envío para hacer efectiva la garantía. \n\n Cumplidas las condiciones antes indicadas, aceptada la solicitud del Consumidor y recibido el Producto por parte de MINISO, el Consumidor podrá optar por cualquiera de las siguientes alternativas: (i) reparación gratuita del Producto; o previa restitución del Producto, (ii) reposición por uno nuevo o (iii) devolución de la cantidad pagada. \n\n Reparación. En caso que el Consumidor opte por solicitar la reparación del Producto, esta se realizará por parte de MINISO de manera gratuita. \n\n Asimismo, una vez reparado(s) el (los) Producto(s), MINISO entregará al Consumidor una constancia de reparación indicando lo siguiente: \n\n - Descripción de la reparación efectuada. \n - Las piezas reemplazadas o reparadas. \n - La fecha en que el Consumidor hizo entrega del Producto,  \n - La fecha de devolución del Producto. \n\nUna vez reparado el Producto objeto de la Solicitud de Garantía en caso de repetirse la falla sobre el Producto, el Consumidor igualmente podrá optar por una nueva reparación lo cual deberá ser comunicado por el Consumidor a MINISO enviando un correo electrónico a la dirección contacto@miniso.cl en un plazo no mayor al dispuesto para la garantía legal, contado desde la fecha en la cual el Consumidor hubiere recibido Producto reparado. \n\n Una vez expire el término de la garantía legal el Consumidor deberá asumir el pago de cualquier revisión, diagnóstico, reparación y/o repuesto que requiera el Producto. \n\n Reposición. En caso de que el Consumidor solicite la reposición del Producto por uno nuevo y esta fuere procedente conforme con los requisitos aquí señalados, MINISO procederá a cambiar o reponer el Producto objeto de la solicitud de la garantía, por un Producto nuevo, de la misma especie y características o especificaciones técnicas, las cuales en ningún caso podrán ser inferiores a las del Producto que dio lugar a la garantía. En caso de no existir disponibilidad del Producto en cuestión, el Consumidor podrá solicitar su reemplazo por uno o más Productos que sean comercializados por MINISO, pero en tal caso, si el o los Productos nuevos resultan ser de mayor valor que aquél Producto que está siendo reemplazado, el Consumidor se hará cargo de la diferencia que fuera procedente. En su defecto, el Consumidor podrá solicitar la restitución de las sumas pagadas. \n\n Asimismo, en caso que el Consumidor hubiese solicitado la reparación del Producto de conformidad con la sección precedente, y esta no hubiese sido posible de realizar, MINISO notificará de tal circunstancia al Consumidor y éste podrá optar por la reposición del Producto o a la devolución del dinero. \n\n En el evento en el que se reponga el Producto por otro, este será entregado al Consumidor en el mismo sitio en donde solicitó la garantía.",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    },
+    "rich-text#devoluciones-garantias-section-devolucion-dinero": {
+        "props": {
+            "text": "Devolución del dinero.  En caso que el Consumidor hubiese solicitado la restitución de lo pagado por el Producto de conformidad con las secciones precedentes, MINISO restituirá la totalidad de las sumas pagadas por el Consumidor respecto del Producto, siempre y cuando se cumplan con las disposiciones aquí descritas dentro de los quince (15) días hábiles siguientes, contados a partir del día siguiente en que el Consumidor haya informado a MINISO por escrito a la siguiente dirección contacto@miniso.cl de su elección para que se le restituya el monto pagado y solo en tanto se hubiese restituido el Producto en cuestión a MINISO. En caso contrario, el plazo se contará desde la fecha en que MINISO reciba el Producto. Dicho plazo estará siempre sujeto a que el medio a través del cual se restituya el monto pagado permita cumplirlo. \n\n MINISO procederá a realizar la restitución a través del mismo medio de pago que hubiera sido empleado por el Consumidor en la compra del Producto, a menos que este último indique por escrito que la restitución se haga de una forma diferente y esta pueda ser procesada por MINISO. El Consumidor es el único responsable de que la información que se proporcione sea veraz a efectos de que se realice correctamente el reembolso. \n\n MINISO restituirá únicamente el monto efectivo que hubiese sido pagado por el Consumidor en la adquisición del Producto.",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    },
+    "rich-text#devoluciones-garantias-section-limites-garantia": {
+        "props": {
+            "text": "Límites de la garantía. No se hará efectiva la garantía de los Productos, en los siguientes casos: \n\n - Daños producidos en los Productos por fuerza mayor o caso fortuito. \n - Si los daños de los Productos no tienen su origen en defectos de fabricación o funcionamiento. \n - Si el Producto en cuestión se hubiera deteriorado por un hecho imputable al comprador o Consumidor. uso para un fin diferente a aquél que naturalmente le corresponda o de formas diferentes a aquellas que correspondan a sus especificaciones. \n - Que el Consumidor no atendió las instrucciones de instalación, uso o mantenimiento indicadas en el manual del Producto y en la garantía, y a consecuencia de ello se produjo el problema o defecto que se reclama. \n - Cuando el Producto haya sido alterado, reparado o intervenido por terceros diferentes al personal debidamente autorizado por MINISO. \n - Si el Producto carece de la totalidad o parte de los accesorios con los que fue originalmente comercializado. \n - Demás previstos por la ley. \n\nLos Productos tales como maquillaje, productos cosméticos, perfumes, cremas, tratamientos, o cualquier otro que implique la aplicación corporal del mismo, son de uso genérico para el público, por lo que el Usuario, previo a la compra del Producto, se encuentra en la obligación de validar la información del Producto en el empaque de cada uno de estos, así como las instrucciones de uso, condiciones, contraindicaciones y demás información dispuesta en los mismos, de manera que, cualquier reacción adversa a los Productos, será únicamente responsabilidad del Consumidor.",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    },
+    "rich-text#devoluciones-garantias-section-derecho-retracto": {
+        "props": {
+            "text": "##### III. Derecho a retracto \n\nDe conformidad con lo dispuesto en el artículo 3°bis de la Ley N°19.496 de protección de los derechos de los consumidores, Mini BF Chile SpA no ofrece en ninguno de los productos comercializados por medios electrónicos, a través de su página web, telefónicamente o cualquier otra forma de comunicación a distancia, el derecho a retracto. \n\n Asimismo, Mini BF Chile SpA no otorga derecho a retracto en la venta de sus productos en cualquiera de sus tiendas.",
+            "blockClass": [
+                "devoluciones-garantias-section-feature"
+            ]
+        }
+    }
+}

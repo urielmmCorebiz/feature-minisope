@@ -1,0 +1,50 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel {
+  background-color: #f0f0f0;
+}
+
+.sliderTrackContainer {
+  max-width: 100%;
+}
+
+.paginationDotsContainer {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.sliderArrows--categories-slider {
+  color: #d22630;
+  top: 0;
+  margin: 15px -15px;
+}
+
+.sliderArrows--categories-slider:hover {
+  color: rgba(#d22630, 0.8);
+}
+
+.caretIcon--categories-slider {
+  width: 15px;
+  height: 15px;
+}
+
+.imageElementLink--carousel {
+  width: 100%;
+  font-size: 0;
+  .imageElement--carousel {
+    width: 100%;
+  }
+}

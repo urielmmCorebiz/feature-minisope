@@ -1,0 +1,503 @@
+{
+    "flex-layout.row#tiendas-row-cdmx": {
+        "title": "Ciudad de México",
+        "children": [
+            "flex-layout.col#tiendas-col-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-cdmx"
+        }
+    },
+    "flex-layout.col#tiendas-col-cdmx": {
+        "children": [
+            "rich-text#subtitle-tiendas-cdmx",
+            "flex-layout.row#tiendas-row1-cdmx",
+            "flex-layout.row#tiendas-row2-cdmx",
+            "flex-layout.row#tiendas-row3-cdmx",
+            "flex-layout.row#tiendas-row4-cdmx",
+            "flex-layout.row#tiendas-row5-cdmx",
+            "flex-layout.row#tiendas-row6-cdmx",
+            "flex-layout.row#tiendas-row7-cdmx",
+            "flex-layout.row#tiendas-row8-cdmx",
+            "flex-layout.row#tiendas-row9-cdmx",
+            "flex-layout.row#tiendas-row10-cdmx",
+            "flex-layout.row#tiendas-row11-cdmx",
+            "flex-layout.row#tiendas-row12-cdmx",
+            "flex-layout.row#tiendas-row13-cdmx"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-cdmx"
+        }
+    },
+    "rich-text#subtitle-tiendas-cdmx": {
+        "props": {
+            "text": "#### Ciudad de México",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda1-cdmx",
+            "rich-text#tiendas-tienda2-cdmx",
+            "rich-text#tiendas-tienda3-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-cdmx": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Tepeyac\n**Dirección:** CALZ. DE GUADALUPE 431 - GUADALUPE TEPEYAC - CIUDAD DE MÉXICO\n**Código postal:** 07840",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-cdmx": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Génova\n**Dirección:** GÉNOVA 75, JUARÉZ - Ciudad de México\n**Código postal:** 06600",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-cdmx": {
+        "title": "tienda-3",
+        "props": {
+            "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso\n**Dirección:** AEROPUERTO INTERNACIONAL DE LA CIUDAD DE MÉXICO - VENUSTIANO CARRANZA - CIUDAD DE MÉXICO\n**Código postal:** 15620",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda4-cdmx",
+            "rich-text#tiendas-tienda5-cdmx",
+            "rich-text#tiendas-tienda6-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-cdmx": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Cuatro Caminos\n**Dirección:** CALZ. TRANSMISIONES MILITARES 30 - ARGENTINA PONIENTE - MIGUEL HIDALGO\n**Código postal:** 11230",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda5-cdmx": {
+        "title": "tienda-5",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza La Rosa\n**Dirección:** HAMBURGO 124, JUÁREZ - PLAZA LA ROSA - CUAUHTEMOC\n**Código postal:** 06600",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda6-cdmx": {
+        "title": "tienda-6",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Pabellón Cuemanco\n**Dirección:** CAÑAVERALES 222, GRANJAS COAPA - PABELLÓN CUEMANCO - TLALPAN\n**Código postal:** 14330",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row3-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda7-cdmx",
+            "rich-text#tiendas-tienda8-cdmx",
+            "rich-text#tiendas-tienda9-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda7-cdmx": {
+        "title": "tienda-7",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Cervantes Saavedra\n**Dirección:** BLVD. MIGUEL DE CERVANTES SAAVEDRA 397 - MIGUEL HIDALGO\n**Código postal:** 11579",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda8-cdmx": {
+        "title": "tienda-8",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Inbursa\n**Dirección:** AV INSURGENTES SUR 3500, MANANTIAL PEÑA - PLAZA INBURSA - TLALPAN\n**Código postal:** 14700",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda9-cdmx": {
+        "title": "tienda-9",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Santa Fe\n**Dirección:** AV VASCO DE QUIROGA 200 - ZEDEC SANTA FÉ - ÁLVARO OBREGÓN\n**Código postal:** 01219",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row4-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda10-cdmx",
+            "rich-text#tiendas-tienda11-cdmx",
+            "rich-text#tiendas-tienda12-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda10-cdmx": {
+        "title": "tienda-10",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Perisur\n**Dirección:** ANILLO PERIF. BLVD. ADOLFO LÓPEZ MATEOS 4690 - INSURGENTES CUICUILCO - CIUDAD DE MÉXICO\n**Código postal:** 04500",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda11-cdmx": {
+        "title": "tienda-11",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Clavería\n**Dirección:** EGIPTO # 135 - CLAVERIA - AZCAPOTZALCO\n**Código postal:** 02080",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda12-cdmx": {
+        "title": "tienda-12",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Santa Fe\n**Dirección:** VASCO DE QUIROGA 3800, CONTADERO, LOMAS DE SANTA FE - CUAJIMALPA\n**Código postal:** 05109",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row5-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda13-cdmx",
+            "rich-text#tiendas-tienda14-cdmx",
+            "rich-text#tiendas-tienda15-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda13-cdmx": {
+        "title": "tienda-13",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Parque Delta\n**Dirección:** AV. CUAHUTEMOC 462, PIEDAD NARVARTE - PAREQUE DELTA - Ciudad de México\n**Código postal:** 03000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda14-cdmx": {
+        "title": "tienda-14",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Insurgentes\n**Dirección:** SAN LUIS POTOSÍ 214, ROMA NORTE - Cuauhtémoc\n**Código postal:** 06700",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda15-cdmx": {
+        "title": "tienda-15",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Zentralia Churubusco\n**Dirección:** AV. RÍO CURUBUSCO 1072 - NUEVA ROSITA - IZTAPALAPA\n**Código postal:** 09420",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row6-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda16-cdmx",
+            "rich-text#tiendas-tienda17-cdmx",
+            "rich-text#tiendas-tienda18-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda16-cdmx": {
+        "title": "tienda-16",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Fortuna Lindavista\n**Dirección:** AV FORTUNA 334, MAGDALENA DE LAS SALINAS - GUSTAVO A MADERO\n**Código postal:** 07760",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda17-cdmx": {
+        "title": "tienda-17",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Oasis Coyoacán\n**Dirección:** AV UNIVERSIDAD 1770, ROMERO DE TERREROS - OASIS COYOACÁN - COYOACAN\n**Código postal:** 04360",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda18-cdmx": {
+        "title": "tienda-18",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Carso\n**Dirección:** LAGO ZURICH 219, AIMPLIACIÓN GRANADA - PLAZA CARSO - Ciudad de México\n**Código postal:** 11529",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row7-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda19-cdmx",
+            "rich-text#tiendas-tienda20-cdmx",
+            "rich-text#tiendas-tienda21-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda19-cdmx": {
+        "title": "tienda-19",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso T1\n**Dirección:** DENTRO DE TERMINAL 1 PUERTA 4 - PEÑÓN DE LOS BAÑOS - CIUDAD DE MÉXICO\n**Código postal:** 15620",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda20-cdmx": {
+        "title": "tienda-20",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Aeropuerto T1\n**Dirección:** AEROPUERTO INTERNACIONAL DE LA CIUDAD DE MÉXICO - VENUSTIANO CARRANZA - CIUDAD DE MÉXICO\n**Código postal:** 15620",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda21-cdmx": {
+        "title": "tienda-21",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Condesa\n**Dirección:** AV SONORA 189, HIPÓDROMO CONDESA - CUAUHTEMOC\n**Código postal:** 06100",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row8-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda22-cdmx",
+            "rich-text#tiendas-tienda23-cdmx",
+            "rich-text#tiendas-tienda24-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda22-cdmx": {
+        "title": "tienda-22",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza Central\n**Dirección:** CANAL RIO CHURUBUSCO 1635, CENTRAL DE ABASTOS - PLAZA CENTRAL - IZTAPALAPA\n**Código postal:** 09040",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda23-cdmx": {
+        "title": "tienda-23",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Gran Sur\n**Dirección:** PERIFÉRICO SUR 5550, PEDREGAL DE CARRASCO - PLAZA GRAN SUR - COYOACÁN\n**Código postal:** 04700",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda24-cdmx": {
+        "title": "tienda-24",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Prado Norte\n**Dirección:** AV. PRADO NORTE - LOMAS DE CHAPULTEPEC V SECCIÓN - CIUDAD DE MÉXICO\n**Código postal:** 11000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row9-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda25-cdmx",
+            "rich-text#tiendas-tienda26-cdmx",
+            "rich-text#tiendas-tienda27-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda25-cdmx": {
+        "title": "tienda-25",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Expansión Pabellón Polanco\n**Dirección:** AV EJERCITO NACIONAL 980 - PABELLÓN POLANCO - MIGUEL HIDALGO\n**Código postal:** 11510",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda26-cdmx": {
+        "title": "tienda-26",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** MINISO Aeropuerto T2\n**Dirección:** AEROPUERTO INTERNACIONAL DE LA CIUDAD DE MÉXICO - Ciudad de México\n**Código postal:** 15620",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda27-cdmx": {
+        "title": "tienda-27",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Centro Santa Fe 2\n**Dirección:** AV. VASCO DE QUIROGA 3850, SANTA FE - CENTRO COMERCIAL SANTA FE - Ciudad de México\n**Código postal:** 05348",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row10-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda28-cdmx",
+            "rich-text#tiendas-tienda29-cdmx",
+            "rich-text#tiendas-tienda30-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda28-cdmx": {
+        "title": "tienda-28",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Antenas\n**Dirección:** ANILLO PERIFÉRICO 3276, LA ESPERANZA, IZTAPALAPA - CIUDAD DE MÉXICO\n**Código postal:** 09910",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda29-cdmx": {
+        "title": "tienda-29",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Universidad\n**Dirección:** AV UNIVERSIDAD 1038, XOCO - PATIO UNIVERSIDAD - BENITO JUAREZ\n**Código postal:** 03100",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda30-cdmx": {
+        "title": "tienda-30",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso T1 Puerta 8\n**Dirección:** AEROPUERTO INTERNACIONAL - Peñón de los Baños - Ciudad de México\n**Código postal:** 15620",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row11-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda31-cdmx",
+            "rich-text#tiendas-tienda32-cdmx",
+            "rich-text#tiendas-tienda33-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda31-cdmx": {
+        "title": "tienda-31",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Terraza Coapa\n**Dirección:** CALZ. ACOXPA 610 - VILLA COAPA - CIUDAD DE MÉXICO\n**Código postal:** 14390",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda32-cdmx": {
+        "title": "tienda-32",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Torre Latinoamericana\n**Dirección:** EJE CENTRAL LÁZARO CÁRDENAS 2, CENTRO - TORRE LATINOAMERICANA - Ciudad de México\n**Código postal:** 06000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda33-cdmx": {
+        "title": "tienda-33",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Vía Vallejo\n**Dirección:** CALZADA VALLEJO 1090, SANTA CRUZ DE LAS SALINAS - VÍA VALLEJO - Ciudad de México\n**Código postal:** 02340",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row12-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda34-cdmx",
+            "rich-text#tiendas-tienda35-cdmx",
+            "rich-text#tiendas-tienda36-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda34-cdmx": {
+        "title": "tienda-34",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Santa Fe\n**Dirección:** AV. VASCO DE QUIROGA 200 - PATIO SANTA FE - ALVARO OBREGON\n**Código postal:** 01219",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda35-cdmx": {
+        "title": "tienda-35",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Patio Tlalpan\n**Dirección:** AV INSURGENTES SUR 4177, SANTA ÚRSULA XITLA - PATIO TLALPAN - CIUDAD DE MÉXICO\n**Código postal:** 14420",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda36-cdmx": {
+        "title": "tienda-36",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Flagship\n**Dirección:** INSURGENTES # 414 - ROMA SUR - CUAUHTEMOC\n**Código postal:** 06760",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row13-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda37-cdmx",
+            "rich-text#tiendas-tienda38-cdmx",
+            "rich-text#tiendas-tienda39-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda37-cdmx": {
+        "title": "tienda-37",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Town Center El Rosario\n**Dirección:** AV. DEL ROSARIO 1025, EL ROSARIO - TOWN CENTER EL ROSARIO - CIUDAD DE MÉXICO\n**Código postal:** 02100",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda38-cdmx": {
+        "title": "tienda-38",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Paseo Acoxpa\n**Dirección:** CALZADA ACOXPA # 430 - DEL, Ex-HACIENDA COAPA - Ciudad de México\n**Código postal:** 14300",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda39-cdmx": {
+        "title": "tienda-39",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Portal Centro\n**Dirección:** LORENZO BOTURINI 258, TRÁNSITO - PORTAL CENTRO - CUAUHTÉMOC\n**Código postal:** 06820",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row14-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda40-cdmx",
+            "rich-text#tiendas-tienda41-cdmx",
+            "rich-text#tiendas-tienda42-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda40-cdmx": {
+        "title": "tienda-40",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Revolución\n**Dirección:** AV. REVOLUCIÓN 1839, SAN ÁNGEL - San Ángel - Ciudad de México\n**Código postal:** 01090",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda41-cdmx": {
+        "title": "tienda-41",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Madero Centro\n**Dirección:** AV FRANCISCO I MADERO # 12 - CENTRO DEL CUAUHTEMOC - CUAUHTEMOC\n**Código postal:** 06000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda42-cdmx": {
+        "title": "tienda-42",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Aeropuerto T1\n**Dirección:** DENTRO DE TERMINAL 1 - VENUSTIANO CARRANZA\n**Código postal:** 15620",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row15-cdmx": {
+        "children": [
+            "rich-text#tiendas-tienda43-cdmx",
+            "rich-text#tiendas-tienda44-cdmx",
+            "rich-text#tiendas-tienda45-cdmx"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda43-cdmx": {
+        "title": "tienda-43",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Masaryk\n**Dirección:** Pedro Calderón de la Barca #108 esq - Polanco - Ciudad de México\n**Código postal:** 11570",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda44-cdmx": {
+        "title": "tienda-44",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Mexico\n**Dirección:** Periférico Boulevard Manuel Ávila Camacho 118 - Lomas de Chapultepec - Ciudad de México\n**Código postal:** 11000",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda45-cdmx": {
+        "title": "tienda-45",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Galerias Coapa\n**Dirección:** CALZADA DEL HUESO # 519 - RESIDENCIAL MIRAMONTES - COYOACAN\n**Código postal:** 14300",
+            "blockClass": "info-tienda"
+        }
+    }
+}

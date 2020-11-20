@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#tiendas-row-bc": {
+        "title": "Baja California",
+        "children": [
+            "flex-layout.col#tiendas-col-bc"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-bc"
+        }
+    },
+    "flex-layout.col#tiendas-col-bc": {
+        "children": [
+            "rich-text#subtitle-tiendas-bc",
+            "flex-layout.row#tiendas-row1-bc",
+            "flex-layout.row#tiendas-row2-bc"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-bc"
+        }
+    },
+    "rich-text#subtitle-tiendas-bc": {
+        "props": {
+            "text": "#### Baja California",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-bc": {
+        "children": [
+            "rich-text#tiendas-tienda1-bc",
+            "rich-text#tiendas-tienda2-bc",
+            "rich-text#tiendas-tienda3-bc"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-bc": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Sendero Tijuana\n**Dirección:** CARRETERA TIJUANA-TECATE 25420, EL FLORIDO - SENDERO TIJUANA - TIJUANA\n**Código postal:** 22204",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda2-bc": {
+        "title": "tienda-2",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Macroplaza Insurgentes\n**Dirección:** AV. DE LOS INSURGENTES 18015 - Rio Tijuana - TIJUANA\n**Código postal:** 22226",
+            "blockClass": "info-tienda"
+        }
+    },
+    "rich-text#tiendas-tienda3-bc": {
+        "title": "tienda-3",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Plaza San Pedro Mexicali\n**Dirección:** CALZADA CETYS 1801 - VISTA HERMOSA - MEXICALI\n**Código postal:** 21259",
+            "blockClass": "info-tienda"
+        }
+    },
+    "flex-layout.row#tiendas-row2-bc": {
+        "children": [
+            "rich-text#tiendas-tienda4-bc"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda4-bc": {
+        "title": "tienda-4",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Macroplaza del Valle\n**Dirección:** BLVD. LÁZARO CÁRDENAS 2200, EL PORVENIR - MEXICALI\n**Código postal:** 21220",
+            "blockClass": "info-tienda"
+        }
+    }
+}

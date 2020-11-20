@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#tiendas-row-bcs": {
+        "title": "Baja California Sur",
+        "children": [
+            "flex-layout.col#tiendas-col-bcs"
+        ],
+        "props": {
+            "blockClass": "tiendas-row-bcs"
+        }
+    },
+    "flex-layout.col#tiendas-col-bcs": {
+        "children": [
+            "rich-text#subtitle-tiendas-bcs",
+            "flex-layout.row#tiendas-row1-bcs"
+        ],
+        "props": {
+            "blockclass": "tiendas-col-bcs"
+        }
+    },
+    "rich-text#subtitle-tiendas-bcs": {
+        "props": {
+            "text": "#### Baja California Sur",
+            "blockClass": "subtitle-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-row1-bcs": {
+        "children": [
+            "rich-text#tiendas-tienda1-bcs"
+        ],
+        "props": {
+            "blockClass": "tiendas-row"
+        }
+    },
+    "rich-text#tiendas-tienda1-bcs": {
+        "title": "tienda-1",
+        "props": {
+            "text": "<span></span>\n**Nombre de la tienda:** Miniso Puerto Paraíso\n**Dirección:** BLVD. LÁZARO CÁRDENAS S/N EL MEDANO EJIDAL, MARINA - PUERTO PARAÍSO - CABO SAN LUCAS\n**Código postal:** 23410",
+            "blockClass": "info-tienda"
+        }
+    }
+}
