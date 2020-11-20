@@ -1,71 +1,60 @@
 {
-    "store.custom#blog-7": {
-      "blocks": [
-        "list-context.image-list#blog-7",
-        "flex-layout.row#blog-7"
+  "store.custom#blog-7": {
+    "blocks": ["list-context.image-list#blog-7", "flex-layout.row#blog-7"]
+  },
+
+  "list-context.image-list#blog-7": {
+    "children": ["slider-layout#demo-blog-7"],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "image": "https://minisomx.vteximg.com.br/arquivos/ids/159666/entrada6.jpg",
+          "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159666/entrada6.jpg"
+        }
       ]
-    },
+    }
+  },
+  "slider-layout#demo-blog-7": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "fullWidth": true
+    }
+  },
 
-    "list-context.image-list#blog-7": {
-      "children": [
-        "slider-layout#demo-blog-7"
-      ],
-      "props": {
-        "height": "auto",
-        "images": [
-          {
-            "image": "https://minisomx.vteximg.com.br/arquivos/ids/159666/entrada6.jpg",
-            "mobileImage": "https://minisomx.vteximg.com.br/arquivos/ids/159666/entrada6.jpg"
-          }
-        ]
-      }
-    },
-    "slider-layout#demo-blog-7": {
-      "props": {
-        "itemsPerPage": {
-          "desktop": 1,
-          "tablet": 1,
-          "phone": 1
-        },
-        "infinite": true,
-        "blockClass": "carousel",
-        "showNavigationArrows": "never",
-        "showPaginationDots": "never",
-        "fullWidth": true
-      }
-    },
+  "flex-layout.row#blog-7": {
+    "children": ["flex-layout.col#text-blog-7"],
+    "props": {
+      "blockClass": ["page-institucionales", "acerca-de"]
+    }
+  },
 
-    "flex-layout.row#blog-7": {
-      "children": [
-        "flex-layout.col#text-blog-7"
-      ],
-      "props": {
-        "blockClass": ["page-institucionales", "acerca-de"]
-      }
-    },
-
-    "flex-layout.col#text-blog-7": {
-      "children": [
-        "rich-text#title-blog-7",
-        "rich-text#blog-first-7"
-      ],
-      "props": {
-        "blockclass": "",
-        "preventVerticalStretch": true
-      }
-    },
-    "rich-text#title-blog-7": {
-      "props": {
-        "text":
-        "## MINISO tiene algo dulce para ti",
-        "textPosition": "CENTER",
-        "blockClass": ""
-      }
-    },
-    "rich-text#blog-first-7": {
-      "props": {
-        "text": "¡Siempre es un buen momento para dar las buenas noticias y alegrar nuestros días! ¿Preparado?<br/><br/>Estamos muy contentos de anunciar el lanzamiento de una nueva línea de productos que vienen para darle un toque azucarado a tus ideas. ¡Así es! Una nueva línea de lápices, libretas, botellas y otros accesorios que estarán disponibles en nuestros anaqueles durante el mes de abril, con colores que solamente te harán pensar en algodones de azúcar, confitados y un mundo de sabores. ¿No estás ansioso por conocerlos?<br/><br/>Descubre nuestra nueva colección y elige aquellos productos desde nuestro [catálogo en línea](/papeleria/d) para que lleguen De Miniso a tu casa.<br/><br/>El lado más dulce de **MINISO** te está esperando.<br/><br/>Síguenos en <a href='https://www.facebook.com/minisoJPChile' target='_blank'>Facebook</a>, <a href='https://www.instagram.com/miniso.chile' target='_blank'>Instagram</a> y <a href='https://twitter.com/MinisoMexico' target='_blank'>Twitter</a> para que te enteres de todas nuestras promociones",
-        "blockClass": ""
-      }
+  "flex-layout.col#text-blog-7": {
+    "children": ["rich-text#title-blog-7", "rich-text#blog-first-7"],
+    "props": {
+      "blockclass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-blog-7": {
+    "props": {
+      "text": "## MINISO tiene algo dulce para ti",
+      "textPosition": "CENTER",
+      "blockClass": ""
+    }
+  },
+  "rich-text#blog-first-7": {
+    "props": {
+      "text": "¡Siempre es un buen momento para dar las buenas noticias y alegrar nuestros días! ¿Preparado?<br/><br/>Estamos muy contentos de anunciar el lanzamiento de una nueva línea de productos que vienen para darle un toque azucarado a tus ideas. ¡Así es! Una nueva línea de lápices, libretas, botellas y otros accesorios que estarán disponibles en nuestros anaqueles durante el mes de abril, con colores que solamente te harán pensar en algodones de azúcar, confitados y un mundo de sabores. ¿No estás ansioso por conocerlos?<br/><br/>Descubre nuestra nueva colección y elige aquellos productos desde nuestro [catálogo en línea](/papeleria/d) para que lleguen De Miniso a tu casa.<br/><br/>El lado más dulce de **MINISO** te está esperando.<br/><br/>Síguenos en <a href='https://www.facebook.com/minisoperu/' target='_blank'>Facebook</a>, <a href='https://www.instagram.com/minisoPeru/' target='_blank'>Instagram</a> y <a href='https://twitter.com/minisoperu' target='_blank'>Twitter</a> para que te enteres de todas nuestras promociones",
+      "blockClass": ""
     }
   }
+}
