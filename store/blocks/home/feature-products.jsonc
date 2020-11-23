@@ -1,144 +1,139 @@
 {
-    "flex-layout.row#feature-products": {
-        "children": [
-            "flex-layout.col#main-products"
-        ],
-        "props": {
-            "blockClass": "row-products-feature"
-        }
-    },
-    "flex-layout.col#main-products": {
-        "children": [
-            "flex-layout.col#header-products",
-            "flex-layout.row#feature-products--top",
-            "flex-layout.row#feature-products--bottom"
-        ]
-    },
-    "flex-layout.col#header-products": {
-        "children": [
-            "rich-text#title-products",
-            "rich-text#description-products"
-        ]
-    },
-    "rich-text#title-products": {
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "text": "No sabía que lo necesitaba",
-            "blockClass": "titles-home"
-        }
-    },
-    "rich-text#description-products": {
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "text": "¡Te urge tenerlos todos! y ahora están a un clic de distancia",
-            "blockClass": "subtitles-home"
-        }
-    },
-    "flex-layout.row#feature-products--top": {
-        "children": [
-            "image#feature-product-1",
-            "image#feature-product-2",
-            "image#feature-product-3",
-            "image#feature-product-4"
-        ],
-        "props": {
-            "fullWidth": true,
-            "blockClass": "feature-products"
-        }
-    },
-    "flex-layout.row#feature-products--bottom": {
-        "children": [
-            "image#feature-product-5",
-            "image#feature-product-6",
-            "image#feature-product-7",
-            "image#feature-product-8"
-        ],
-        "props": {
-            "fullWidth": true,
-            "blockClass": "feature-products",
-            "marginBottom": 9
-        }
-    },
-    "image#feature-product-1": {
-        "props": {
-            "src": "/arquivos/Box_Higiene_01.png",
-            "blockClass": "feature-products--image",
-            "link": {
-                "url": "/higiene?_q=higiene&map=ft",
-                "openNewTab": "false"
-            }
-        }
-    },
-    "image#feature-product-2": {
-        "props": {
-            "src": "/arquivos/Box_Mochilas_02.png",
-            "blockClass": "feature-products--image",
-            "link": {
-                "url": "/bolsas-y-mochilas/d",
-                "openNewTab": "false"
-            }
-        }
-    },
-    "image#feature-product-3": {
-        "props": {
-            "src": "/arquivos/Box_Hogar_03.png",
-            "blockClass": "feature-products--image",
-            "link": {
-                "url": "/hogar/d",
-                "openNewTab": "false"
-            }
-        }
-    },
-    "image#feature-product-4": {
-        "props": {
-            "src": "/arquivos/Box_Bebes_04.png",
-            "blockClass": "feature-products--image",
-            "link": {
-                "url": "/144?map=productClusterIds",
-                "openNewTab": "false"
-            }
-        }
-    },
-    "image#feature-product-5": {
-        "props": {
-            "src": "/arquivos/Box_Juguetes_05.png",
-            "blockClass": "feature-products--image",
-            "link": {
-                "url": "/juguetes/d",
-                "openNewTab": "false"
-            }
-        }
-    },
-    "image#feature-product-6": {
-        "props": {
-            "src": "/arquivos/Box_Belleza_06.png",
-            "blockClass": "feature-products--image",
-            "link": {
-                "url": "/150?map=productClusterIds&page=2",
-                "openNewTab": "false"
-            }
-        }
-    },
-    "image#feature-product-7": {
-        "props": {
-            "src": "/arquivos/Box_Papeleria_07.png",
-            "blockClass": "feature-products--image",
-            "link": {
-                "url": "/papeleria/d",
-                "openNewTab": "false"
-            }
-        }
-    },
-    "image#feature-product-8": {
-        "props": {
-            "src": "/arquivos/Box_Mascotas_08.png",
-            "blockClass": "feature-products--image",
-            "link": {
-                "url": "/143?map=productClusterIds",
-                "openNewTab": "false"
-            }
-        }
+  "flex-layout.row#feature-products": {
+    "children": ["flex-layout.col#main-products"],
+    "props": {
+      "blockClass": "row-products-feature"
     }
+  },
+  "flex-layout.col#main-products": {
+    "children": [
+      "flex-layout.col#header-products",
+      "flex-layout.row#feature-products--top",
+      "flex-layout.row#feature-products--bottom"
+    ]
+  },
+  "flex-layout.col#header-products": {
+    "children": ["rich-text#title-products", "rich-text#description-products"]
+  },
+  "rich-text#title-products": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "No sabía que lo necesitaba",
+      "blockClass": "titles-home"
+    }
+  },
+  "rich-text#description-products": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "¡Te urge tenerlos todos! y ahora están a un clic de distancia",
+      "blockClass": "subtitles-home"
+    }
+  },
+  "flex-layout.row#feature-products--top": {
+    "children": [
+      "image#feature-product-1",
+      "image#feature-product-2",
+      "image#feature-product-3",
+      "image#feature-product-4"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "feature-products"
+    }
+  },
+  "flex-layout.row#feature-products--bottom": {
+    "children": [
+      "image#feature-product-5",
+      "image#feature-product-6",
+      "image#feature-product-7",
+      "image#feature-product-8"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "feature-products",
+      "marginBottom": 9
+    }
+  },
+  "image#feature-product-1": {
+    "props": {
+      "src": "/arquivos/Box_Higiene_01.png",
+      "blockClass": "feature-products--image",
+      "link": {
+        "url": "/higiene?_q=higiene&map=ft",
+        "openNewTab": false
+      }
+    }
+  },
+  "image#feature-product-2": {
+    "props": {
+      "src": "/arquivos/Box_Mochilas_02.png",
+      "blockClass": "feature-products--image",
+      "link": {
+        "url": "/bolsas-y-mochilas/d",
+        "openNewTab": false
+      }
+    }
+  },
+  "image#feature-product-3": {
+    "props": {
+      "src": "/arquivos/Box_Hogar_03.png",
+      "blockClass": "feature-products--image",
+      "link": {
+        "url": "/hogar/d",
+        "openNewTab": false
+      }
+    }
+  },
+  "image#feature-product-4": {
+    "props": {
+      "src": "/arquivos/Box_Bebes_04.png",
+      "blockClass": "feature-products--image",
+      "link": {
+        "url": "/144?map=productClusterIds",
+        "openNewTab": false
+      }
+    }
+  },
+  "image#feature-product-5": {
+    "props": {
+      "src": "/arquivos/Box_Juguetes_05.png",
+      "blockClass": "feature-products--image",
+      "link": {
+        "url": "/juguetes/d",
+        "openNewTab": false
+      }
+    }
+  },
+  "image#feature-product-6": {
+    "props": {
+      "src": "/arquivos/Box_Belleza_06.png",
+      "blockClass": "feature-products--image",
+      "link": {
+        "url": "/150?map=productClusterIds&page=2",
+        "openNewTab": false
+      }
+    }
+  },
+  "image#feature-product-7": {
+    "props": {
+      "src": "/arquivos/Box_Papeleria_07.png",
+      "blockClass": "feature-products--image",
+      "link": {
+        "url": "/papeleria/d",
+        "openNewTab": false
+      }
+    }
+  },
+  "image#feature-product-8": {
+    "props": {
+      "src": "/arquivos/Box_Mascotas_08.png",
+      "blockClass": "feature-products--image",
+      "link": {
+        "url": "/143?map=productClusterIds",
+        "openNewTab": false
+      }
+    }
+  }
 }

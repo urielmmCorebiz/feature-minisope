@@ -23,7 +23,7 @@
       "blockClass": ["promotion-news--image", "promotion-news--image--left"],
       "link": {
         "url": "/mundo-miniso/basicos-de-higiene-miniso",
-        "openNewTab": "false"
+        "openNewTab": false
       }
     }
   },
@@ -33,7 +33,7 @@
       "blockClass": ["promotion-news--image", "promotion-news--image--right"],
       "link": {
         "url": "/mundo-miniso/miniso-es-tu-ayudante-de-cocina",
-        "openNewTab": "false"
+        "openNewTab": false
       }
     }
   },
@@ -42,7 +42,7 @@
       "src": "/arquivos/banner_box_dulce_03.png",
       "blockClass": ["promotion-news--image", "promotion-news--image--left"],
       "link": {
-        "openNewTab": "false",
+        "openNewTab": false,
         "url": "/mundo-miniso/miniso-tiene-algo-dulce-para-ti"
       }
     }
@@ -53,7 +53,7 @@
       "blockClass": ["promotion-news--image", "promotion-news--image--right"],
       "link": {
         "url": "/mundo-miniso/hogar-nuevo-estilo",
-        "openNewTab": "false"
+        "openNewTab": false
       }
     }
   }
