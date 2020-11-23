@@ -9,23 +9,16 @@
  */
 {
   "store.orderplaced": {
-    "blocks": [
-      "order-placed"
-    ]
+    "blocks": ["order-placed"]
   },
   "store.account": {
-    "blocks": [
-      "my-account"
-    ],
+    "blocks": ["my-account"],
     "parent": {
       "challenge": "challenge.profile"
     }
   },
   "store.login": {
-    "blocks": [
-      "login",
-      "login-content#default"
-    ]
+    "blocks": ["login", "login-content#default"]
   },
   "login-content#default": {
     "props": {
@@ -44,6 +37,23 @@
       "add-to-cart-button"
     ]
   },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["3x2"]
+      }
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "tresxdos"
+    }
+  },
+
   "add-to-cart-button": {
     "props": {
       "text": "A MI BOLSA"
@@ -90,14 +100,10 @@
     }
   },
   "store.product-review-form": {
-    "blocks": [
-      "product-review-form"
-    ]
+    "blocks": ["product-review-form"]
   },
   "store.not-found#product": {
-    "blocks": [
-      "rich-text#not-found"
-    ]
+    "blocks": ["rich-text#not-found"]
   },
   "rich-text#not-found": {
     "props": {
@@ -129,9 +135,11 @@
         "layoutMode1": "normal",
         "layoutMode2": "small",
         "specificationFilters": {
-          "hiddenFilters": [{
-            "__editorItemTitle": "editor.search-result.hiddenFacets.specificationFilters.hiddenFilter"
-          }]
+          "hiddenFilters": [
+            {
+              "__editorItemTitle": "editor.search-result.hiddenFacets.specificationFilters.hiddenFilter"
+            }
+          ]
         }
       },
       "summary": {

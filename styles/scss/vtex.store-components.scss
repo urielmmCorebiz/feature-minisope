@@ -6,6 +6,11 @@
   text-decoration: underline;
 }
 
+:global(.vtex-product-highlights-2-x-productHighlightText--tresxdos) {
+  z-index: 99;
+  padding: 2px 4px;
+}
+
 .searchBarContainer {
   padding: 0;
   margin-left: 10px;
@@ -361,6 +366,10 @@
       margin-bottom: 10px;
     }
 
+    .tresxdos {
+      border: 4px solid red;
+    }
+
     .productBrand {
       font-size: 21px;
       line-height: 1.33;
@@ -368,7 +377,7 @@
       color: rgba(30, 30, 36, 0.5);
       text-transform: uppercase;
 
-      @media screen and (max-width:768px) {
+      @media screen and (max-width: 768px) {
         font-size: 1.1rem;
         line-height: initial;
       }
@@ -460,7 +469,7 @@
 }
 
 :global(.vtex-reviews-and-ratings-1-x-stars) {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   display: block;
 
   :global(.vtex-reviews-and-ratings-1-x-star) {
@@ -480,11 +489,10 @@
 
   :global(.vtex-address-form__postalCode) {
     text-transform: uppercase;
-    letter-spacing: .85px;
+    letter-spacing: 0.85px;
 
-    @media screen and (max-width:540px) {
+    @media screen and (max-width: 540px) {
       font-size: 9px;
-
     }
 
     :global(.vtex-input__label) {
@@ -502,7 +510,6 @@
     :global(.vtex-address-form-4-x-input) {
       height: inherit;
     }
-
   }
 
   :global(.vtex-input-prefix__group) {
@@ -529,7 +536,7 @@
       cursor: pointer;
       font-size: 0;
 
-      @media screen and (max-width:640px) {
+      @media screen and (max-width: 640px) {
         padding: 0px;
       }
 
@@ -537,12 +544,12 @@
         content: "Verificar";
         font-size: 15px;
         text-transform: uppercase;
-        letter-spacing: .8px;
+        letter-spacing: 0.8px;
         color: rgb(30, 30, 36);
 
-        @media screen and (max-width:640px) {
+        @media screen and (max-width: 640px) {
           font-size: 11px;
-          letter-spacing: .4px;
+          letter-spacing: 0.4px;
         }
       }
     }
@@ -635,7 +642,6 @@
     }
 
     :global(.vtex-reviews-and-ratings-1-x-formContainer) {
-
       :global(.vtex-input__label),
       :global(.vtex-styleguide-9-x-input),
       :global(.vtex-textarea__label) {
@@ -659,17 +665,16 @@
 }
 
 .productDescriptionContainer {
-
   .showMoreButton {
     padding: 10px 15px;
     border-radius: 5px;
     color: black;
     text-decoration: underline;
-    font-size: .8rem;
+    font-size: 0.8rem;
     background: transparent;
   }
 
-  @media screen and (max-width:540px) {
+  @media screen and (max-width: 540px) {
     text-align: left;
   }
 
@@ -830,7 +835,6 @@
 
 :global(.vtex-toast-container) {
   :global(.vtex-toast) {
-
     // :first-child {
     //   :first-child {
     //     :first-child {
@@ -867,13 +871,13 @@
 
 .pointerEventsAuto .showMoreButton :global(.vtex-button) {
   border-radius: 5px;
-  padding: 10px 15px
+  padding: 10px 15px;
 }
 
 :global(.vtex-address-form__postalCode) :global(.vtex-input__label) {
   font-size: 0px !important;
 
-  @media screen and (max-width:540px) {
+  @media screen and (max-width: 540px) {
     text-align: left;
   }
 }
@@ -888,7 +892,7 @@
   font-size: 14px;
   font-weight: normal;
   display: block;
-  color: rgba(24, 24, 24, .5);
+  color: rgba(24, 24, 24, 0.5);
   margin-top: 10px;
 }
 
@@ -915,7 +919,7 @@
   right: initial;
   left: 10px;
   background: #e4c9ff;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: normal;
 }
 
@@ -931,7 +935,7 @@
   border: 0px;
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width: 540px) {
   .shippingContainer {
     :global(.vtex__icon-external-link) {
       display: none;

@@ -1,0 +1,19 @@
+.productHighlightText--tresxdos {
+  font-weight: 600;
+  color: #000;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  display: inline-block;
+  font-size: 14px;
+  background-color: #f7c1bb;
+  width: 66px;
+  height: 25px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  box-shadow: 0 1px 4px 0 rgba(51, 51, 51, 0.2);
+  text-shadow: 1px 1px rgba(51, 51, 51, 0.2);
+}
