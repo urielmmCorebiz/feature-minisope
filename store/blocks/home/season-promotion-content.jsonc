@@ -49,7 +49,7 @@
       "blockClass": "season-promotion--card",
       "link": {
         "url": "/",
-        "openNewTab": false
+        "openNewTab": "false"
       }
     }
   },
@@ -59,7 +59,7 @@
       "blockClass": "season-promotion--card",
       "link": {
         "url": "/",
-        "openNewTab": false
+        "openNewTab": "false"
       }
     }
   },
@@ -68,8 +68,8 @@
       "src": "/arquivos/fitness_01.jpg",
       "blockClass": "season-promotion--card",
       "link": {
-        "url": "/",
-        "openNewTab": false
+        "openNewTab": "false",
+        "url": "/"
       }
     }
   },
@@ -79,7 +79,7 @@
       "blockClass": "season-promotion--card",
       "link": {
         "url": "/",
-        "openNewTab": false
+        "openNewTab": "false"
       }
     }
   }

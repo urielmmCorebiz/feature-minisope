@@ -16,17 +16,13 @@
       "marginTop": 4,
       "blockClass": "breadcrumb-product"
     },
-    "children": [
-      "breadcrumb"
-    ]
+    "children": ["breadcrumb"]
   },
   "flex-layout.row#description": {
     "props": {
       "marginBottom": 7
     },
-    "children": [
-      "product-description"
-    ]
+    "children": ["product-description"]
   },
   "flex-layout.row#product-reviews": {
     "children": ["product-reviews"],
@@ -49,24 +45,16 @@
       "paddingBottom": 7,
       "blockClass": "product-main-info"
     },
-    "children": [
-      "flex-layout.row#image-pdp",
-      "flex-layout.col#right-col"
-    ]
+    "children": ["flex-layout.row#image-pdp", "flex-layout.col#right-col"]
   },
   "flex-layout.row#image-pdp": {
-    "children": [
-      "flex-layout.col#image-pdp"
-    ],
+    "children": ["flex-layout.col#image-pdp"],
     "props": {
       "blockClass": "row-image-pdp"
     }
   },
   "flex-layout.col#image-pdp": {
-    "children": [
-      "stack-layout#main-image-pdp",
-      "flex-layout.row#row-share"
-    ],
+    "children": ["stack-layout#main-image-pdp", "flex-layout.row#row-share"],
     "props": {
       "blockClass": "col-image-pdp"
     }
@@ -90,18 +78,14 @@
     }
   },
   "flex-layout.col#stack": {
-    "children": [
-      "stack-layout#main-image-pdp"
-    ],
+    "children": ["stack-layout#main-image-pdp"],
     "props": {
       "width": "50%",
       "rowGap": 0
     }
   },
   "flex-layout.row#product-image": {
-    "children": [
-      "product-images"
-    ]
+    "children": ["product-images"]
   },
   "product-images": {
     "props": {
@@ -135,18 +119,17 @@
     ]
   },
   "condition-layout.product": {
-    "children": [
-      "condition.product#custom-pdp",
-      "condition.else"
-    ]
+    "children": ["condition.product#custom-pdp", "condition.else"]
   },
   "condition.product#custom-pdp": {
     "props": {
-      "conditions": [{
-        "subject": "categoryId",
-        "verb": "is",
-        "object": "408"
-      }]
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "verb": "is",
+          "object": "408"
+        }
+      ]
     },
     "children": ["flex-layout.row#row-benefits-detail-pdp-2"]
   },
@@ -207,9 +190,7 @@
   },
   "flex-layout.row#buy-button": {
     "props": {},
-    "children": [
-      "add-to-cart-button"
-    ]
+    "children": ["add-to-cart-button"]
   },
   "product-quantity": {
     "props": {
@@ -222,9 +203,7 @@
       "verticalAlign": "middle",
       "blockClass": "product--buy-button"
     },
-    "children": [
-      "add-to-cart-button"
-    ]
+    "children": ["add-to-cart-button"]
   },
   "flex-layout.row#product-price": {
     "children": [
@@ -246,18 +225,13 @@
     }
   },
   "flex-layout.col#col-warnings-pdp": {
-    "children": [
-      "flex-layout.col#savings"
-    ],
+    "children": ["flex-layout.col#savings"],
     "props": {
       "blockClass": "col-warnings-pdp"
     }
   },
   "flex-layout.col#savings": {
-    "children": [
-      "product-price-savings#savings",
-      "product-availability"
-    ],
+    "children": ["product-price-savings#savings", "product-availability"],
     "props": {
       "blockClass": "col-saving-percentage",
       "horizontalAlign": "right"
@@ -273,9 +247,7 @@
   },
   "product-price-savings#savings": {
     "props": {
-      "markers": [
-        "hignlight"
-      ],
+      "markers": ["hignlight"],
       "message": "- {savingsPercentage}"
     }
   },
@@ -290,9 +262,7 @@
     }
   },
   "shelf.relatedProducts#View": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
+    "blocks": ["product-summary.shelf"],
     "props": {
       "recommendation": "editor.relatedProducts.view",
       "productList": {
@@ -309,9 +279,7 @@
     }
   },
   "shelf.relatedProducts#AlsoBought": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
+    "blocks": ["product-summary.shelf"],
     "props": {
       "recommendation": "editor.relatedProducts.buy",
       "blockClass": "product-who-bought",
@@ -328,10 +296,7 @@
     }
   },
   "flex-layout.row#product-quantity-and-buy-button": {
-    "children": [
-      "product-quantity",
-      "flex-layout.row#double-buy-button"
-    ],
+    "children": ["product-quantity", "flex-layout.row#double-buy-button"],
     "props": {
       "colSizing": "auto",
       "colGap": 6,
@@ -352,17 +317,13 @@
     }
   },
   "flex-layout.col#buy-one-click-buttom": {
-    "children": [
-      "add-to-cart-button#one-click"
-    ],
+    "children": ["add-to-cart-button#one-click"],
     "props": {
       "blockClass": "buy--one-click"
     }
   },
   "flex-layout.col#add-to-cart": {
-    "children": [
-      "add-to-cart-button"
-    ],
+    "children": ["add-to-cart-button"],
     "props": {
       "blockClass": "buy--add-to-cart-button",
       "shouldOpenMinicart": true
@@ -394,10 +355,7 @@
     }
   },
   "flex-layout.col#col-benefit-pdp-01": {
-    "children": [
-      "image#img-benefit-pdp-01",
-      "rich-text#txt-benefit-pdp-01"
-    ],
+    "children": ["image#img-benefit-pdp-01", "rich-text#txt-benefit-pdp-01"],
     "props": {
       "blockClass": ["col-benefit-pdp", "col-benefit-pdp-01"]
     }
@@ -446,9 +404,7 @@
     }
   },
   "modal-layout#benefit-pdp-03": {
-    "children": [
-      "rich-text#txt-modal-benefit-pdp-03"
-    ],
+    "children": ["rich-text#txt-modal-benefit-pdp-03"],
     "props": {
       "blockClass": "modal-benefit-pdp-03"
     }
@@ -470,9 +426,7 @@
     }
   },
   "modal-layout#benefit-pdp-04": {
-    "children": [
-      "rich-text#txt-modal-benefit-pdp-04"
-    ],
+    "children": ["rich-text#txt-modal-benefit-pdp-04"],
     "props": {
       "blockClass": "modal-benefit-pdp-04"
     }
@@ -485,10 +439,7 @@
   },
 
   "flex-layout.col#col-benefit-pdp-03": {
-    "children": [
-      "image#img-benefit-pdp-03",
-      "rich-text#txt-benefit-pdp-03"
-    ],
+    "children": ["image#img-benefit-pdp-03", "rich-text#txt-benefit-pdp-03"],
     "props": {
       "blockClass": ["col-benefit-pdp", "col-benefit-pdp-03"]
     }
@@ -594,9 +545,7 @@
     "blocks": ["vtex.menu@2.x:submenu.accordion#submenu-product-details"]
   },
   "vtex.menu@2.x:submenu.accordion#submenu-product-details": {
-    "children": [
-      "product-specifications#product"
-    ]
+    "children": ["product-specifications#product"]
   },
 
   "menu-item#pdp-politicas": {
@@ -614,9 +563,7 @@
     "blocks": ["vtex.menu@2.x:submenu.accordion#submenu-pdp-politicas"]
   },
   "vtex.menu@2.x:submenu.accordion#submenu-pdp-politicas": {
-    "children": [
-      "rich-text#txt-politicas-pdp"
-    ]
+    "children": ["rich-text#txt-politicas-pdp"]
   },
   "rich-text#txt-politicas-pdp": {
     "props": {
@@ -639,9 +586,7 @@
     "blocks": ["vtex.menu@2.x:submenu.accordion#submenu-pdp-product-cares"]
   },
   "vtex.menu@2.x:submenu.accordion#submenu-pdp-product-cares": {
-    "children": [
-      "product-specifications#product-cares"
-    ],
+    "children": ["product-specifications#product-cares"],
     "props": {
       "blockClass": "submenu-specification-title"
     }
