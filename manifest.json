@@ -14,9 +14,9 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "minisope.pixel-facebook" : "0.x",
-    "minisope.chatbot": "1.x",
     "minisope.miniso-complaints-book": "0.x",
+    "minisope.chatbot": "1.x",
+    "minisope.pixel-facebook" : "0.x",
     "minisomx.minisomx": "0.x",
     "vtex.store-link": "0.x",
     "vtex.store": "2.x",
