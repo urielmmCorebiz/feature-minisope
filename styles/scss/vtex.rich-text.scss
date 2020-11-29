@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
 
 .link,
 .paragraph {
@@ -162,6 +162,7 @@
 }
 
 .paragraph--newsletter-title,
+.paragraph--newsletter-terms,
 .paragraph--newsletter {
   margin: 0;
   color: #1e1e24;
@@ -444,7 +445,7 @@
   font-size: 13px;
   font-weight: 500;
 
-  @media screen and (max-width:540px) {
+  @media screen and (max-width: 540px) {
     text-align: left;
     padding: 0 10px;
   }
@@ -529,4 +530,9 @@
 
 .list--txt-modal-benefit-pdp {
   padding-right: 30px;
+}
+.paragraph--newsletter-terms {
+  color: #979899;
+  margin-top: 20px;
+  font-size: 14px !important;
 }

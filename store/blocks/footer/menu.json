@@ -412,7 +412,8 @@
     },
     "children": [
       "menu-item#footer-terminos",
-      "menu-item#footer-privacidad"
+      "menu-item#footer-privacidad",
+      "menu-item#footer-cookies"
     ]
   },
   "menu-item#footer-terminos": {
@@ -442,6 +443,21 @@
         "noFollow": false,
         "tagTitle": "Aviso de Privacidad",
         "text": "Aviso de Privacidad"
+      }
+    }
+  },
+  "menu-item#footer-cookies": {
+    "props": {
+      "id": "menu-item-privacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-cookies",
+        "noFollow": false,
+        "tagTitle": "Política de Cookies",
+        "text": "Política de Cookies"
       }
     }
   },

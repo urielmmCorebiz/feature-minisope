@@ -16,8 +16,6 @@
   "dependencies": {
     "minisomx.minisomx": "0.x",
     "minisope.miniso-complaints-book": "0.x",
-    "minisope.chatbot": "1.x",
-    "minisope.pixel-facebook": "0.x",
     "vtex.store-link": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
@@ -64,7 +62,8 @@
     "vtex.wish-list": "0.x",
     "vtex.product-availability": "0.x",
     "vtex.condition-layout": "1.x",
-    "vtex.modal-layout": "0.x"
+    "vtex.modal-layout": "0.x",
+    "vtex.builder-hub": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
