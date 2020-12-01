@@ -204,7 +204,8 @@
     },
     "children": [
       "menu-item#footer-konnichiwa",
-      "menu-item#footer-trabajaNosotros"
+      "menu-item#footer-trabajaNosotros",
+      "menu-item#footer-libroReclamaciones"
     ]
   },
   "menu-item#footer-mundoMiniso": {
@@ -266,6 +267,23 @@
         "text": "Trabaja con Nosotros"
       }
     }
+  },
+  "menu-item#footer-libroReclamaciones": {
+    "props": {
+      "id": "menu-item-libroReclamaciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/reclamaciones",
+        "noFollow": false,
+        "tagTitle": "Libro de Reclamaciones",
+        "text": "Libro de Reclamaciones"
+      }
+    }
+
+
   },
   "vtex.menu@2.x:menu#footer-4": {
     "props": {
