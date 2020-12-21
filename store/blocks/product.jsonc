@@ -3,8 +3,8 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "__fold__",
       "flex-layout.row#pdp-extras",
+      "__fold__",
       "flex-layout.row#product-reviews",
       "product-questions-and-answers",
       "shelf.relatedProducts#View",

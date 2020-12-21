@@ -1,7 +1,7 @@
 {
   "vendor": "minisope",
   "name": "store-theme",
-  "version": "0.17.2",
+  "version": "0.17.5",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
